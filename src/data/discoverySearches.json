@@ -1,0 +1,90 @@
+[
+ {
+  "id": "DS-1001",
+  "name": "Dhaka SMEs needing ERP",
+  "niche": "ERP for SMEs",
+  "industry": "Manufacturing",
+  "country": "Bangladesh",
+  "city": "Dhaka",
+  "companySize": "51-200",
+  "decisionMaker": "Owner / CEO / Operations Manager",
+  "sources": [
+   "Public business directories",
+   "Company websites"
+  ],
+  "schedule": "weekly",
+  "status": "active",
+  "lastRun": "2026-11-04T10:00:00",
+  "found": 38
+ },
+ {
+  "id": "DS-1002",
+  "name": "Clinics and hospitals for automation",
+  "niche": "Healthcare workflow automation",
+  "industry": "Healthcare",
+  "country": "Bangladesh",
+  "city": "Chattogram",
+  "companySize": "11-50",
+  "decisionMaker": "Managing Director",
+  "sources": [
+   "Public business directories",
+   "Authorized data provider"
+  ],
+  "schedule": "weekly",
+  "status": "active",
+  "lastRun": "2026-11-02T10:00:00",
+  "found": 24
+ },
+ {
+  "id": "DS-1003",
+  "name": "Retail brands for e-commerce apps",
+  "niche": "Mobile commerce apps",
+  "industry": "Retail",
+  "country": "UAE",
+  "city": "Dubai",
+  "companySize": "11-50",
+  "decisionMaker": "Founder / Marketing Director",
+  "sources": [
+   "Company websites",
+   "Authorized data provider"
+  ],
+  "schedule": "daily",
+  "status": "active",
+  "lastRun": "2026-11-06T05:00:00",
+  "found": 51
+ },
+ {
+  "id": "DS-1004",
+  "name": "Education institutes needing portals",
+  "niche": "School management portal",
+  "industry": "Education",
+  "country": "Bangladesh",
+  "city": "Sylhet",
+  "companySize": "51-200",
+  "decisionMaker": "Principal / Trustee",
+  "sources": [
+   "Public business directories"
+  ],
+  "schedule": "manual",
+  "status": "paused",
+  "lastRun": "2026-10-16T10:00:00",
+  "found": 17
+ },
+ {
+  "id": "DS-1005",
+  "name": "Solar firms needing dashboards",
+  "niche": "Energy analytics dashboards",
+  "industry": "Energy",
+  "country": "Singapore",
+  "city": "Singapore",
+  "companySize": "51-200",
+  "decisionMaker": "Operations Director",
+  "sources": [
+   "Authorized data provider"
+  ],
+  "schedule": "weekly",
+  "status": "active",
+  "lastRun": "2026-11-03T10:00:00",
+  "found": 29
+ }
+]

@@ -1,0 +1,106 @@
+[
+ {
+  "id": "TG-1001",
+  "userId": "U-03",
+  "period": "Q4 2026",
+  "metric": "Revenue ($)",
+  "target": 120000,
+  "achieved": 60003
+ },
+ {
+  "id": "TG-1002",
+  "userId": "U-03",
+  "period": "Q4 2026",
+  "metric": "Won deals",
+  "target": 12,
+  "achieved": 10
+ },
+ {
+  "id": "TG-1003",
+  "userId": "U-03",
+  "period": "Q4 2026",
+  "metric": "Qualified leads worked",
+  "target": 90,
+  "achieved": 82
+ },
+ {
+  "id": "TG-1004",
+  "userId": "U-04",
+  "period": "Q4 2026",
+  "metric": "Revenue ($)",
+  "target": 120000,
+  "achieved": 63791
+ },
+ {
+  "id": "TG-1005",
+  "userId": "U-04",
+  "period": "Q4 2026",
+  "metric": "Won deals",
+  "target": 12,
+  "achieved": 8
+ },
+ {
+  "id": "TG-1006",
+  "userId": "U-04",
+  "period": "Q4 2026",
+  "metric": "Qualified leads worked",
+  "target": 90,
+  "achieved": 70
+ },
+ {
+  "id": "TG-1007",
+  "userId": "U-05",
+  "period": "Q4 2026",
+  "metric": "Revenue ($)",
+  "target": 120000,
+  "achieved": 108885
+ },
+ {
+  "id": "TG-1008",
+  "userId": "U-05",
+  "period": "Q4 2026",
+  "metric": "Won deals",
+  "target": 12,
+  "achieved": 11
+ },
+ {
+  "id": "TG-1009",
+  "userId": "U-05",
+  "period": "Q4 2026",
+  "metric": "Qualified leads worked",
+  "target": 90,
+  "achieved": 96
+ },
+ {
+  "id": "TG-1010",
+  "userId": "U-06",
+  "period": "Q4 2026",
+  "metric": "Revenue ($)",
+  "target": 120000,
+  "achieved": 96418
+ },
+ {
+  "id": "TG-1011",
+  "userId": "U-06",
+  "period": "Q4 2026",
+  "metric": "Won deals",
+  "target": 12,
+  "achieved": 12
+ },
+ {
+  "id": "TG-1012",
+  "userId": "U-06",
+  "period": "Q4 2026",
+  "metric": "Qualified leads worked",
+  "target": 90,
+  "achieved": 80
+ },
+ {
+  "id": "TG-1013",
+  "userId": "U-07",
+  "period": "Q4 2026",
+  "metric": "Qualified leads generated",
+  "target": 400,
+  "achieved": 396
+ }
+]

@@ -1,0 +1,56 @@
+[
+ {
+  "id": "WH-1001",
+  "integration": "Website Form Webhook",
+  "event": "lead.created",
+  "direction": "inbound",
+  "lastDelivery": "2026-11-06T05:00:00",
+  "status": "failed",
+  "successRate": 98
+ },
+ {
+  "id": "WH-1002",
+  "integration": "Stripe Payments",
+  "event": "payment.succeeded",
+  "direction": "inbound",
+  "lastDelivery": "2026-11-05T15:00:00",
+  "status": "retrying",
+  "successRate": 95
+ },
+ {
+  "id": "WH-1003",
+  "integration": "QuickBooks Accounting",
+  "event": "invoice.updated",
+  "direction": "inbound",
+  "lastDelivery": "2026-11-05T17:00:00",
+  "status": "delivered",
+  "successRate": 99
+ },
+ {
+  "id": "WH-1004",
+  "integration": "DocuSign E-Signature",
+  "event": "document.signed",
+  "direction": "inbound",
+  "lastDelivery": "2026-11-05T19:00:00",
+  "status": "retrying",
+  "successRate": 94
+ },
+ {
+  "id": "WH-1005",
+  "integration": "ERP Connector (custom)",
+  "event": "order.synced",
+  "direction": "outbound",
+  "lastDelivery": "2026-11-06T06:00:00",
+  "status": "delivered",
+  "successRate": 92
+ },
+ {
+  "id": "WH-1006",
+  "integration": "WhatsApp Business Platform",
+  "event": "message.received",
+  "direction": "inbound",
+  "lastDelivery": "2026-11-06T03:00:00",
+  "status": "delivered",
+  "successRate": 93
+ }
+]

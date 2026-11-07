@@ -1,0 +1,34 @@
+[
+ {
+  "id": "PR-1001",
+  "name": "Standard discount",
+  "condition": "Any quotation",
+  "maxDiscount": 10,
+  "approver": "Sales (self)",
+  "active": true
+ },
+ {
+  "id": "PR-1002",
+  "name": "Manager approval",
+  "condition": "Discount 11-20%",
+  "maxDiscount": 20,
+  "approver": "Manager",
+  "active": true
+ },
+ {
+  "id": "PR-1003",
+  "name": "Executive approval",
+  "condition": "Discount above 20%",
+  "maxDiscount": 35,
+  "approver": "Super Admin",
+  "active": true
+ },
+ {
+  "id": "PR-1004",
+  "name": "Annual contract benefit",
+  "condition": "Contracts of 12 months or more",
+  "maxDiscount": 15,
+  "approver": "Manager",
+  "active": true
+ }
+]

@@ -1,0 +1,98 @@
+[
+ {
+  "id": "SE-1001",
+  "group": "Authentication",
+  "name": "Require MFA for admins and managers",
+  "description": "Second step with authenticator app",
+  "enabled": true,
+  "value": ""
+ },
+ {
+  "id": "SE-1002",
+  "group": "Authentication",
+  "name": "Require MFA for all users",
+  "description": "Apply to every account",
+  "enabled": false,
+  "value": ""
+ },
+ {
+  "id": "SE-1003",
+  "group": "Session",
+  "name": "Session timeout (minutes)",
+  "description": "Sign out inactive users",
+  "enabled": true,
+  "value": "30"
+ },
+ {
+  "id": "SE-1004",
+  "group": "Session",
+  "name": "Single active session",
+  "description": "Block parallel logins",
+  "enabled": false,
+  "value": ""
+ },
+ {
+  "id": "SE-1005",
+  "group": "Monitoring",
+  "name": "Login monitoring",
+  "description": "Flag unusual login location or time",
+  "enabled": true,
+  "value": ""
+ },
+ {
+  "id": "SE-1006",
+  "group": "Data protection",
+  "name": "Encryption at rest",
+  "description": "AES-256 for stored data",
+  "enabled": true,
+  "value": ""
+ },
+ {
+  "id": "SE-1007",
+  "group": "Data protection",
+  "name": "Tenant isolation",
+  "description": "Strict data separation per company",
+  "enabled": true,
+  "value": ""
+ },
+ {
+  "id": "SE-1008",
+  "group": "Access",
+  "name": "Record-level permissions",
+  "description": "Limit access to assigned records",
+  "enabled": true,
+  "value": ""
+ },
+ {
+  "id": "SE-1009",
+  "group": "Access",
+  "name": "Field-level permissions",
+  "description": "Hide sensitive fields by role",
+  "enabled": true,
+  "value": ""
+ },
+ {
+  "id": "SE-1010",
+  "group": "Access",
+  "name": "Team and territory restrictions",
+  "description": "Limit access to own team or territory",
+  "enabled": true,
+  "value": ""
+ },
+ {
+  "id": "SE-1011",
+  "group": "Limits",
+  "name": "Max automation runs per hour",
+  "description": "Prevent runaway automation",
+  "enabled": true,
+  "value": "500"
+ },
+ {
+  "id": "SE-1012",
+  "group": "Limits",
+  "name": "Max outbound messages per day",
+  "description": "Per user safeguard",
+  "enabled": true,
+  "value": "200"
+ }
+]

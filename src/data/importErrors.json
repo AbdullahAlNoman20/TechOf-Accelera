@@ -1,0 +1,56 @@
+[
+ {
+  "id": "IE-1001",
+  "file": "expo_visitors.csv",
+  "row": 44,
+  "reason": "Invalid email format",
+  "source": "CSV Import",
+  "at": "2026-10-28T10:00:00",
+  "status": "open"
+ },
+ {
+  "id": "IE-1002",
+  "file": "expo_visitors.csv",
+  "row": 82,
+  "reason": "Missing company name",
+  "source": "CSV Import",
+  "at": "2026-10-29T10:00:00",
+  "status": "open"
+ },
+ {
+  "id": "IE-1003",
+  "file": "expo_visitors.csv",
+  "row": 69,
+  "reason": "Phone number too short",
+  "source": "CSV Import",
+  "at": "2026-11-06T10:00:00",
+  "status": "open"
+ },
+ {
+  "id": "IE-1004",
+  "file": "expo_visitors.csv",
+  "row": 31,
+  "reason": "Webhook payload missing required field: email",
+  "source": "API / Webhook",
+  "at": "2026-10-28T10:00:00",
+  "status": "open"
+ },
+ {
+  "id": "IE-1005",
+  "file": "leads_october.csv",
+  "row": 52,
+  "reason": "Duplicate row in file",
+  "source": "CSV Import",
+  "at": "2026-10-28T10:00:00",
+  "status": "reprocessed"
+ },
+ {
+  "id": "IE-1006",
+  "file": "leads_october.csv",
+  "row": 74,
+  "reason": "Meta Lead Ads token expired",
+  "source": "Meta Lead Ads",
+  "at": "2026-11-04T10:00:00",
+  "status": "open"
+ }
+]

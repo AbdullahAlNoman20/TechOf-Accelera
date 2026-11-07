@@ -1,0 +1,56 @@
+[
+ {
+  "id": "NT-1002",
+  "userId": "all",
+  "title": "SLA breach",
+  "body": "TK-1004 passed its first-response SLA",
+  "at": "2026-11-06T08:00:00",
+  "read": false,
+  "type": "warning"
+ },
+ {
+  "id": "NT-1003",
+  "userId": "all",
+  "title": "Hot lead assigned",
+  "body": "LD-1012 (score 91) assigned to you",
+  "at": "2026-11-06T06:00:00",
+  "read": false,
+  "type": "info"
+ },
+ {
+  "id": "NT-1004",
+  "userId": "all",
+  "title": "Approval needed",
+  "body": "Quotation PR-1004 needs manager approval",
+  "at": "2026-11-06T04:00:00",
+  "read": false,
+  "type": "warning"
+ },
+ {
+  "id": "NT-1005",
+  "userId": "all",
+  "title": "Integration error",
+  "body": "Meta Lead Ads token expired",
+  "at": "2026-11-06T01:00:00",
+  "read": false,
+  "type": "error"
+ },
+ {
+  "id": "NT-1006",
+  "userId": "all",
+  "title": "Deal won",
+  "body": "Congratulations - DL-1008 closed as won",
+  "at": "2026-11-05T14:00:00",
+  "read": false,
+  "type": "success"
+ },
+ {
+  "id": "NT-1007",
+  "userId": "all",
+  "title": "Renewal due",
+  "body": "Surma Health Care renews in 28 days",
+  "at": "2026-11-05T04:00:00",
+  "read": false,
+  "type": "info"
+ }
+]

@@ -1,0 +1,1053 @@
+[
+ {
+  "id": "TK-1001",
+  "title": "Discovery call with Shapla Agro Foods",
+  "leadId": "LD-1002",
+  "leadName": "Karim Das",
+  "company": "Shapla Agro Foods",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "assigned",
+  "dueAt": "2026-11-11T10:00:00",
+  "slaAt": "2026-11-11T08:00:00",
+  "createdAt": "2026-10-25T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-04",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [
+   {
+    "by": "U-03",
+    "text": "Please prioritise - high intent.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "attachments": [
+   {
+    "name": "Shapla_brief.pdf",
+    "size": "240 KB"
+   }
+  ],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1002",
+  "title": "Schedule demo for Nirvana Retail Group",
+  "leadId": "LD-1007",
+  "leadName": "Chloe Talukder",
+  "company": "Nirvana Retail Group",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "assigned",
+  "dueAt": "2026-11-03T10:00:00",
+  "slaAt": "2026-11-03T08:00:00",
+  "createdAt": "2026-11-01T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1003",
+  "title": "Qualify requirements of Cedar & Pine Furniture",
+  "leadId": "LD-1010",
+  "leadName": "Salma Sarker",
+  "company": "Cedar & Pine Furniture",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "assigned",
+  "dueAt": "2026-11-04T10:00:00",
+  "slaAt": "2026-11-04T08:00:00",
+  "createdAt": "2026-10-28T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1004",
+  "title": "Send intro email to Northwind Dental",
+  "leadId": "LD-1011",
+  "leadName": "Ibrahim Das",
+  "company": "Northwind Dental",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "assigned",
+  "dueAt": "2026-11-05T10:00:00",
+  "slaAt": "2026-11-05T08:00:00",
+  "createdAt": "2026-11-05T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-04",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1005",
+  "title": "Qualify requirements of Greenfield Organics",
+  "leadId": "LD-1016",
+  "leadName": "Rahul Mahmud",
+  "company": "Greenfield Organics",
+  "dealId": null,
+  "assigneeId": "U-06",
+  "team": "Export Desk",
+  "priority": "high",
+  "status": "accepted",
+  "dueAt": "2026-11-07T10:00:00",
+  "slaAt": "2026-11-07T08:00:00",
+  "createdAt": "2026-10-29T10:00:00",
+  "dependsOn": "TK-1004",
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1006",
+  "title": "Qualify requirements of Oakwood Builders",
+  "leadId": "LD-1021",
+  "leadName": "Yusuf Hossain",
+  "company": "Oakwood Builders",
+  "dealId": null,
+  "assigneeId": "U-03",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "accepted",
+  "dueAt": "2026-11-04T10:00:00",
+  "slaAt": "2026-11-04T08:00:00",
+  "createdAt": "2026-10-27T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [
+   {
+    "by": "U-03",
+    "text": "Please prioritise - high intent.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1007",
+  "title": "Follow up with Evergreen Packaging",
+  "leadId": "LD-1023",
+  "leadName": "Rumana Patel",
+  "company": "Evergreen Packaging",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "accepted",
+  "dueAt": "2026-11-07T10:00:00",
+  "slaAt": "2026-11-07T08:00:00",
+  "createdAt": "2026-10-28T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-04",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [
+   {
+    "name": "Evergreen_brief.pdf",
+    "size": "240 KB"
+   }
+  ],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1008",
+  "title": "Schedule demo for Pioneer Steel Works",
+  "leadId": "LD-1024",
+  "leadName": "Zahid Begum",
+  "company": "Pioneer Steel Works",
+  "dealId": null,
+  "assigneeId": "U-03",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "accepted",
+  "dueAt": "2026-11-06T10:00:00",
+  "slaAt": "2026-11-06T08:00:00",
+  "createdAt": "2026-11-03T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1009",
+  "title": "Follow up with Tidal Marine Services",
+  "leadId": "LD-1026",
+  "leadName": "Omar Sarker",
+  "company": "Tidal Marine Services",
+  "dealId": null,
+  "assigneeId": "U-03",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "working",
+  "dueAt": "2026-11-06T10:00:00",
+  "slaAt": "2026-11-06T08:00:00",
+  "createdAt": "2026-11-02T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1010",
+  "title": "Qualify requirements of Keystone Finance Brokers",
+  "leadId": "LD-1028",
+  "leadName": "Tania Brown",
+  "company": "Keystone Finance Brokers",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "working",
+  "dueAt": "2026-11-05T10:00:00",
+  "slaAt": "2026-11-05T08:00:00",
+  "createdAt": "2026-11-03T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-05",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1011",
+  "title": "Prepare proposal for Maple Imports",
+  "leadId": "LD-1029",
+  "leadName": "Emma Siddique",
+  "company": "Maple Imports",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "working",
+  "dueAt": "2026-11-03T10:00:00",
+  "slaAt": "2026-11-03T08:00:00",
+  "createdAt": "2026-11-04T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [
+   {
+    "by": "U-03",
+    "text": "Please prioritise - high intent.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1012",
+  "title": "Follow up with Nova Power Systems",
+  "leadId": "LD-1031",
+  "leadName": "Noor Miah",
+  "company": "Nova Power Systems",
+  "dealId": null,
+  "assigneeId": "U-06",
+  "team": "Export Desk",
+  "priority": "high",
+  "status": "working",
+  "dueAt": "2026-11-09T10:00:00",
+  "slaAt": "2026-11-09T08:00:00",
+  "createdAt": "2026-10-25T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1013",
+  "title": "Follow up with Pixel Forge Studio",
+  "leadId": "LD-1039",
+  "leadName": "Aminul Brown",
+  "company": "Pixel Forge Studio",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "working",
+  "dueAt": "2026-11-10T10:00:00",
+  "slaAt": "2026-11-10T08:00:00",
+  "createdAt": "2026-11-04T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-05",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [
+   {
+    "name": "Pixel_brief.pdf",
+    "size": "240 KB"
+   }
+  ],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1014",
+  "title": "Send intro email to Padma Textiles Ltd",
+  "leadId": "LD-1041",
+  "leadName": "Jahid Talukder",
+  "company": "Padma Textiles Ltd",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "working",
+  "dueAt": "2026-11-12T10:00:00",
+  "slaAt": "2026-11-12T08:00:00",
+  "createdAt": "2026-10-31T10:00:00",
+  "dependsOn": "TK-1013",
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1015",
+  "title": "Qualify requirements of Orbit Manufacturing",
+  "leadId": "LD-1048",
+  "leadName": "Rubel Das",
+  "company": "Orbit Manufacturing",
+  "dealId": null,
+  "assigneeId": "U-06",
+  "team": "Export Desk",
+  "priority": "high",
+  "status": "working",
+  "dueAt": "2026-11-03T10:00:00",
+  "slaAt": "2026-11-03T08:00:00",
+  "createdAt": "2026-10-30T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1016",
+  "title": "Qualify requirements of BlueHarbor Shipping",
+  "leadId": "LD-1049",
+  "leadName": "Priya Hossain",
+  "company": "BlueHarbor Shipping",
+  "dealId": null,
+  "assigneeId": "U-06",
+  "team": "Export Desk",
+  "priority": "high",
+  "status": "waiting",
+  "dueAt": "2026-11-03T10:00:00",
+  "slaAt": "2026-11-03T08:00:00",
+  "createdAt": "2026-10-26T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-06",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [
+   {
+    "by": "U-03",
+    "text": "Please prioritise - high intent.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1017",
+  "title": "Send intro email to Shapla Agro Foods",
+  "leadId": "LD-1002",
+  "leadName": "Karim Das",
+  "company": "Shapla Agro Foods",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "waiting",
+  "dueAt": "2026-11-02T10:00:00",
+  "slaAt": "2026-11-02T08:00:00",
+  "createdAt": "2026-11-02T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1018",
+  "title": "Send intro email to Nirvana Retail Group",
+  "leadId": "LD-1007",
+  "leadName": "Chloe Talukder",
+  "company": "Nirvana Retail Group",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "waiting",
+  "dueAt": "2026-11-06T10:00:00",
+  "slaAt": "2026-11-06T08:00:00",
+  "createdAt": "2026-10-30T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1019",
+  "title": "Schedule demo for Cedar & Pine Furniture",
+  "leadId": "LD-1010",
+  "leadName": "Salma Sarker",
+  "company": "Cedar & Pine Furniture",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "medium",
+  "status": "waiting",
+  "dueAt": "2026-11-10T10:00:00",
+  "slaAt": "2026-11-10T08:00:00",
+  "createdAt": "2026-10-30T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-05",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [
+   {
+    "name": "Cedar_brief.pdf",
+    "size": "240 KB"
+   }
+  ],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1020",
+  "title": "Discovery call with Northwind Dental",
+  "leadId": "LD-1011",
+  "leadName": "Ibrahim Das",
+  "company": "Northwind Dental",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "low",
+  "status": "completed",
+  "dueAt": "2026-11-12T10:00:00",
+  "slaAt": "2026-11-12T08:00:00",
+  "createdAt": "2026-11-03T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1021",
+  "title": "Schedule demo for Greenfield Organics",
+  "leadId": "LD-1016",
+  "leadName": "Rahul Mahmud",
+  "company": "Greenfield Organics",
+  "dealId": null,
+  "assigneeId": "U-06",
+  "team": "Export Desk",
+  "priority": "high",
+  "status": "completed",
+  "dueAt": "2026-11-10T10:00:00",
+  "slaAt": "2026-11-10T08:00:00",
+  "createdAt": "2026-10-31T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [
+   {
+    "by": "U-03",
+    "text": "Please prioritise - high intent.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1022",
+  "title": "Send intro email to Oakwood Builders",
+  "leadId": "LD-1021",
+  "leadName": "Yusuf Hossain",
+  "company": "Oakwood Builders",
+  "dealId": null,
+  "assigneeId": "U-03",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "completed",
+  "dueAt": "2026-11-11T10:00:00",
+  "slaAt": "2026-11-11T08:00:00",
+  "createdAt": "2026-10-28T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-03",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1023",
+  "title": "Follow up with Evergreen Packaging",
+  "leadId": "LD-1023",
+  "leadName": "Rumana Patel",
+  "company": "Evergreen Packaging",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "completed",
+  "dueAt": "2026-11-04T10:00:00",
+  "slaAt": "2026-11-04T08:00:00",
+  "createdAt": "2026-10-29T10:00:00",
+  "dependsOn": "TK-1022",
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1024",
+  "title": "Schedule demo for Pioneer Steel Works",
+  "leadId": "LD-1024",
+  "leadName": "Zahid Begum",
+  "company": "Pioneer Steel Works",
+  "dealId": null,
+  "assigneeId": "U-03",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "completed",
+  "dueAt": "2026-11-12T10:00:00",
+  "slaAt": "2026-11-12T08:00:00",
+  "createdAt": "2026-10-25T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1025",
+  "title": "Discovery call with Tidal Marine Services",
+  "leadId": "LD-1026",
+  "leadName": "Omar Sarker",
+  "company": "Tidal Marine Services",
+  "dealId": null,
+  "assigneeId": "U-03",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "completed",
+  "dueAt": "2026-11-07T10:00:00",
+  "slaAt": "2026-11-07T08:00:00",
+  "createdAt": "2026-10-29T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-03",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [
+   {
+    "name": "Tidal_brief.pdf",
+    "size": "240 KB"
+   }
+  ],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1026",
+  "title": "Prepare proposal for Keystone Finance Brokers",
+  "leadId": "LD-1028",
+  "leadName": "Tania Brown",
+  "company": "Keystone Finance Brokers",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "completed",
+  "dueAt": "2026-11-09T10:00:00",
+  "slaAt": "2026-11-09T08:00:00",
+  "createdAt": "2026-11-01T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [
+   {
+    "by": "U-03",
+    "text": "Please prioritise - high intent.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1027",
+  "title": "Discovery call with Maple Imports",
+  "leadId": "LD-1029",
+  "leadName": "Emma Siddique",
+  "company": "Maple Imports",
+  "dealId": null,
+  "assigneeId": "U-04",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "completed",
+  "dueAt": "2026-11-11T10:00:00",
+  "slaAt": "2026-11-11T08:00:00",
+  "createdAt": "2026-11-03T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1028",
+  "title": "Qualify requirements of Nova Power Systems",
+  "leadId": "LD-1031",
+  "leadName": "Noor Miah",
+  "company": "Nova Power Systems",
+  "dealId": null,
+  "assigneeId": "U-06",
+  "team": "Export Desk",
+  "priority": "high",
+  "status": "escalated",
+  "dueAt": "2026-11-07T10:00:00",
+  "slaAt": "2026-11-07T08:00:00",
+  "createdAt": "2026-10-26T10:00:00",
+  "dependsOn": null,
+  "notes": [
+   {
+    "by": "U-06",
+    "text": "Prospect prefers WhatsApp for first contact.",
+    "at": "2026-11-05T10:00:00"
+   }
+  ],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1029",
+  "title": "Schedule demo for Pixel Forge Studio",
+  "leadId": "LD-1039",
+  "leadName": "Aminul Brown",
+  "company": "Pixel Forge Studio",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "escalated",
+  "dueAt": "2026-11-05T10:00:00",
+  "slaAt": "2026-11-05T08:00:00",
+  "createdAt": "2026-11-02T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "TK-1030",
+  "title": "Send intro email to Padma Textiles Ltd",
+  "leadId": "LD-1041",
+  "leadName": "Jahid Talukder",
+  "company": "Padma Textiles Ltd",
+  "dealId": null,
+  "assigneeId": "U-05",
+  "team": "Dhaka Sales",
+  "priority": "high",
+  "status": "escalated",
+  "dueAt": "2026-11-06T10:00:00",
+  "slaAt": "2026-11-06T08:00:00",
+  "createdAt": "2026-10-25T10:00:00",
+  "dependsOn": null,
+  "notes": [],
+  "comments": [],
+  "attachments": [],
+  "history": [
+   {
+    "by": "System",
+    "text": "Task created from qualified lead",
+    "at": "2026-11-03T10:00:00"
+   },
+   {
+    "by": "System",
+    "text": "Assigned by rule",
+    "at": "2026-11-03T10:00:00"
+   }
+  ]
+ }
+]

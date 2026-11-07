@@ -1,0 +1,62 @@
+[
+ {
+  "id": "RB-1001",
+  "name": "Padma Textiles Export Unit",
+  "relation": "subsidiary",
+  "ofCustomer": "Karnaphuli Logistics",
+  "industry": "Manufacturing",
+  "source": "Public company registry",
+  "consent": true,
+  "status": "identified"
+ },
+ {
+  "id": "RB-1002",
+  "name": "Padma Dyeing & Finishing",
+  "relation": "sister",
+  "ofCustomer": "Bijoy Education Trust",
+  "industry": "Manufacturing",
+  "source": "Public company registry",
+  "consent": true,
+  "status": "identified"
+ },
+ {
+  "id": "RB-1003",
+  "name": "Karnaphuli Cargo Handling",
+  "relation": "partner",
+  "ofCustomer": "BlueHarbor Shipping",
+  "industry": "Logistics",
+  "source": "Partner network",
+  "consent": false,
+  "status": "identified"
+ },
+ {
+  "id": "RB-1004",
+  "name": "Surma Diagnostic Centre",
+  "relation": "sister",
+  "ofCustomer": "Lumen Solar Energy",
+  "industry": "Healthcare",
+  "source": "Public company registry",
+  "consent": true,
+  "status": "lead_created"
+ },
+ {
+  "id": "RB-1005",
+  "name": "Dhanshiri Interiors",
+  "relation": "subsidiary",
+  "ofCustomer": "Zenith Auto Parts",
+  "industry": "Real Estate",
+  "source": "Customer referral",
+  "consent": true,
+  "status": "identified"
+ },
+ {
+  "id": "RB-1006",
+  "name": "Orbit Components",
+  "relation": "supplier",
+  "ofCustomer": "Crescent Garments",
+  "industry": "Manufacturing",
+  "source": "Supplier list",
+  "consent": false,
+  "status": "identified"
+ }
+]

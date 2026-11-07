@@ -1,0 +1,891 @@
+[
+ {
+  "id": "DL-1001",
+  "title": "Data Analytics Dashboard for Shapla Agro Foods",
+  "leadId": "LD-1002",
+  "company": "Shapla Agro Foods",
+  "contact": "Karim Das",
+  "ownerId": "U-04",
+  "stage": "meeting",
+  "value": 11000,
+  "probability": 45,
+  "expectedClose": "2026-12-17",
+  "source": "API / Webhook",
+  "service": "IT Consulting",
+  "risk": "low",
+  "competitor": "Local agency A",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Karim Das",
+    "role": "Head of IT",
+    "influence": "high"
+   }
+  ],
+  "createdAt": "2026-09-27T10:00:00",
+  "lastActivityAt": "2026-10-30T10:00:00",
+  "followUps": 2,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1002",
+  "title": "ERP Implementation for Nirvana Retail Group",
+  "leadId": "LD-1007",
+  "company": "Nirvana Retail Group",
+  "contact": "Chloe Talukder",
+  "ownerId": "U-04",
+  "stage": "demo",
+  "value": 14500,
+  "probability": 55,
+  "expectedClose": "2026-11-19",
+  "source": "Phone Call",
+  "service": "ERP Implementation",
+  "risk": "high",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Chloe Talukder",
+    "role": "CEO",
+    "influence": "high"
+   },
+   {
+    "name": "Jahid Mahmud",
+    "role": "Finance Head",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-09-09T10:00:00",
+  "lastActivityAt": "2026-10-14T10:00:00",
+  "followUps": 4,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1003",
+  "title": "ERP Implementation for Cedar & Pine Furniture",
+  "leadId": "LD-1010",
+  "company": "Cedar & Pine Furniture",
+  "contact": "Salma Sarker",
+  "ownerId": "U-05",
+  "stage": "proposal",
+  "value": 14000,
+  "probability": 65,
+  "expectedClose": "2026-11-26",
+  "source": "Referral",
+  "service": "Digital Marketing Retainer",
+  "risk": "high",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Salma Sarker",
+    "role": "Operations Manager",
+    "influence": "high"
+   },
+   {
+    "name": "Faisal Islam",
+    "role": "Finance Head",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-08-23T10:00:00",
+  "lastActivityAt": "2026-10-17T10:00:00",
+  "followUps": 6,
+  "nextAction": "Schedule follow-up call"
+ },
+ {
+  "id": "DL-1004",
+  "title": "Website Development for Northwind Dental",
+  "leadId": "LD-1011",
+  "company": "Northwind Dental",
+  "contact": "Ibrahim Das",
+  "ownerId": "U-04",
+  "stage": "won",
+  "value": 34500,
+  "probability": 100,
+  "expectedClose": "2026-11-01",
+  "source": "Live Chat",
+  "service": "Cloud Hosting & Support",
+  "risk": "medium",
+  "competitor": "In-house team",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Ibrahim Das",
+    "role": "Managing Director",
+    "influence": "high"
+   },
+   {
+    "name": "Maya Smith",
+    "role": "Finance Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-08-23T10:00:00",
+  "lastActivityAt": "2026-10-23T10:00:00",
+  "followUps": 6,
+  "nextAction": "Arrange technical demo"
+ },
+ {
+  "id": "DL-1005",
+  "title": "Annual Maintenance Contract for Greenfield Organics",
+  "leadId": "LD-1016",
+  "company": "Greenfield Organics",
+  "contact": "Rahul Mahmud",
+  "ownerId": "U-06",
+  "stage": "meeting",
+  "value": 39500,
+  "probability": 45,
+  "expectedClose": "2027-01-02",
+  "source": "Website Contact Form",
+  "service": "Digital Marketing Retainer",
+  "risk": "low",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Rahul Mahmud",
+    "role": "CTO",
+    "influence": "high"
+   }
+  ],
+  "createdAt": "2026-10-02T10:00:00",
+  "lastActivityAt": "2026-10-30T10:00:00",
+  "followUps": 4,
+  "nextAction": "Confirm decision date"
+ },
+ {
+  "id": "DL-1006",
+  "title": "ERP Implementation for Oakwood Builders",
+  "leadId": "LD-1021",
+  "company": "Oakwood Builders",
+  "contact": "Yusuf Hossain",
+  "ownerId": "U-03",
+  "stage": "lost",
+  "value": 22500,
+  "probability": 0,
+  "expectedClose": "2026-10-08",
+  "source": "Referral",
+  "service": "AI Chatbot Integration",
+  "risk": "high",
+  "competitor": "",
+  "lostReason": "budget",
+  "stakeholders": [
+   {
+    "name": "Yusuf Hossain",
+    "role": "Founder",
+    "influence": "high"
+   },
+   {
+    "name": "Karim Begum",
+    "role": "IT Manager",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-08-17T10:00:00",
+  "lastActivityAt": "2026-10-17T10:00:00",
+  "followUps": 4,
+  "nextAction": "Send revised proposal"
+ },
+ {
+  "id": "DL-1007",
+  "title": "Data Analytics Dashboard for Evergreen Packaging",
+  "leadId": "LD-1023",
+  "company": "Evergreen Packaging",
+  "contact": "Rumana Patel",
+  "ownerId": "U-04",
+  "stage": "demo",
+  "value": 28000,
+  "probability": 55,
+  "expectedClose": "2026-12-28",
+  "source": "AI Discovery",
+  "service": "Website Development",
+  "risk": "high",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Rumana Patel",
+    "role": "Head of IT",
+    "influence": "high"
+   },
+   {
+    "name": "Tasnim Siddique",
+    "role": "Finance Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-09-15T10:00:00",
+  "lastActivityAt": "2026-10-17T10:00:00",
+  "followUps": 5,
+  "nextAction": "Schedule follow-up call"
+ },
+ {
+  "id": "DL-1008",
+  "title": "Data Analytics Dashboard for Pioneer Steel Works",
+  "leadId": "LD-1024",
+  "company": "Pioneer Steel Works",
+  "contact": "Zahid Begum",
+  "ownerId": "U-03",
+  "stage": "new",
+  "value": 12000,
+  "probability": 10,
+  "expectedClose": "2026-11-15",
+  "source": "Website Contact Form",
+  "service": "Annual Maintenance Contract",
+  "risk": "high",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Zahid Begum",
+    "role": "Marketing Director",
+    "influence": "high"
+   },
+   {
+    "name": "Priya Hossain",
+    "role": "Operations Head",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-08-13T10:00:00",
+  "lastActivityAt": "2026-10-21T10:00:00",
+  "followUps": 1,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1009",
+  "title": "UI/UX Design Package for Tidal Marine Services",
+  "leadId": "LD-1026",
+  "company": "Tidal Marine Services",
+  "contact": "Omar Sarker",
+  "ownerId": "U-03",
+  "stage": "proposal",
+  "value": 35500,
+  "probability": 65,
+  "expectedClose": "2026-11-22",
+  "source": "Google Ads",
+  "service": "Mobile App Development",
+  "risk": "medium",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Omar Sarker",
+    "role": "CTO",
+    "influence": "high"
+   }
+  ],
+  "createdAt": "2026-08-13T10:00:00",
+  "lastActivityAt": "2026-10-24T10:00:00",
+  "followUps": 7,
+  "nextAction": "Send revised proposal"
+ },
+ {
+  "id": "DL-1010",
+  "title": "Cloud Hosting & Support for Keystone Finance Brokers",
+  "leadId": "LD-1028",
+  "company": "Keystone Finance Brokers",
+  "contact": "Tania Brown",
+  "ownerId": "U-05",
+  "stage": "contacted",
+  "value": 24000,
+  "probability": 20,
+  "expectedClose": "2026-12-03",
+  "source": "Social Media",
+  "service": "AI Chatbot Integration",
+  "risk": "medium",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Tania Brown",
+    "role": "General Manager",
+    "influence": "high"
+   },
+   {
+    "name": "Aminul Khan",
+    "role": "IT Manager",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-09-02T10:00:00",
+  "lastActivityAt": "2026-10-29T10:00:00",
+  "followUps": 5,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1011",
+  "title": "AI Chatbot Integration for Maple Imports",
+  "leadId": "LD-1029",
+  "company": "Maple Imports",
+  "contact": "Emma Siddique",
+  "ownerId": "U-04",
+  "stage": "negotiation",
+  "value": 8000,
+  "probability": 80,
+  "expectedClose": "2026-12-12",
+  "source": "Referral",
+  "service": "Digital Marketing Retainer",
+  "risk": "medium",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Emma Siddique",
+    "role": "CEO",
+    "influence": "high"
+   },
+   {
+    "name": "Faisal Hossain",
+    "role": "Finance Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-10-09T10:00:00",
+  "lastActivityAt": "2026-10-28T10:00:00",
+  "followUps": 7,
+  "nextAction": "Schedule follow-up call"
+ },
+ {
+  "id": "DL-1012",
+  "title": "Data Analytics Dashboard for Nova Power Systems",
+  "leadId": "LD-1031",
+  "company": "Nova Power Systems",
+  "contact": "Noor Miah",
+  "ownerId": "U-06",
+  "stage": "qualified",
+  "value": 32000,
+  "probability": 35,
+  "expectedClose": "2026-12-21",
+  "source": "Social Media",
+  "service": "AI Chatbot Integration",
+  "risk": "low",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Noor Miah",
+    "role": "Founder",
+    "influence": "high"
+   },
+   {
+    "name": "Sumaiya Bhuiyan",
+    "role": "Operations Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-08-18T10:00:00",
+  "lastActivityAt": "2026-11-02T10:00:00",
+  "followUps": 3,
+  "nextAction": "Schedule follow-up call"
+ },
+ {
+  "id": "DL-1013",
+  "title": "Cloud Hosting & Support for Pixel Forge Studio",
+  "leadId": "LD-1039",
+  "company": "Pixel Forge Studio",
+  "contact": "Aminul Brown",
+  "ownerId": "U-05",
+  "stage": "won",
+  "value": 19500,
+  "probability": 100,
+  "expectedClose": "2026-10-23",
+  "source": "Meta Lead Ads",
+  "service": "Mobile App Development",
+  "risk": "high",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Aminul Brown",
+    "role": "Business Owner",
+    "influence": "high"
+   }
+  ],
+  "createdAt": "2026-10-17T10:00:00",
+  "lastActivityAt": "2026-10-16T10:00:00",
+  "followUps": 7,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1014",
+  "title": "Cloud Hosting & Support for Padma Textiles Ltd",
+  "leadId": "LD-1041",
+  "company": "Padma Textiles Ltd",
+  "contact": "Jahid Talukder",
+  "ownerId": "U-05",
+  "stage": "meeting",
+  "value": 24000,
+  "probability": 45,
+  "expectedClose": "2026-11-29",
+  "source": "Quotation Request",
+  "service": "UI/UX Design Package",
+  "risk": "high",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Jahid Talukder",
+    "role": "Head of IT",
+    "influence": "high"
+   },
+   {
+    "name": "Rumana Sheikh",
+    "role": "Operations Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-09-01T10:00:00",
+  "lastActivityAt": "2026-10-17T10:00:00",
+  "followUps": 2,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1015",
+  "title": "Annual Maintenance Contract for Orbit Manufacturing",
+  "leadId": "LD-1048",
+  "company": "Orbit Manufacturing",
+  "contact": "Rubel Das",
+  "ownerId": "U-06",
+  "stage": "lost",
+  "value": 26000,
+  "probability": 0,
+  "expectedClose": "2026-10-08",
+  "source": "Manual Entry",
+  "service": "Data Analytics Dashboard",
+  "risk": "low",
+  "competitor": "",
+  "lostReason": "timing",
+  "stakeholders": [
+   {
+    "name": "Rubel Das",
+    "role": "CTO",
+    "influence": "high"
+   },
+   {
+    "name": "Rahul Molla",
+    "role": "Finance Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-09-21T10:00:00",
+  "lastActivityAt": "2026-11-04T10:00:00",
+  "followUps": 1,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1016",
+  "title": "Mobile App Development for BlueHarbor Shipping",
+  "leadId": "LD-1049",
+  "company": "BlueHarbor Shipping",
+  "contact": "Priya Hossain",
+  "ownerId": "U-06",
+  "stage": "demo",
+  "value": 18000,
+  "probability": 55,
+  "expectedClose": "2027-01-02",
+  "source": "API / Webhook",
+  "service": "Digital Marketing Retainer",
+  "risk": "high",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Priya Hossain",
+    "role": "General Manager",
+    "influence": "high"
+   },
+   {
+    "name": "Noor Ali",
+    "role": "IT Manager",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-09-21T10:00:00",
+  "lastActivityAt": "2026-10-19T10:00:00",
+  "followUps": 4,
+  "nextAction": "Arrange technical demo"
+ },
+ {
+  "id": "DL-1017",
+  "title": "IT Consulting for Vertex Software Labs",
+  "leadId": "LD-1017",
+  "company": "Vertex Software Labs",
+  "contact": "Aminul Ali",
+  "ownerId": "U-05",
+  "stage": "new",
+  "value": 12000,
+  "probability": 10,
+  "expectedClose": "2026-11-21",
+  "source": "Phone Call",
+  "service": "UI/UX Design Package",
+  "risk": "high",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Aminul Ali",
+    "role": "CTO",
+    "influence": "high"
+   }
+  ],
+  "createdAt": "2026-08-11T10:00:00",
+  "lastActivityAt": "2026-10-16T10:00:00",
+  "followUps": 1,
+  "nextAction": "Confirm decision date"
+ },
+ {
+  "id": "DL-1018",
+  "title": "AI Chatbot Integration for Crescent Garments",
+  "leadId": "LD-1018",
+  "company": "Crescent Garments",
+  "contact": "Emma Hossain",
+  "ownerId": "U-06",
+  "stage": "proposal",
+  "value": 9000,
+  "probability": 65,
+  "expectedClose": "2026-11-23",
+  "source": "Google Ads",
+  "service": "Mobile App Development",
+  "risk": "medium",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Emma Hossain",
+    "role": "Marketing Director",
+    "influence": "high"
+   },
+   {
+    "name": "Sohana Bhuiyan",
+    "role": "Finance Head",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-08-19T10:00:00",
+  "lastActivityAt": "2026-10-29T10:00:00",
+  "followUps": 2,
+  "nextAction": "Confirm decision date"
+ },
+ {
+  "id": "DL-1019",
+  "title": "IT Consulting for Riverside Clinics",
+  "leadId": "LD-1019",
+  "company": "Riverside Clinics",
+  "contact": "Noor Sarker",
+  "ownerId": "U-03",
+  "stage": "contacted",
+  "value": 17500,
+  "probability": 20,
+  "expectedClose": "2026-11-19",
+  "source": "API / Webhook",
+  "service": "Data Analytics Dashboard",
+  "risk": "low",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Noor Sarker",
+    "role": "Marketing Director",
+    "influence": "high"
+   },
+   {
+    "name": "Karim Molla",
+    "role": "IT Manager",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-08-19T10:00:00",
+  "lastActivityAt": "2026-11-01T10:00:00",
+  "followUps": 3,
+  "nextAction": "Confirm decision date"
+ },
+ {
+  "id": "DL-1020",
+  "title": "Data Analytics Dashboard for Atlas Pharma Distribution",
+  "leadId": "LD-1020",
+  "company": "Atlas Pharma Distribution",
+  "contact": "Rashida Ali",
+  "ownerId": "U-03",
+  "stage": "negotiation",
+  "value": 28000,
+  "probability": 80,
+  "expectedClose": "2026-12-19",
+  "source": "Manual Entry",
+  "service": "Website Development",
+  "risk": "low",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Rashida Ali",
+    "role": "Operations Manager",
+    "influence": "high"
+   },
+   {
+    "name": "Emma Islam",
+    "role": "Operations Head",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-10-05T10:00:00",
+  "lastActivityAt": "2026-11-01T10:00:00",
+  "followUps": 5,
+  "nextAction": "Confirm decision date"
+ },
+ {
+  "id": "DL-1021",
+  "title": "Digital Marketing Retainer for Oakwood Builders",
+  "leadId": "LD-1021",
+  "company": "Oakwood Builders",
+  "contact": "Yusuf Hossain",
+  "ownerId": "U-03",
+  "stage": "qualified",
+  "value": 33000,
+  "probability": 35,
+  "expectedClose": "2026-12-24",
+  "source": "Referral",
+  "service": "AI Chatbot Integration",
+  "risk": "low",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Yusuf Hossain",
+    "role": "Founder",
+    "influence": "high"
+   }
+  ],
+  "createdAt": "2026-09-04T10:00:00",
+  "lastActivityAt": "2026-11-05T10:00:00",
+  "followUps": 1,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1022",
+  "title": "IT Consulting for Quantum Telecom",
+  "leadId": "LD-1022",
+  "company": "Quantum Telecom",
+  "contact": "Arif Hossain",
+  "ownerId": "U-04",
+  "stage": "won",
+  "value": 23500,
+  "probability": 100,
+  "expectedClose": "2026-10-27",
+  "source": "Social Media",
+  "service": "AI Chatbot Integration",
+  "risk": "high",
+  "competitor": "Local agency A",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Arif Hossain",
+    "role": "General Manager",
+    "influence": "high"
+   },
+   {
+    "name": "Rumana Das",
+    "role": "Operations Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-09-10T10:00:00",
+  "lastActivityAt": "2026-10-13T10:00:00",
+  "followUps": 3,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1023",
+  "title": "IT Consulting for Evergreen Packaging",
+  "leadId": "LD-1023",
+  "company": "Evergreen Packaging",
+  "contact": "Rumana Patel",
+  "ownerId": "U-04",
+  "stage": "meeting",
+  "value": 33500,
+  "probability": 45,
+  "expectedClose": "2026-11-26",
+  "source": "AI Discovery",
+  "service": "IT Consulting",
+  "risk": "medium",
+  "competitor": "Local agency A",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Rumana Patel",
+    "role": "Head of IT",
+    "influence": "high"
+   },
+   {
+    "name": "Hasan Siddique",
+    "role": "Finance Head",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-09-23T10:00:00",
+  "lastActivityAt": "2026-10-27T10:00:00",
+  "followUps": 3,
+  "nextAction": "Share case study"
+ },
+ {
+  "id": "DL-1024",
+  "title": "AI Chatbot Integration for Pioneer Steel Works",
+  "leadId": "LD-1024",
+  "company": "Pioneer Steel Works",
+  "contact": "Zahid Begum",
+  "ownerId": "U-03",
+  "stage": "lost",
+  "value": 10000,
+  "probability": 0,
+  "expectedClose": "2026-10-13",
+  "source": "Website Contact Form",
+  "service": "IT Consulting",
+  "risk": "low",
+  "competitor": "Offshore vendor B",
+  "lostReason": "price",
+  "stakeholders": [
+   {
+    "name": "Zahid Begum",
+    "role": "Marketing Director",
+    "influence": "high"
+   },
+   {
+    "name": "Jahid Miah",
+    "role": "Finance Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-10-12T10:00:00",
+  "lastActivityAt": "2026-11-05T10:00:00",
+  "followUps": 2,
+  "nextAction": "Confirm decision date"
+ },
+ {
+  "id": "DL-1025",
+  "title": "IT Consulting for Sunrise Fisheries",
+  "leadId": "LD-1025",
+  "company": "Sunrise Fisheries",
+  "contact": "Naeem Rahman",
+  "ownerId": "U-06",
+  "stage": "demo",
+  "value": 40000,
+  "probability": 55,
+  "expectedClose": "2026-12-18",
+  "source": "Partner / Affiliate",
+  "service": "Mobile App Development",
+  "risk": "high",
+  "competitor": "In-house team",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Naeem Rahman",
+    "role": "CEO",
+    "influence": "high"
+   }
+  ],
+  "createdAt": "2026-10-07T10:00:00",
+  "lastActivityAt": "2026-10-21T10:00:00",
+  "followUps": 2,
+  "nextAction": "Send revised proposal"
+ },
+ {
+  "id": "DL-1026",
+  "title": "Mobile App Development for Tidal Marine Services",
+  "leadId": "LD-1026",
+  "company": "Tidal Marine Services",
+  "contact": "Omar Sarker",
+  "ownerId": "U-03",
+  "stage": "new",
+  "value": 31000,
+  "probability": 10,
+  "expectedClose": "2027-01-03",
+  "source": "Google Ads",
+  "service": "Website Development",
+  "risk": "low",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Omar Sarker",
+    "role": "CTO",
+    "influence": "high"
+   },
+   {
+    "name": "Noor Sarker",
+    "role": "Operations Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-08-31T10:00:00",
+  "lastActivityAt": "2026-11-03T10:00:00",
+  "followUps": 7,
+  "nextAction": "Schedule follow-up call"
+ },
+ {
+  "id": "DL-1027",
+  "title": "Mobile App Development for Aurora Beauty Co",
+  "leadId": "LD-1027",
+  "company": "Aurora Beauty Co",
+  "contact": "Ibrahim Sheikh",
+  "ownerId": "U-06",
+  "stage": "proposal",
+  "value": 21500,
+  "probability": 65,
+  "expectedClose": "2026-11-11",
+  "source": "API / Webhook",
+  "service": "Data Analytics Dashboard",
+  "risk": "medium",
+  "competitor": "",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Ibrahim Sheikh",
+    "role": "Founder",
+    "influence": "high"
+   },
+   {
+    "name": "Rumana Molla",
+    "role": "Operations Head",
+    "influence": "medium"
+   }
+  ],
+  "createdAt": "2026-08-15T10:00:00",
+  "lastActivityAt": "2026-10-28T10:00:00",
+  "followUps": 5,
+  "nextAction": "Arrange technical demo"
+ },
+ {
+  "id": "DL-1028",
+  "title": "AI Chatbot Integration for Keystone Finance Brokers",
+  "leadId": "LD-1028",
+  "company": "Keystone Finance Brokers",
+  "contact": "Tania Brown",
+  "ownerId": "U-05",
+  "stage": "contacted",
+  "value": 4000,
+  "probability": 20,
+  "expectedClose": "2026-12-15",
+  "source": "Social Media",
+  "service": "AI Chatbot Integration",
+  "risk": "high",
+  "competitor": "Offshore vendor B",
+  "lostReason": "",
+  "stakeholders": [
+   {
+    "name": "Tania Brown",
+    "role": "General Manager",
+    "influence": "high"
+   },
+   {
+    "name": "Zahid Chowdhury",
+    "role": "Operations Head",
+    "influence": "low"
+   }
+  ],
+  "createdAt": "2026-09-28T10:00:00",
+  "lastActivityAt": "2026-10-13T10:00:00",
+  "followUps": 4,
+  "nextAction": "Confirm decision date"
+ }
+]

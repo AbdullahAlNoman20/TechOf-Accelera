@@ -1,0 +1,42 @@
+[
+ {
+  "id": "SG-1001",
+  "name": "Healthcare in Bangladesh",
+  "criteria": "Industry Healthcare and country Bangladesh",
+  "industry": "Healthcare",
+  "country": "Bangladesh",
+  "companySize": "",
+  "source": "",
+  "type": "custom"
+ },
+ {
+  "id": "SG-1002",
+  "name": "Enterprise (200+)",
+  "criteria": "Company size 201-500",
+  "industry": "",
+  "country": "",
+  "companySize": "201-500",
+  "source": "",
+  "type": "custom"
+ },
+ {
+  "id": "SG-1003",
+  "name": "Ads leads",
+  "criteria": "Source Google Ads",
+  "industry": "",
+  "country": "",
+  "companySize": "",
+  "source": "Google Ads",
+  "type": "custom"
+ },
+ {
+  "id": "SG-1004",
+  "name": "International retail",
+  "criteria": "Retail outside Bangladesh",
+  "industry": "Retail",
+  "country": "UAE",
+  "companySize": "",
+  "source": "",
+  "type": "custom"
+ }
+]

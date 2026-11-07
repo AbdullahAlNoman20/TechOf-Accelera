@@ -1,0 +1,402 @@
+[
+ {
+  "id": "AL-1040",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "login_failed",
+  "entity": "role",
+  "detail": "Login failed - wrong password",
+  "at": "2026-11-06T08:00:00",
+  "ip": "103.170.157.86"
+ },
+ {
+  "id": "AL-1018",
+  "userId": "U-03",
+  "userName": "Imran Hossain",
+  "action": "create",
+  "entity": "report",
+  "detail": "Changed role access",
+  "at": "2026-11-06T04:00:00",
+  "ip": "103.53.210.93"
+ },
+ {
+  "id": "AL-1037",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "update",
+  "entity": "integration",
+  "detail": "Created record",
+  "at": "2026-11-06T04:00:00",
+  "ip": "103.79.138.165"
+ },
+ {
+  "id": "AL-1020",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "export",
+  "entity": "user",
+  "detail": "Created record",
+  "at": "2026-11-06T03:00:00",
+  "ip": "103.127.225.156"
+ },
+ {
+  "id": "AL-1004",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "login",
+  "entity": "role",
+  "detail": "Created record",
+  "at": "2026-11-05T23:00:00",
+  "ip": "103.20.4.180"
+ },
+ {
+  "id": "AL-1036",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "create",
+  "entity": "report",
+  "detail": "Signed in from Dhaka",
+  "at": "2026-11-05T08:00:00",
+  "ip": "103.217.209.225"
+ },
+ {
+  "id": "AL-1015",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "login_failed",
+  "entity": "proposal",
+  "detail": "Signed in from Dhaka",
+  "at": "2026-11-05T05:00:00",
+  "ip": "103.168.210.166"
+ },
+ {
+  "id": "AL-1023",
+  "userId": "U-02",
+  "userName": "Nusrat Jahan",
+  "action": "permission_change",
+  "entity": "lead",
+  "detail": "Changed role access",
+  "at": "2026-11-05T04:00:00",
+  "ip": "103.208.110.163"
+ },
+ {
+  "id": "AL-1017",
+  "userId": "U-02",
+  "userName": "Nusrat Jahan",
+  "action": "login_failed",
+  "entity": "report",
+  "detail": "Changed role access",
+  "at": "2026-11-04T23:00:00",
+  "ip": "103.94.136.56"
+ },
+ {
+  "id": "AL-1002",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "permission_change",
+  "entity": "integration",
+  "detail": "Changed role access",
+  "at": "2026-11-04T20:00:00",
+  "ip": "103.222.176.101"
+ },
+ {
+  "id": "AL-1005",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "create",
+  "entity": "role",
+  "detail": "Updated stage to Proposal",
+  "at": "2026-11-04T12:00:00",
+  "ip": "103.44.110.233"
+ },
+ {
+  "id": "AL-1012",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "login",
+  "entity": "proposal",
+  "detail": "Updated stage to Proposal",
+  "at": "2026-11-04T06:00:00",
+  "ip": "103.151.239.75"
+ },
+ {
+  "id": "AL-1016",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "export",
+  "entity": "proposal",
+  "detail": "Exported leads CSV",
+  "at": "2026-11-03T12:00:00",
+  "ip": "103.226.115.101"
+ },
+ {
+  "id": "AL-1034",
+  "userId": "U-03",
+  "userName": "Imran Hossain",
+  "action": "create",
+  "entity": "integration",
+  "detail": "Signed in from Dhaka",
+  "at": "2026-11-03T09:00:00",
+  "ip": "103.112.115.52"
+ },
+ {
+  "id": "AL-1010",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "login",
+  "entity": "lead",
+  "detail": "Rotated API key",
+  "at": "2026-11-03T02:00:00",
+  "ip": "103.100.50.178"
+ },
+ {
+  "id": "AL-1038",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "permission_change",
+  "entity": "user",
+  "detail": "Signed in from Dhaka",
+  "at": "2026-11-03T00:00:00",
+  "ip": "103.93.223.192"
+ },
+ {
+  "id": "AL-1024",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "permission_change",
+  "entity": "lead",
+  "detail": "Updated stage to Proposal",
+  "at": "2026-11-02T03:00:00",
+  "ip": "103.233.204.241"
+ },
+ {
+  "id": "AL-1013",
+  "userId": "U-04",
+  "userName": "Sadia Karim",
+  "action": "login_failed",
+  "entity": "deal",
+  "detail": "Changed role access",
+  "at": "2026-11-01T17:00:00",
+  "ip": "103.186.195.207"
+ },
+ {
+  "id": "AL-1033",
+  "userId": "U-04",
+  "userName": "Sadia Karim",
+  "action": "update",
+  "entity": "deal",
+  "detail": "Updated stage to Proposal",
+  "at": "2026-11-01T17:00:00",
+  "ip": "103.15.195.43"
+ },
+ {
+  "id": "AL-1009",
+  "userId": "U-04",
+  "userName": "Sadia Karim",
+  "action": "login",
+  "entity": "proposal",
+  "detail": "Changed role access",
+  "at": "2026-11-01T07:00:00",
+  "ip": "103.101.141.84"
+ },
+ {
+  "id": "AL-1014",
+  "userId": "U-03",
+  "userName": "Imran Hossain",
+  "action": "export",
+  "entity": "lead",
+  "detail": "Signed in from Dhaka",
+  "at": "2026-11-01T06:00:00",
+  "ip": "103.134.129.124"
+ },
+ {
+  "id": "AL-1027",
+  "userId": "U-03",
+  "userName": "Imran Hossain",
+  "action": "login_failed",
+  "entity": "role",
+  "detail": "Changed role access",
+  "at": "2026-11-01T03:00:00",
+  "ip": "103.217.61.90"
+ },
+ {
+  "id": "AL-1007",
+  "userId": "U-03",
+  "userName": "Imran Hossain",
+  "action": "create",
+  "entity": "user",
+  "detail": "Rotated API key",
+  "at": "2026-10-31T11:00:00",
+  "ip": "103.184.3.212"
+ },
+ {
+  "id": "AL-1025",
+  "userId": "U-02",
+  "userName": "Nusrat Jahan",
+  "action": "permission_change",
+  "entity": "lead",
+  "detail": "Updated stage to Proposal",
+  "at": "2026-10-31T11:00:00",
+  "ip": "103.102.131.219"
+ },
+ {
+  "id": "AL-1026",
+  "userId": "U-02",
+  "userName": "Nusrat Jahan",
+  "action": "update",
+  "entity": "proposal",
+  "detail": "Changed role access",
+  "at": "2026-10-31T00:00:00",
+  "ip": "103.25.181.87"
+ },
+ {
+  "id": "AL-1019",
+  "userId": "U-04",
+  "userName": "Sadia Karim",
+  "action": "update",
+  "entity": "report",
+  "detail": "Exported leads CSV",
+  "at": "2026-10-30T23:00:00",
+  "ip": "103.90.2.86"
+ },
+ {
+  "id": "AL-1032",
+  "userId": "U-04",
+  "userName": "Sadia Karim",
+  "action": "update",
+  "entity": "proposal",
+  "detail": "Rotated API key",
+  "at": "2026-10-30T11:00:00",
+  "ip": "103.232.237.18"
+ },
+ {
+  "id": "AL-1003",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "create",
+  "entity": "deal",
+  "detail": "Changed role access",
+  "at": "2026-10-30T08:00:00",
+  "ip": "103.45.96.199"
+ },
+ {
+  "id": "AL-1011",
+  "userId": "U-04",
+  "userName": "Sadia Karim",
+  "action": "login",
+  "entity": "proposal",
+  "detail": "Changed role access",
+  "at": "2026-10-30T07:00:00",
+  "ip": "103.212.6.125"
+ },
+ {
+  "id": "AL-1030",
+  "userId": "U-03",
+  "userName": "Imran Hossain",
+  "action": "update",
+  "entity": "integration",
+  "detail": "Changed role access",
+  "at": "2026-10-28T13:00:00",
+  "ip": "103.249.248.88"
+ },
+ {
+  "id": "AL-1001",
+  "userId": "U-02",
+  "userName": "Nusrat Jahan",
+  "action": "login_failed",
+  "entity": "report",
+  "detail": "Changed role access",
+  "at": "2026-10-28T12:00:00",
+  "ip": "103.224.194.243"
+ },
+ {
+  "id": "AL-1008",
+  "userId": "U-03",
+  "userName": "Imran Hossain",
+  "action": "login",
+  "entity": "deal",
+  "detail": "Updated stage to Proposal",
+  "at": "2026-10-28T11:00:00",
+  "ip": "103.144.243.92"
+ },
+ {
+  "id": "AL-1029",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "login_failed",
+  "entity": "user",
+  "detail": "Created record",
+  "at": "2026-10-28T08:00:00",
+  "ip": "103.46.78.185"
+ },
+ {
+  "id": "AL-1006",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "delete",
+  "entity": "proposal",
+  "detail": "Created record",
+  "at": "2026-10-28T07:00:00",
+  "ip": "103.244.187.223"
+ },
+ {
+  "id": "AL-1031",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "create",
+  "entity": "report",
+  "detail": "Signed in from Dhaka",
+  "at": "2026-10-28T05:00:00",
+  "ip": "103.87.149.91"
+ },
+ {
+  "id": "AL-1022",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "delete",
+  "entity": "user",
+  "detail": "Updated stage to Proposal",
+  "at": "2026-10-27T16:00:00",
+  "ip": "103.145.150.245"
+ },
+ {
+  "id": "AL-1039",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "permission_change",
+  "entity": "role",
+  "detail": "Exported leads CSV",
+  "at": "2026-10-27T13:00:00",
+  "ip": "103.214.87.45"
+ },
+ {
+  "id": "AL-1035",
+  "userId": "U-09",
+  "userName": "Anika Tabassum",
+  "action": "update",
+  "entity": "proposal",
+  "detail": "Changed role access",
+  "at": "2026-10-27T07:00:00",
+  "ip": "103.60.62.188"
+ },
+ {
+  "id": "AL-1021",
+  "userId": "U-01",
+  "userName": "Tanvir Rahman",
+  "action": "permission_change",
+  "entity": "deal",
+  "detail": "Rotated API key",
+  "at": "2026-10-27T06:00:00",
+  "ip": "103.79.99.70"
+ },
+ {
+  "id": "AL-1028",
+  "userId": "U-02",
+  "userName": "Nusrat Jahan",
+  "action": "create",
+  "entity": "deal",
+  "detail": "Signed in from Dhaka",
+  "at": "2026-10-26T20:00:00",
+  "ip": "103.113.115.102"
+ }
+]

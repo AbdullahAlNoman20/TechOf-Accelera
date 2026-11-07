@@ -1,0 +1,38 @@
+[
+ {
+  "id": "SL-1001",
+  "name": "Hot lead response",
+  "priority": "high",
+  "firstResponseMin": 15,
+  "resolveHours": 24,
+  "escalateTo": "Imran Hossain",
+  "active": true
+ },
+ {
+  "id": "SL-1002",
+  "name": "Standard lead response",
+  "priority": "medium",
+  "firstResponseMin": 60,
+  "resolveHours": 48,
+  "escalateTo": "Imran Hossain",
+  "active": true
+ },
+ {
+  "id": "SL-1003",
+  "name": "Low priority response",
+  "priority": "low",
+  "firstResponseMin": 240,
+  "resolveHours": 72,
+  "escalateTo": "Dhaka Sales team",
+  "active": true
+ },
+ {
+  "id": "SL-1004",
+  "name": "Customer issue response",
+  "priority": "high",
+  "firstResponseMin": 30,
+  "resolveHours": 8,
+  "escalateTo": "Shamim Reza",
+  "active": true
+ }
+]

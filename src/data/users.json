@@ -1,0 +1,180 @@
+[
+ {
+  "id": "U-01",
+  "name": "Tanvir Rahman",
+  "email": "tanvir@techofsolution.com",
+  "role": "super_admin",
+  "team": "Management",
+  "territory": "All",
+  "title": "CEO & Product Owner",
+  "skills": [
+   "Strategy"
+  ],
+  "phone": "+8801753464097",
+  "status": "active",
+  "mfa": true,
+  "avatarColor": "#0B3A7A",
+  "capacity": 8
+ },
+ {
+  "id": "U-02",
+  "name": "Nusrat Jahan",
+  "email": "nusrat@techofsolution.com",
+  "role": "admin",
+  "team": "Management",
+  "territory": "All",
+  "title": "Platform Administrator",
+  "skills": [
+   "Operations"
+  ],
+  "phone": "+8801730246633",
+  "status": "active",
+  "mfa": true,
+  "avatarColor": "#1A8F9B",
+  "capacity": 8
+ },
+ {
+  "id": "U-03",
+  "name": "Imran Hossain",
+  "email": "imran@techofsolution.com",
+  "role": "manager",
+  "team": "Dhaka Sales",
+  "territory": "Dhaka",
+  "title": "Head of Sales",
+  "skills": [
+   "IT",
+   "Finance",
+   "Real Estate"
+  ],
+  "phone": "+8801762992312",
+  "status": "active",
+  "mfa": true,
+  "avatarColor": "#1456A8",
+  "capacity": 8
+ },
+ {
+  "id": "U-04",
+  "name": "Sadia Karim",
+  "email": "sadia@techofsolution.com",
+  "role": "sales",
+  "team": "Dhaka Sales",
+  "territory": "Dhaka",
+  "title": "Senior Sales Executive",
+  "skills": [
+   "IT",
+   "Education",
+   "Healthcare"
+  ],
+  "phone": "+8801797366946",
+  "status": "active",
+  "mfa": false,
+  "avatarColor": "#D99A12",
+  "capacity": 12
+ },
+ {
+  "id": "U-05",
+  "name": "Rafiq Ahmed",
+  "email": "rafiq@techofsolution.com",
+  "role": "sales",
+  "team": "Dhaka Sales",
+  "territory": "Chattogram",
+  "title": "Sales Executive",
+  "skills": [
+   "Manufacturing",
+   "Logistics",
+   "Retail"
+  ],
+  "phone": "+8801716480894",
+  "status": "active",
+  "mfa": false,
+  "avatarColor": "#157782",
+  "capacity": 12
+ },
+ {
+  "id": "U-06",
+  "name": "Mehedi Hasan",
+  "email": "mehedi@techofsolution.com",
+  "role": "sales",
+  "team": "Export Desk",
+  "territory": "International",
+  "title": "Export Sales Executive",
+  "skills": [
+   "Energy",
+   "Hospitality",
+   "Retail"
+  ],
+  "phone": "+8801719722233",
+  "status": "active",
+  "mfa": false,
+  "avatarColor": "#0F4689",
+  "capacity": 12
+ },
+ {
+  "id": "U-07",
+  "name": "Farzana Akter",
+  "email": "farzana@techofsolution.com",
+  "role": "marketing",
+  "team": "Marketing",
+  "territory": "Dhaka",
+  "title": "Growth Marketing Lead",
+  "skills": [
+   "Marketing"
+  ],
+  "phone": "+8801781924865",
+  "status": "active",
+  "mfa": false,
+  "avatarColor": "#105F68",
+  "capacity": 8
+ },
+ {
+  "id": "U-08",
+  "name": "Shamim Reza",
+  "email": "shamim@techofsolution.com",
+  "role": "support",
+  "team": "Support & Ops",
+  "territory": "Dhaka",
+  "title": "Customer Success Manager",
+  "skills": [
+   "Support"
+  ],
+  "phone": "+8801722633920",
+  "status": "active",
+  "mfa": false,
+  "avatarColor": "#8A5A00",
+  "capacity": 8
+ },
+ {
+  "id": "U-09",
+  "name": "Anika Tabassum",
+  "email": "anika@techofsolution.com",
+  "role": "analyst",
+  "team": "Management",
+  "territory": "Dhaka",
+  "title": "Business Analyst",
+  "skills": [
+   "Analytics"
+  ],
+  "phone": "+8801759081935",
+  "status": "active",
+  "mfa": false,
+  "avatarColor": "#2E6FBF",
+  "capacity": 8
+ },
+ {
+  "id": "U-10",
+  "name": "Kamal Uddin",
+  "email": "kamal@techofsolution.com",
+  "role": "operations",
+  "team": "Support & Ops",
+  "territory": "Sylhet",
+  "title": "Operations Coordinator",
+  "skills": [
+   "Delivery"
+  ],
+  "phone": "+8801788220482",
+  "status": "active",
+  "mfa": false,
+  "avatarColor": "#0A7A66",
+  "capacity": 8
+ }
+]

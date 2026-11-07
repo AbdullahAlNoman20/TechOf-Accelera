@@ -1,0 +1,98 @@
+[
+ {
+  "id": "CM-1001",
+  "name": "ERP Launch Q4",
+  "channel": "Webinar / Event",
+  "spend": 837,
+  "leads": 89,
+  "qualified": 21,
+  "won": 2,
+  "revenue": 10288,
+  "status": "active",
+  "start": "2026-10-11"
+ },
+ {
+  "id": "CM-1002",
+  "name": "Website Revamp Offer",
+  "channel": "Meta Lead Ads",
+  "spend": 2857,
+  "leads": 79,
+  "qualified": 15,
+  "won": 3,
+  "revenue": 40653,
+  "status": "active",
+  "start": "2026-08-10"
+ },
+ {
+  "id": "CM-1003",
+  "name": "AI Chatbot Webinar",
+  "channel": "Referral",
+  "spend": 2998,
+  "leads": 75,
+  "qualified": 14,
+  "won": 2,
+  "revenue": 12362,
+  "status": "paused",
+  "start": "2026-08-30"
+ },
+ {
+  "id": "CM-1004",
+  "name": "Retail Digital Push",
+  "channel": "Email Inquiry",
+  "spend": 1190,
+  "leads": 94,
+  "qualified": 19,
+  "won": 3,
+  "revenue": 20883,
+  "status": "active",
+  "start": "2026-08-09"
+ },
+ {
+  "id": "CM-1005",
+  "name": "Healthcare Automation",
+  "channel": "Email Inquiry",
+  "spend": 2939,
+  "leads": 106,
+  "qualified": 24,
+  "won": 3,
+  "revenue": 15084,
+  "status": "active",
+  "start": "2026-08-04"
+ },
+ {
+  "id": "CM-1006",
+  "name": "Cloud Migration Drive",
+  "channel": "Landing Page",
+  "spend": 1443,
+  "leads": 88,
+  "qualified": 32,
+  "won": 6,
+  "revenue": 69768,
+  "status": "completed",
+  "start": "2026-09-06"
+ },
+ {
+  "id": "CM-1007",
+  "name": "Year-End Consultation",
+  "channel": "Meta Lead Ads",
+  "spend": 1827,
+  "leads": 56,
+  "qualified": 22,
+  "won": 6,
+  "revenue": 32046,
+  "status": "paused",
+  "start": "2026-08-16"
+ },
+ {
+  "id": "CM-1008",
+  "name": "Referral Rewards 2026",
+  "channel": "Referral",
+  "spend": 2627,
+  "leads": 137,
+  "qualified": 37,
+  "won": 8,
+  "revenue": 41592,
+  "status": "active",
+  "start": "2026-08-18"
+ }
+]

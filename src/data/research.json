@@ -1,0 +1,236 @@
+[
+ {
+  "id": "RS-1000",
+  "company": "Shapla Agro Foods",
+  "industry": "Manufacturing",
+  "website": "www.shaplaagrofood.com",
+  "dealId": "DL-1001",
+  "summary": "Shapla Agro Foods is a 500+-employee manufacturing business based in Chattogram, Bangladesh. It serves regional customers and is investing in digital operations.",
+  "painPoints": [
+   "Manual reporting across spreadsheets",
+   "Slow response to customer inquiries",
+   "No single view of customers and sales"
+  ],
+  "requirement": "Interested in AI chatbot for support",
+  "opportunities": [
+   "Website Development",
+   "Digital Marketing Retainer"
+  ],
+  "competitors": [
+   "Regional competitor A",
+   "Regional competitor B"
+  ],
+  "decisionMakers": [
+   "Karim Das (Head of IT)"
+  ],
+  "sources": [
+   {
+    "title": "Shapla Agro Foods website",
+    "url": "https://www.shaplaagrofood.com",
+    "date": "2026-10-19",
+    "confidence": "High"
+   },
+   {
+    "title": "Public business directory listing",
+    "url": "https://directory.example.org",
+    "date": "2026-10-27",
+    "confidence": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "RS-1001",
+  "company": "Nirvana Retail Group",
+  "industry": "Retail",
+  "website": "www.nirvanaretailg.com",
+  "dealId": "DL-1002",
+  "summary": "Nirvana Retail Group is a 11-50-employee retail business based in London, United Kingdom. It serves regional customers and is investing in digital operations.",
+  "painPoints": [
+   "Manual reporting across spreadsheets",
+   "Slow response to customer inquiries",
+   "No single view of customers and sales"
+  ],
+  "requirement": "Needs brand refresh and UI/UX",
+  "opportunities": [
+   "ERP Implementation",
+   "Cloud Hosting & Support"
+  ],
+  "competitors": [
+   "Regional competitor A",
+   "Regional competitor B"
+  ],
+  "decisionMakers": [
+   "Chloe Talukder (CEO)"
+  ],
+  "sources": [
+   {
+    "title": "Nirvana Retail Group website",
+    "url": "https://www.nirvanaretailg.com",
+    "date": "2026-10-21",
+    "confidence": "High"
+   },
+   {
+    "title": "Public business directory listing",
+    "url": "https://directory.example.org",
+    "date": "2026-10-23",
+    "confidence": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "RS-1002",
+  "company": "Cedar & Pine Furniture",
+  "industry": "Retail",
+  "website": "www.cedarpinefurni.com",
+  "dealId": "DL-1003",
+  "summary": "Cedar & Pine Furniture is a 201-500-employee retail business based in Khulna, Bangladesh. It serves regional customers and is investing in digital operations.",
+  "painPoints": [
+   "Manual reporting across spreadsheets",
+   "Slow response to customer inquiries",
+   "No single view of customers and sales"
+  ],
+  "requirement": "Needs sales dashboards for management",
+  "opportunities": [
+   "Mobile App Development",
+   "Data Analytics Dashboard"
+  ],
+  "competitors": [
+   "Regional competitor A",
+   "Regional competitor B"
+  ],
+  "decisionMakers": [
+   "Salma Sarker (Operations Manager)"
+  ],
+  "sources": [
+   {
+    "title": "Cedar & Pine Furniture website",
+    "url": "https://www.cedarpinefurni.com",
+    "date": "2026-11-05",
+    "confidence": "High"
+   },
+   {
+    "title": "Public business directory listing",
+    "url": "https://directory.example.org",
+    "date": "2026-11-01",
+    "confidence": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "RS-1003",
+  "company": "Northwind Dental",
+  "industry": "Healthcare",
+  "website": "www.northwinddenta.com",
+  "dealId": "DL-1004",
+  "summary": "Northwind Dental is a 201-500-employee healthcare business based in Chattogram, Bangladesh. It serves regional customers and is investing in digital operations.",
+  "painPoints": [
+   "Manual reporting across spreadsheets",
+   "Slow response to customer inquiries",
+   "No single view of customers and sales"
+  ],
+  "requirement": "Needs steady digital marketing support",
+  "opportunities": [
+   "Digital Marketing Retainer",
+   "AI Chatbot Integration"
+  ],
+  "competitors": [
+   "Regional competitor A",
+   "Regional competitor B"
+  ],
+  "decisionMakers": [
+   "Ibrahim Das (Managing Director)"
+  ],
+  "sources": [
+   {
+    "title": "Northwind Dental website",
+    "url": "https://www.northwinddenta.com",
+    "date": "2026-11-05",
+    "confidence": "Medium"
+   },
+   {
+    "title": "Public business directory listing",
+    "url": "https://directory.example.org",
+    "date": "2026-10-25",
+    "confidence": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "RS-1004",
+  "company": "Greenfield Organics",
+  "industry": "Retail",
+  "website": "www.greenfieldorga.com",
+  "dealId": "DL-1005",
+  "summary": "Greenfield Organics is a 500+-employee retail business based in Austin, USA. It serves regional customers and is investing in digital operations.",
+  "painPoints": [
+   "Manual reporting across spreadsheets",
+   "Slow response to customer inquiries",
+   "No single view of customers and sales"
+  ],
+  "requirement": "Needs sales dashboards for management",
+  "opportunities": [
+   "Cloud Hosting & Support",
+   "UI/UX Design Package"
+  ],
+  "competitors": [
+   "Regional competitor A",
+   "Regional competitor B"
+  ],
+  "decisionMakers": [
+   "Rahul Mahmud (CTO)"
+  ],
+  "sources": [
+   {
+    "title": "Greenfield Organics website",
+    "url": "https://www.greenfieldorga.com",
+    "date": "2026-11-03",
+    "confidence": "High"
+   },
+   {
+    "title": "Public business directory listing",
+    "url": "https://directory.example.org",
+    "date": "2026-10-25",
+    "confidence": "Medium"
+   }
+  ]
+ },
+ {
+  "id": "RS-1005",
+  "company": "Oakwood Builders",
+  "industry": "Real Estate",
+  "website": "www.oakwoodbuilder.com",
+  "dealId": "DL-1006",
+  "summary": "Oakwood Builders is a 1-10-employee real estate business based in Chattogram, Bangladesh. It serves regional customers and is investing in digital operations.",
+  "painPoints": [
+   "Manual reporting across spreadsheets",
+   "Slow response to customer inquiries",
+   "No single view of customers and sales"
+  ],
+  "requirement": "Wants managed cloud hosting",
+  "opportunities": [
+   "Data Analytics Dashboard",
+   "IT Consulting"
+  ],
+  "competitors": [
+   "Regional competitor A",
+   "Regional competitor B"
+  ],
+  "decisionMakers": [
+   "Yusuf Hossain (Founder)"
+  ],
+  "sources": [
+   {
+    "title": "Oakwood Builders website",
+    "url": "https://www.oakwoodbuilder.com",
+    "date": "2026-11-01",
+    "confidence": "High"
+   },
+   {
+    "title": "Public business directory listing",
+    "url": "https://directory.example.org",
+    "date": "2026-10-31",
+    "confidence": "Medium"
+   }
+  ]
+ }
+]

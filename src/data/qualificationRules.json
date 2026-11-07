@@ -1,0 +1,47 @@
+[
+ {
+  "id": "QR-1001",
+  "name": "Budget range",
+  "criterion": "Budget",
+  "question": "Do you have an approved budget for this project?",
+  "mandatory": true,
+  "weight": 25,
+  "active": true
+ },
+ {
+  "id": "QR-1002",
+  "name": "Decision authority",
+  "criterion": "Authority",
+  "question": "Are you the decision-maker or who else approves?",
+  "mandatory": true,
+  "weight": 25,
+  "active": true
+ },
+ {
+  "id": "QR-1003",
+  "name": "Business need",
+  "criterion": "Need",
+  "question": "What business problem should we solve?",
+  "mandatory": true,
+  "weight": 30,
+  "active": true
+ },
+ {
+  "id": "QR-1004",
+  "name": "Purchase timeline",
+  "criterion": "Timeline",
+  "question": "When do you plan to start?",
+  "mandatory": false,
+  "weight": 20,
+  "active": true
+ },
+ {
+  "id": "QR-1005",
+  "name": "Current tools",
+  "criterion": "Custom",
+  "question": "Which tools do you use today?",
+  "mandatory": false,
+  "weight": 5,
+  "active": true
+ }
+]

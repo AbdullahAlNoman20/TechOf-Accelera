@@ -1,0 +1,37 @@
+[
+ {
+  "id": "RR-1001",
+  "dataType": "Rejected and spam leads",
+  "retentionDays": 90,
+  "action": "Delete",
+  "active": true
+ },
+ {
+  "id": "RR-1002",
+  "dataType": "Unqualified leads",
+  "retentionDays": 365,
+  "action": "Anonymize",
+  "active": true
+ },
+ {
+  "id": "RR-1003",
+  "dataType": "Call recordings and transcripts",
+  "retentionDays": 180,
+  "action": "Delete",
+  "active": true
+ },
+ {
+  "id": "RR-1004",
+  "dataType": "Audit logs",
+  "retentionDays": 730,
+  "action": "Archive",
+  "active": true
+ },
+ {
+  "id": "RR-1005",
+  "dataType": "Closed lost deals",
+  "retentionDays": 730,
+  "action": "Anonymize",
+  "active": true
+ }
+]

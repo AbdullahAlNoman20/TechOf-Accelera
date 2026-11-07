@@ -1,0 +1,32 @@
+[
+ {
+  "id": "IC-1002",
+  "title": "Meta Lead Ads token expired",
+  "severity": "medium",
+  "status": "open",
+  "owner": "Nusrat Jahan",
+  "openedAt": "2026-11-05T10:00:00",
+  "resolvedAt": null,
+  "rootCause": "OAuth token expired; re-authorization required"
+ },
+ {
+  "id": "IC-1003",
+  "title": "Invoice sync delay",
+  "severity": "low",
+  "status": "investigating",
+  "owner": "Nusrat Jahan",
+  "openedAt": "2026-11-06T10:00:00",
+  "resolvedAt": null,
+  "rootCause": "Accounting API rate limit reached"
+ },
+ {
+  "id": "IC-1004",
+  "title": "Report generation slow",
+  "severity": "low",
+  "status": "resolved",
+  "owner": "Nusrat Jahan",
+  "openedAt": "2026-10-31T10:00:00",
+  "resolvedAt": "2026-11-01T10:00:00",
+  "rootCause": "Large export blocked a worker queue"
+ }
+]

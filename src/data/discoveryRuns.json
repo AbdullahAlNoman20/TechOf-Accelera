@@ -1,0 +1,156 @@
+[
+ {
+  "id": "DR-1000",
+  "searchId": "DS-1001",
+  "searchName": "Dhaka SMEs needing ERP",
+  "runAt": "2026-11-05T10:00:00",
+  "source": "Public business directories",
+  "found": 5,
+  "newLeads": 3,
+  "duplicates": 0,
+  "status": "failed"
+ },
+ {
+  "id": "DR-1001",
+  "searchId": "DS-1002",
+  "searchName": "Clinics and hospitals for automation",
+  "runAt": "2026-11-03T10:00:00",
+  "source": "Public business directories",
+  "found": 16,
+  "newLeads": 4,
+  "duplicates": 5,
+  "status": "success"
+ },
+ {
+  "id": "DR-1002",
+  "searchId": "DS-1003",
+  "searchName": "Retail brands for e-commerce apps",
+  "runAt": "2026-11-01T10:00:00",
+  "source": "Company websites",
+  "found": 6,
+  "newLeads": 4,
+  "duplicates": 5,
+  "status": "success"
+ },
+ {
+  "id": "DR-1003",
+  "searchId": "DS-1004",
+  "searchName": "Education institutes needing portals",
+  "runAt": "2026-10-30T10:00:00",
+  "source": "Public business directories",
+  "found": 6,
+  "newLeads": 3,
+  "duplicates": 4,
+  "status": "success"
+ },
+ {
+  "id": "DR-1004",
+  "searchId": "DS-1005",
+  "searchName": "Solar firms needing dashboards",
+  "runAt": "2026-10-28T10:00:00",
+  "source": "Authorized data provider",
+  "found": 22,
+  "newLeads": 12,
+  "duplicates": 0,
+  "status": "partial"
+ },
+ {
+  "id": "DR-1005",
+  "searchId": "DS-1001",
+  "searchName": "Dhaka SMEs needing ERP",
+  "runAt": "2026-10-26T10:00:00",
+  "source": "Public business directories",
+  "found": 12,
+  "newLeads": 5,
+  "duplicates": 1,
+  "status": "success"
+ },
+ {
+  "id": "DR-1006",
+  "searchId": "DS-1002",
+  "searchName": "Clinics and hospitals for automation",
+  "runAt": "2026-10-24T10:00:00",
+  "source": "Public business directories",
+  "found": 6,
+  "newLeads": 14,
+  "duplicates": 5,
+  "status": "success"
+ },
+ {
+  "id": "DR-1007",
+  "searchId": "DS-1003",
+  "searchName": "Retail brands for e-commerce apps",
+  "runAt": "2026-10-22T10:00:00",
+  "source": "Authorized data provider",
+  "found": 20,
+  "newLeads": 3,
+  "duplicates": 1,
+  "status": "success"
+ },
+ {
+  "id": "DR-1008",
+  "searchId": "DS-1004",
+  "searchName": "Education institutes needing portals",
+  "runAt": "2026-10-20T10:00:00",
+  "source": "Public business directories",
+  "found": 14,
+  "newLeads": 7,
+  "duplicates": 2,
+  "status": "partial"
+ },
+ {
+  "id": "DR-1009",
+  "searchId": "DS-1005",
+  "searchName": "Solar firms needing dashboards",
+  "runAt": "2026-10-18T10:00:00",
+  "source": "Authorized data provider",
+  "found": 5,
+  "newLeads": 7,
+  "duplicates": 2,
+  "status": "success"
+ },
+ {
+  "id": "DR-1010",
+  "searchId": "DS-1001",
+  "searchName": "Dhaka SMEs needing ERP",
+  "runAt": "2026-10-16T10:00:00",
+  "source": "Public business directories",
+  "found": 16,
+  "newLeads": 7,
+  "duplicates": 4,
+  "status": "failed"
+ },
+ {
+  "id": "DR-1011",
+  "searchId": "DS-1002",
+  "searchName": "Clinics and hospitals for automation",
+  "runAt": "2026-10-14T10:00:00",
+  "source": "Authorized data provider",
+  "found": 14,
+  "newLeads": 11,
+  "duplicates": 5,
+  "status": "success"
+ },
+ {
+  "id": "DR-1012",
+  "searchId": "DS-1003",
+  "searchName": "Retail brands for e-commerce apps",
+  "runAt": "2026-10-12T10:00:00",
+  "source": "Authorized data provider",
+  "found": 5,
+  "newLeads": 8,
+  "duplicates": 4,
+  "status": "success"
+ },
+ {
+  "id": "DR-1013",
+  "searchId": "DS-1004",
+  "searchName": "Education institutes needing portals",
+  "runAt": "2026-10-10T10:00:00",
+  "source": "Public business directories",
+  "found": 20,
+  "newLeads": 13,
+  "duplicates": 0,
+  "status": "failed"
+ }
+]

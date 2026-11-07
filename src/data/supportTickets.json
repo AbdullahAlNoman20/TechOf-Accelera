@@ -1,0 +1,74 @@
+[
+ {
+  "id": "ST-1001",
+  "customerId": "CU-1001",
+  "subject": "Login issue on dashboard",
+  "priority": "high",
+  "status": "open",
+  "openedAt": "2026-10-31T10:00:00",
+  "resolvedAt": null
+ },
+ {
+  "id": "ST-1002",
+  "customerId": "CU-1002",
+  "subject": "Invoice copy request",
+  "priority": "low",
+  "status": "resolved",
+  "openedAt": "2026-10-25T10:00:00",
+  "resolvedAt": "2026-11-05T10:00:00"
+ },
+ {
+  "id": "ST-1003",
+  "customerId": "CU-1003",
+  "subject": "Report export is slow",
+  "priority": "medium",
+  "status": "open",
+  "openedAt": "2026-10-14T10:00:00",
+  "resolvedAt": null
+ },
+ {
+  "id": "ST-1004",
+  "customerId": "CU-1004",
+  "subject": "Add new user accounts",
+  "priority": "low",
+  "status": "resolved",
+  "openedAt": "2026-10-12T10:00:00",
+  "resolvedAt": "2026-11-05T10:00:00"
+ },
+ {
+  "id": "ST-1005",
+  "customerId": "CU-1005",
+  "subject": "Hosting downtime query",
+  "priority": "high",
+  "status": "escalated",
+  "openedAt": "2026-11-05T10:00:00",
+  "resolvedAt": null
+ },
+ {
+  "id": "ST-1006",
+  "customerId": "CU-1006",
+  "subject": "Training session request",
+  "priority": "low",
+  "status": "resolved",
+  "openedAt": "2026-10-18T10:00:00",
+  "resolvedAt": "2026-11-03T10:00:00"
+ },
+ {
+  "id": "ST-1007",
+  "customerId": "CU-1007",
+  "subject": "Data import failed",
+  "priority": "medium",
+  "status": "resolved",
+  "openedAt": "2026-10-01T10:00:00",
+  "resolvedAt": "2026-11-04T10:00:00"
+ },
+ {
+  "id": "ST-1008",
+  "customerId": "CU-1008",
+  "subject": "Feature request: Bangla UI",
+  "priority": "low",
+  "status": "open",
+  "openedAt": "2026-10-29T10:00:00",
+  "resolvedAt": null
+ }
+]

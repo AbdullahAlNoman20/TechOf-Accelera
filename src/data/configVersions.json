@@ -1,0 +1,34 @@
+[
+ {
+  "id": "CF-1001",
+  "item": "Assignment rules",
+  "version": "v4",
+  "changedBy": "Nusrat Jahan",
+  "at": "2026-10-08T10:00:00",
+  "note": "Added international desk rule"
+ },
+ {
+  "id": "CF-1002",
+  "item": "Scoring model",
+  "version": "v7",
+  "changedBy": "Anika Tabassum",
+  "at": "2026-10-25T10:00:00",
+  "note": "Recalibrated using Q3 outcomes"
+ },
+ {
+  "id": "CF-1003",
+  "item": "Pipeline stages",
+  "version": "v3",
+  "changedBy": "Tanvir Rahman",
+  "at": "2026-10-09T10:00:00",
+  "note": "Added Demo stage"
+ },
+ {
+  "id": "CF-1004",
+  "item": "Approval rules",
+  "version": "v2",
+  "changedBy": "Nusrat Jahan",
+  "at": "2026-10-28T10:00:00",
+  "note": "Discount limit set to 10%"
+ }
+]

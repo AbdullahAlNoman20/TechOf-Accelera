@@ -1,0 +1,58 @@
+[
+ {
+  "id": "TR-1",
+  "month": "May",
+  "leads": 92,
+  "qualified": 31,
+  "won": 7,
+  "revenue": 41000
+ },
+ {
+  "id": "TR-2",
+  "month": "Jun",
+  "leads": 104,
+  "qualified": 38,
+  "won": 9,
+  "revenue": 52000
+ },
+ {
+  "id": "TR-3",
+  "month": "Jul",
+  "leads": 98,
+  "qualified": 36,
+  "won": 8,
+  "revenue": 47000
+ },
+ {
+  "id": "TR-4",
+  "month": "Aug",
+  "leads": 121,
+  "qualified": 46,
+  "won": 11,
+  "revenue": 66000
+ },
+ {
+  "id": "TR-5",
+  "month": "Sep",
+  "leads": 133,
+  "qualified": 52,
+  "won": 12,
+  "revenue": 71000
+ },
+ {
+  "id": "TR-6",
+  "month": "Oct",
+  "leads": 146,
+  "qualified": 61,
+  "won": 15,
+  "revenue": 89000
+ },
+ {
+  "id": "TR-7",
+  "month": "Nov",
+  "leads": 58,
+  "qualified": 24,
+  "won": 5,
+  "revenue": 34000
+ }
+]

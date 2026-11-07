@@ -1,0 +1,477 @@
+[
+ {
+  "id": "CV-1001",
+  "dealId": "DL-1001",
+  "contact": "Karim Das",
+  "company": "Shapla Agro Foods",
+  "channel": "call",
+  "subject": "IT Consulting requirements",
+  "ownerId": "U-04",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation",
+   "Needs Bangla language support"
+  ],
+  "messages": [
+   {
+    "sender": "Karim Das",
+    "dir": "in",
+    "text": "Hello, we are interested in it consulting. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Sadia Karim",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Karim Das",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1002",
+  "dealId": "DL-1002",
+  "contact": "Chloe Talukder",
+  "company": "Nirvana Retail Group",
+  "channel": "whatsapp",
+  "subject": "ERP Implementation requirements",
+  "ownerId": "U-04",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation"
+  ],
+  "messages": [
+   {
+    "sender": "Chloe Talukder",
+    "dir": "in",
+    "text": "Hello, we are interested in erp implementation. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Sadia Karim",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Chloe Talukder",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1003",
+  "dealId": "DL-1003",
+  "contact": "Salma Sarker",
+  "company": "Cedar & Pine Furniture",
+  "channel": "whatsapp",
+  "subject": "Digital Marketing Retainer requirements",
+  "ownerId": "U-05",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks"
+  ],
+  "messages": [
+   {
+    "sender": "Salma Sarker",
+    "dir": "in",
+    "text": "Hello, we are interested in digital marketing retainer. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Rafiq Ahmed",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Salma Sarker",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1004",
+  "dealId": "DL-1004",
+  "contact": "Ibrahim Das",
+  "company": "Northwind Dental",
+  "channel": "call",
+  "subject": "Cloud Hosting & Support requirements",
+  "ownerId": "U-04",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation",
+   "Needs Bangla language support"
+  ],
+  "messages": [
+   {
+    "sender": "Ibrahim Das",
+    "dir": "in",
+    "text": "Hello, we are interested in cloud hosting & support. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Sadia Karim",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Ibrahim Das",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1005",
+  "dealId": "DL-1005",
+  "contact": "Rahul Mahmud",
+  "company": "Greenfield Organics",
+  "channel": "whatsapp",
+  "subject": "Digital Marketing Retainer requirements",
+  "ownerId": "U-06",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation",
+   "Needs Bangla language support"
+  ],
+  "messages": [
+   {
+    "sender": "Rahul Mahmud",
+    "dir": "in",
+    "text": "Hello, we are interested in digital marketing retainer. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Mehedi Hasan",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Rahul Mahmud",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1006",
+  "dealId": "DL-1006",
+  "contact": "Yusuf Hossain",
+  "company": "Oakwood Builders",
+  "channel": "email",
+  "subject": "AI Chatbot Integration requirements",
+  "ownerId": "U-03",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation"
+  ],
+  "messages": [
+   {
+    "sender": "Yusuf Hossain",
+    "dir": "in",
+    "text": "Hello, we are interested in ai chatbot integration. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Imran Hossain",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Yusuf Hossain",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1007",
+  "dealId": "DL-1007",
+  "contact": "Rumana Patel",
+  "company": "Evergreen Packaging",
+  "channel": "meeting",
+  "subject": "Website Development requirements",
+  "ownerId": "U-04",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation"
+  ],
+  "messages": [
+   {
+    "sender": "Rumana Patel",
+    "dir": "in",
+    "text": "Hello, we are interested in website development. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Sadia Karim",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Rumana Patel",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1008",
+  "dealId": "DL-1008",
+  "contact": "Zahid Begum",
+  "company": "Pioneer Steel Works",
+  "channel": "call",
+  "subject": "Annual Maintenance Contract requirements",
+  "ownerId": "U-03",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks"
+  ],
+  "messages": [
+   {
+    "sender": "Zahid Begum",
+    "dir": "in",
+    "text": "Hello, we are interested in annual maintenance contract. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Imran Hossain",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Zahid Begum",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1009",
+  "dealId": "DL-1009",
+  "contact": "Omar Sarker",
+  "company": "Tidal Marine Services",
+  "channel": "email",
+  "subject": "Mobile App Development requirements",
+  "ownerId": "U-03",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks"
+  ],
+  "messages": [
+   {
+    "sender": "Omar Sarker",
+    "dir": "in",
+    "text": "Hello, we are interested in mobile app development. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Imran Hossain",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Omar Sarker",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1010",
+  "dealId": "DL-1010",
+  "contact": "Tania Brown",
+  "company": "Keystone Finance Brokers",
+  "channel": "email",
+  "subject": "AI Chatbot Integration requirements",
+  "ownerId": "U-05",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks"
+  ],
+  "messages": [
+   {
+    "sender": "Tania Brown",
+    "dir": "in",
+    "text": "Hello, we are interested in ai chatbot integration. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Rafiq Ahmed",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Tania Brown",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1011",
+  "dealId": "DL-1011",
+  "contact": "Emma Siddique",
+  "company": "Maple Imports",
+  "channel": "email",
+  "subject": "Digital Marketing Retainer requirements",
+  "ownerId": "U-04",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation"
+  ],
+  "messages": [
+   {
+    "sender": "Emma Siddique",
+    "dir": "in",
+    "text": "Hello, we are interested in digital marketing retainer. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Sadia Karim",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Emma Siddique",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1012",
+  "dealId": "DL-1012",
+  "contact": "Noor Miah",
+  "company": "Nova Power Systems",
+  "channel": "call",
+  "subject": "AI Chatbot Integration requirements",
+  "ownerId": "U-06",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation"
+  ],
+  "messages": [
+   {
+    "sender": "Noor Miah",
+    "dir": "in",
+    "text": "Hello, we are interested in ai chatbot integration. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Mehedi Hasan",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Noor Miah",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1013",
+  "dealId": "DL-1013",
+  "contact": "Aminul Brown",
+  "company": "Pixel Forge Studio",
+  "channel": "whatsapp",
+  "subject": "Mobile App Development requirements",
+  "ownerId": "U-05",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation"
+  ],
+  "messages": [
+   {
+    "sender": "Aminul Brown",
+    "dir": "in",
+    "text": "Hello, we are interested in mobile app development. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Rafiq Ahmed",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Aminul Brown",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ },
+ {
+  "id": "CV-1014",
+  "dealId": "DL-1014",
+  "contact": "Jahid Talukder",
+  "company": "Padma Textiles Ltd",
+  "channel": "email",
+  "subject": "UI/UX Design Package requirements",
+  "ownerId": "U-05",
+  "summary": "",
+  "needs": [
+   "Wants delivery within 8 weeks",
+   "Asked for a fixed-price quotation"
+  ],
+  "messages": [
+   {
+    "sender": "Jahid Talukder",
+    "dir": "in",
+    "text": "Hello, we are interested in ui/ux design package. Could you share pricing and timeline?",
+    "at": "2026-10-31T10:00:00"
+   },
+   {
+    "sender": "Rafiq Ahmed",
+    "dir": "out",
+    "text": "Thank you for reaching out. I will share a tailored proposal after a short discovery call.",
+    "at": "2026-11-01T10:00:00"
+   },
+   {
+    "sender": "Jahid Talukder",
+    "dir": "in",
+    "text": "Sounds good. We are available on Thursday afternoon.",
+    "at": "2026-11-02T10:00:00"
+   }
+  ]
+ }
+]

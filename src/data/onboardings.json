@@ -1,0 +1,267 @@
+[
+ {
+  "id": "OB-1001",
+  "customerId": "CU-1013",
+  "customerName": "Pixel Forge Studio",
+  "dealId": "DL-1001",
+  "ownerId": "U-10",
+  "status": "in_progress",
+  "startedAt": "2026-10-22",
+  "checklist": [
+   {
+    "label": "Kick-off call",
+    "done": true
+   },
+   {
+    "label": "Collect requirements",
+    "done": true
+   },
+   {
+    "label": "Sign contract",
+    "done": true
+   },
+   {
+    "label": "Create accounts",
+    "done": false
+   },
+   {
+    "label": "Training session",
+    "done": false
+   },
+   {
+    "label": "Go-live check",
+    "done": false
+   }
+  ],
+  "documents": [
+   {
+    "name": "Signed contract",
+    "received": true
+   },
+   {
+    "name": "Trade licence",
+    "received": true
+   },
+   {
+    "name": "Company logo",
+    "received": false
+   },
+   {
+    "name": "Technical contact form",
+    "received": false
+   }
+  ]
+ },
+ {
+  "id": "OB-1002",
+  "customerId": "CU-1014",
+  "customerName": "Shapla Agro Foods",
+  "dealId": "DL-1002",
+  "ownerId": "U-10",
+  "status": "waiting",
+  "startedAt": "2026-11-04",
+  "checklist": [
+   {
+    "label": "Kick-off call",
+    "done": true
+   },
+   {
+    "label": "Collect requirements",
+    "done": true
+   },
+   {
+    "label": "Sign contract",
+    "done": false
+   },
+   {
+    "label": "Create accounts",
+    "done": false
+   },
+   {
+    "label": "Training session",
+    "done": false
+   },
+   {
+    "label": "Go-live check",
+    "done": false
+   }
+  ],
+  "documents": [
+   {
+    "name": "Signed contract",
+    "received": true
+   },
+   {
+    "name": "Trade licence",
+    "received": false
+   },
+   {
+    "name": "Company logo",
+    "received": false
+   },
+   {
+    "name": "Technical contact form",
+    "received": false
+   }
+  ]
+ },
+ {
+  "id": "OB-1003",
+  "customerId": "CU-1003",
+  "customerName": "BlueHarbor Shipping",
+  "dealId": "DL-1003",
+  "ownerId": "U-08",
+  "status": "not_started",
+  "startedAt": "2026-10-26",
+  "checklist": [
+   {
+    "label": "Kick-off call",
+    "done": false
+   },
+   {
+    "label": "Collect requirements",
+    "done": false
+   },
+   {
+    "label": "Sign contract",
+    "done": false
+   },
+   {
+    "label": "Create accounts",
+    "done": false
+   },
+   {
+    "label": "Training session",
+    "done": false
+   },
+   {
+    "label": "Go-live check",
+    "done": false
+   }
+  ],
+  "documents": [
+   {
+    "name": "Signed contract",
+    "received": false
+   },
+   {
+    "name": "Trade licence",
+    "received": false
+   },
+   {
+    "name": "Company logo",
+    "received": false
+   },
+   {
+    "name": "Technical contact form",
+    "received": false
+   }
+  ]
+ },
+ {
+  "id": "OB-1004",
+  "customerId": "CU-1004",
+  "customerName": "Lumen Solar Energy",
+  "dealId": "DL-1004",
+  "ownerId": "U-08",
+  "status": "completed",
+  "startedAt": "2026-10-17",
+  "checklist": [
+   {
+    "label": "Kick-off call",
+    "done": true
+   },
+   {
+    "label": "Collect requirements",
+    "done": true
+   },
+   {
+    "label": "Sign contract",
+    "done": true
+   },
+   {
+    "label": "Create accounts",
+    "done": true
+   },
+   {
+    "label": "Training session",
+    "done": true
+   },
+   {
+    "label": "Go-live check",
+    "done": true
+   }
+  ],
+  "documents": [
+   {
+    "name": "Signed contract",
+    "received": true
+   },
+   {
+    "name": "Trade licence",
+    "received": true
+   },
+   {
+    "name": "Company logo",
+    "received": true
+   },
+   {
+    "name": "Technical contact form",
+    "received": true
+   }
+  ]
+ },
+ {
+  "id": "OB-1005",
+  "customerId": "CU-1005",
+  "customerName": "Zenith Auto Parts",
+  "dealId": "DL-1005",
+  "ownerId": "U-08",
+  "status": "in_progress",
+  "startedAt": "2026-10-28",
+  "checklist": [
+   {
+    "label": "Kick-off call",
+    "done": true
+   },
+   {
+    "label": "Collect requirements",
+    "done": true
+   },
+   {
+    "label": "Sign contract",
+    "done": true
+   },
+   {
+    "label": "Create accounts",
+    "done": true
+   },
+   {
+    "label": "Training session",
+    "done": false
+   },
+   {
+    "label": "Go-live check",
+    "done": false
+   }
+  ],
+  "documents": [
+   {
+    "name": "Signed contract",
+    "received": true
+   },
+   {
+    "name": "Trade licence",
+    "received": true
+   },
+   {
+    "name": "Company logo",
+    "received": true
+   },
+   {
+    "name": "Technical contact form",
+    "received": false
+   }
+  ]
+ }
+]

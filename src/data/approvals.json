@@ -1,0 +1,57 @@
+[
+ {
+  "id": "AQ-1002",
+  "type": "discount",
+  "title": "Quotation PR-1004: 18% discount",
+  "requestedBy": "Sadia Karim",
+  "at": "2026-11-05T04:00:00",
+  "status": "pending",
+  "detail": "Padma Textiles Ltd - ERP Implementation",
+  "amount": 2700,
+  "approverRole": "manager"
+ },
+ {
+  "id": "AQ-1003",
+  "type": "ai_send",
+  "title": "Send AI proposal follow-up email",
+  "requestedBy": "Rafiq Ahmed",
+  "at": "2026-11-04T22:00:00",
+  "status": "pending",
+  "detail": "Karnaphuli Logistics - draft reviewed",
+  "amount": 0,
+  "approverRole": "sales"
+ },
+ {
+  "id": "AQ-1004",
+  "type": "ad_budget",
+  "title": "Increase Google Ads budget by 15%",
+  "requestedBy": "Farzana Akter",
+  "at": "2026-11-05T16:00:00",
+  "status": "pending",
+  "detail": "ERP Launch Q4 - recommended by AI",
+  "amount": 420,
+  "approverRole": "admin"
+ },
+ {
+  "id": "AQ-1005",
+  "type": "discount",
+  "title": "Quotation PR-1007: 25% discount",
+  "requestedBy": "Mehedi Hasan",
+  "at": "2026-11-05T10:00:00",
+  "status": "pending",
+  "detail": "Lumen Solar Energy - Data Dashboard",
+  "amount": 1900,
+  "approverRole": "super_admin"
+ },
+ {
+  "id": "AQ-1006",
+  "type": "deletion",
+  "title": "Delete 38 rejected spam leads",
+  "requestedBy": "Nusrat Jahan",
+  "at": "2026-11-05T00:00:00",
+  "status": "pending",
+  "detail": "Retention rule: older than 90 days",
+  "amount": 0,
+  "approverRole": "super_admin"
+ }
+]

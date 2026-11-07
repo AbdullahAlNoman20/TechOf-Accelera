@@ -1,0 +1,51 @@
+[
+ {
+  "id": "AI-1001",
+  "name": "Lead scoring",
+  "description": "Use AI to score and classify leads",
+  "enabled": true,
+  "scope": "Lead Intelligence"
+ },
+ {
+  "id": "AI-1002",
+  "name": "Prospect research",
+  "description": "Use AI to summarize public company information",
+  "enabled": true,
+  "scope": "Sales Intelligence"
+ },
+ {
+  "id": "AI-1003",
+  "name": "Message drafting",
+  "description": "Generate email and WhatsApp drafts",
+  "enabled": true,
+  "scope": "Sales Intelligence"
+ },
+ {
+  "id": "AI-1004",
+  "name": "Auto-send AI messages",
+  "description": "Send AI drafts without human approval",
+  "enabled": false,
+  "scope": "Sales Intelligence"
+ },
+ {
+  "id": "AI-1005",
+  "name": "Meeting summaries",
+  "description": "Summarize meeting notes and transcripts",
+  "enabled": true,
+  "scope": "Activity Hub"
+ },
+ {
+  "id": "AI-1006",
+  "name": "Business recommendations",
+  "description": "Generate budget and funnel suggestions",
+  "enabled": true,
+  "scope": "Growth Analytics"
+ },
+ {
+  "id": "AI-1007",
+  "name": "Customer data in AI prompts",
+  "description": "Allow personal data in prompts (redacted by default)",
+  "enabled": false,
+  "scope": "Platform"
+ }
+]

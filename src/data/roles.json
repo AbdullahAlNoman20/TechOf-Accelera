@@ -1,0 +1,146 @@
+[
+ {
+  "id": "super_admin",
+  "name": "Super Admin",
+  "description": "Platform-level configuration and highest administrative access",
+  "system": true,
+  "access": {
+   "leadEngine": "full",
+   "leadIntel": "full",
+   "taskHub": "full",
+   "sales": "full",
+   "activity": "full",
+   "customers": "full",
+   "analytics": "full",
+   "operations": "full",
+   "performance": "full",
+   "admin": "full"
+  }
+ },
+ {
+  "id": "admin",
+  "name": "Admin",
+  "description": "Business configuration and user management",
+  "system": true,
+  "access": {
+   "leadEngine": "full",
+   "leadIntel": "full",
+   "taskHub": "full",
+   "sales": "full",
+   "activity": "full",
+   "customers": "full",
+   "analytics": "full",
+   "operations": "full",
+   "performance": "full",
+   "admin": "full"
+  }
+ },
+ {
+  "id": "manager",
+  "name": "Manager",
+  "description": "Team, pipeline, reporting and operational oversight",
+  "system": true,
+  "access": {
+   "leadEngine": "full",
+   "leadIntel": "full",
+   "taskHub": "full",
+   "sales": "full",
+   "activity": "full",
+   "customers": "full",
+   "analytics": "full",
+   "operations": "view",
+   "performance": "full",
+   "admin": "view"
+  }
+ },
+ {
+  "id": "sales",
+  "name": "Sales",
+  "description": "Assigned leads, conversations, deals and sales activity",
+  "system": true,
+  "access": {
+   "leadEngine": "view",
+   "leadIntel": "view",
+   "taskHub": "own",
+   "sales": "own",
+   "activity": "own",
+   "customers": "own",
+   "analytics": "view",
+   "operations": "none",
+   "performance": "own",
+   "admin": "none"
+  }
+ },
+ {
+  "id": "marketing",
+  "name": "Marketing",
+  "description": "Lead sources, campaigns and marketing analytics",
+  "system": true,
+  "access": {
+   "leadEngine": "full",
+   "leadIntel": "view",
+   "taskHub": "view",
+   "sales": "none",
+   "activity": "view",
+   "customers": "none",
+   "analytics": "full",
+   "operations": "none",
+   "performance": "view",
+   "admin": "none"
+  }
+ },
+ {
+  "id": "support",
+  "name": "Support",
+  "description": "Customer support history and support-related records",
+  "system": true,
+  "access": {
+   "leadEngine": "none",
+   "leadIntel": "none",
+   "taskHub": "own",
+   "sales": "none",
+   "activity": "own",
+   "customers": "full",
+   "analytics": "view",
+   "operations": "own",
+   "performance": "own",
+   "admin": "none"
+  }
+ },
+ {
+  "id": "analyst",
+  "name": "Analyst",
+  "description": "Authorized reporting and analytical data access",
+  "system": true,
+  "access": {
+   "leadEngine": "view",
+   "leadIntel": "view",
+   "taskHub": "view",
+   "sales": "view",
+   "activity": "view",
+   "customers": "view",
+   "analytics": "full",
+   "operations": "view",
+   "performance": "view",
+   "admin": "none"
+  }
+ },
+ {
+  "id": "operations",
+  "name": "Operations (Custom)",
+  "description": "Onboarding, contracts, delivery and invoices",
+  "system": false,
+  "access": {
+   "leadEngine": "none",
+   "leadIntel": "none",
+   "taskHub": "own",
+   "sales": "none",
+   "activity": "own",
+   "customers": "view",
+   "analytics": "none",
+   "operations": "full",
+   "performance": "own",
+   "admin": "none"
+  }
+ }
+]

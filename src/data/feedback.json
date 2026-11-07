@@ -1,0 +1,146 @@
+[
+ {
+  "id": "FB-1001",
+  "customerId": "CU-1001",
+  "score": 7,
+  "theme": "Communication",
+  "comment": "Would like more training.",
+  "at": "2026-10-15T10:00:00"
+ },
+ {
+  "id": "FB-1002",
+  "customerId": "CU-1002",
+  "score": 8,
+  "theme": "Delivery speed",
+  "comment": "Very responsive team.",
+  "at": "2026-10-09T10:00:00"
+ },
+ {
+  "id": "FB-1003",
+  "customerId": "CU-1003",
+  "score": 7,
+  "theme": "Communication",
+  "comment": "Delivery was a bit late.",
+  "at": "2026-10-12T10:00:00"
+ },
+ {
+  "id": "FB-1004",
+  "customerId": "CU-1004",
+  "score": 6,
+  "theme": "Product features",
+  "comment": "Great value for money.",
+  "at": "2026-10-14T10:00:00"
+ },
+ {
+  "id": "FB-1005",
+  "customerId": "CU-1005",
+  "score": 6,
+  "theme": "Product features",
+  "comment": "Very responsive team.",
+  "at": "2026-10-19T10:00:00"
+ },
+ {
+  "id": "FB-1006",
+  "customerId": "CU-1006",
+  "score": 10,
+  "theme": "Delivery speed",
+  "comment": "Great value for money.",
+  "at": "2026-09-15T10:00:00"
+ },
+ {
+  "id": "FB-1007",
+  "customerId": "CU-1007",
+  "score": 6,
+  "theme": "Support quality",
+  "comment": "Delivery was a bit late.",
+  "at": "2026-10-31T10:00:00"
+ },
+ {
+  "id": "FB-1008",
+  "customerId": "CU-1008",
+  "score": 6,
+  "theme": "Pricing",
+  "comment": "Needs better reporting.",
+  "at": "2026-09-13T10:00:00"
+ },
+ {
+  "id": "FB-1009",
+  "customerId": "CU-1009",
+  "score": 6,
+  "theme": "Communication",
+  "comment": "Would like more training.",
+  "at": "2026-10-07T10:00:00"
+ },
+ {
+  "id": "FB-1010",
+  "customerId": "CU-1010",
+  "score": 6,
+  "theme": "Support quality",
+  "comment": "Great value for money.",
+  "at": "2026-10-14T10:00:00"
+ },
+ {
+  "id": "FB-1011",
+  "customerId": "CU-1011",
+  "score": 6,
+  "theme": "Product features",
+  "comment": "Would like more training.",
+  "at": "2026-09-26T10:00:00"
+ },
+ {
+  "id": "FB-1012",
+  "customerId": "CU-1012",
+  "score": 9,
+  "theme": "Support quality",
+  "comment": "Great value for money.",
+  "at": "2026-10-06T10:00:00"
+ },
+ {
+  "id": "FB-1013",
+  "customerId": "CU-1013",
+  "score": 9,
+  "theme": "Support quality",
+  "comment": "Delivery was a bit late.",
+  "at": "2026-09-12T10:00:00"
+ },
+ {
+  "id": "FB-1014",
+  "customerId": "CU-1014",
+  "score": 8,
+  "theme": "Support quality",
+  "comment": "Great value for money.",
+  "at": "2026-09-28T10:00:00"
+ },
+ {
+  "id": "FB-1015",
+  "customerId": "CU-1001",
+  "score": 8,
+  "theme": "Communication",
+  "comment": "Great value for money.",
+  "at": "2026-10-02T10:00:00"
+ },
+ {
+  "id": "FB-1016",
+  "customerId": "CU-1002",
+  "score": 6,
+  "theme": "Product features",
+  "comment": "Needs better reporting.",
+  "at": "2026-10-04T10:00:00"
+ },
+ {
+  "id": "FB-1017",
+  "customerId": "CU-1003",
+  "score": 6,
+  "theme": "Support quality",
+  "comment": "Very responsive team.",
+  "at": "2026-09-23T10:00:00"
+ },
+ {
+  "id": "FB-1018",
+  "customerId": "CU-1004",
+  "score": 9,
+  "theme": "Delivery speed",
+  "comment": "Needs better reporting.",
+  "at": "2026-09-12T10:00:00"
+ }
+]

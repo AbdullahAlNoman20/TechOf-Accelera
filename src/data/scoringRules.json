@@ -1,0 +1,74 @@
+[
+ {
+  "id": "SR-1001",
+  "name": "Target industry match",
+  "factor": "fit",
+  "condition": "Industry in ICP list",
+  "points": 15,
+  "active": true
+ },
+ {
+  "id": "SR-1002",
+  "name": "Company size in range",
+  "factor": "fit",
+  "condition": "51-500 employees",
+  "points": 10,
+  "active": true
+ },
+ {
+  "id": "SR-1003",
+  "name": "Decision-maker contact",
+  "factor": "authority",
+  "condition": "Title is CEO / MD / Owner",
+  "points": 15,
+  "active": true
+ },
+ {
+  "id": "SR-1004",
+  "name": "Requested a demo",
+  "factor": "intent",
+  "condition": "Source is Demo Request",
+  "points": 20,
+  "active": true
+ },
+ {
+  "id": "SR-1005",
+  "name": "Visited pricing page",
+  "factor": "intent",
+  "condition": "Pricing page viewed twice",
+  "points": 10,
+  "active": true
+ },
+ {
+  "id": "SR-1006",
+  "name": "Replied to outreach",
+  "factor": "engagement",
+  "condition": "Email or WhatsApp reply received",
+  "points": 12,
+  "active": true
+ },
+ {
+  "id": "SR-1007",
+  "name": "Budget confirmed",
+  "factor": "budget",
+  "condition": "Budget signal is likely",
+  "points": 10,
+  "active": true
+ },
+ {
+  "id": "SR-1008",
+  "name": "Free email domain",
+  "factor": "fit",
+  "condition": "Gmail / Yahoo / Outlook address",
+  "points": -10,
+  "active": true
+ },
+ {
+  "id": "SR-1009",
+  "name": "Missing phone number",
+  "factor": "fit",
+  "condition": "Phone is empty or invalid",
+  "points": -8,
+  "active": false
+ }
+]

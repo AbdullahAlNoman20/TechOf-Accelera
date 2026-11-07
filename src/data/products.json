@@ -1,0 +1,102 @@
+[
+ {
+  "id": "PD-1001",
+  "name": "Website Development",
+  "category": "Web",
+  "type": "service",
+  "price": 4500,
+  "unit": "project",
+  "package": "Business",
+  "active": true
+ },
+ {
+  "id": "PD-1002",
+  "name": "ERP Implementation",
+  "category": "Software",
+  "type": "service",
+  "price": 18000,
+  "unit": "project",
+  "package": "Enterprise",
+  "active": true
+ },
+ {
+  "id": "PD-1003",
+  "name": "Mobile App Development",
+  "category": "Software",
+  "type": "service",
+  "price": 12000,
+  "unit": "project",
+  "package": "Growth",
+  "active": true
+ },
+ {
+  "id": "PD-1004",
+  "name": "Digital Marketing Retainer",
+  "category": "Marketing",
+  "type": "service",
+  "price": 1200,
+  "unit": "month",
+  "package": "Starter",
+  "active": true
+ },
+ {
+  "id": "PD-1005",
+  "name": "Cloud Hosting & Support",
+  "category": "Infrastructure",
+  "type": "service",
+  "price": 300,
+  "unit": "month",
+  "package": "Starter",
+  "active": true
+ },
+ {
+  "id": "PD-1006",
+  "name": "Data Analytics Dashboard",
+  "category": "Analytics",
+  "type": "service",
+  "price": 6500,
+  "unit": "project",
+  "package": "Growth",
+  "active": true
+ },
+ {
+  "id": "PD-1007",
+  "name": "AI Chatbot Integration",
+  "category": "AI",
+  "type": "service",
+  "price": 5200,
+  "unit": "project",
+  "package": "Growth",
+  "active": true
+ },
+ {
+  "id": "PD-1008",
+  "name": "UI/UX Design Package",
+  "category": "Design",
+  "type": "service",
+  "price": 2800,
+  "unit": "project",
+  "package": "Starter",
+  "active": true
+ },
+ {
+  "id": "PD-1009",
+  "name": "IT Consulting",
+  "category": "Consulting",
+  "type": "service",
+  "price": 90,
+  "unit": "hour",
+  "package": "Starter",
+  "active": true
+ },
+ {
+  "id": "PD-1010",
+  "name": "Annual Maintenance Contract",
+  "category": "Support",
+  "type": "service",
+  "price": 3600,
+  "unit": "year",
+  "package": "Business",
+  "active": true
+ }
+]

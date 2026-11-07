@@ -1,0 +1,74 @@
+[
+ {
+  "id": "DV-1001",
+  "customerName": "Karnaphuli Logistics",
+  "service": "IT Consulting",
+  "status": "in_progress",
+  "progress": 14,
+  "ownerId": "U-10",
+  "due": "2026-11-22"
+ },
+ {
+  "id": "DV-1002",
+  "customerName": "Bijoy Education Trust",
+  "service": "Cloud Hosting & Support",
+  "status": "completed",
+  "progress": 21,
+  "ownerId": "U-10",
+  "due": "2026-12-23"
+ },
+ {
+  "id": "DV-1003",
+  "customerName": "BlueHarbor Shipping",
+  "service": "Data Analytics Dashboard",
+  "status": "waiting",
+  "progress": 88,
+  "ownerId": "U-08",
+  "due": "2026-11-26"
+ },
+ {
+  "id": "DV-1004",
+  "customerName": "Lumen Solar Energy",
+  "service": "Data Analytics Dashboard",
+  "status": "in_progress",
+  "progress": 54,
+  "ownerId": "U-10",
+  "due": "2026-12-07"
+ },
+ {
+  "id": "DV-1005",
+  "customerName": "Zenith Auto Parts",
+  "service": "Annual Maintenance Contract",
+  "status": "completed",
+  "progress": 98,
+  "ownerId": "U-10",
+  "due": "2026-12-11"
+ },
+ {
+  "id": "DV-1006",
+  "customerName": "Crescent Garments",
+  "service": "ERP Implementation",
+  "status": "in_progress",
+  "progress": 96,
+  "ownerId": "U-08",
+  "due": "2026-12-06"
+ },
+ {
+  "id": "DV-1007",
+  "customerName": "Oakwood Builders",
+  "service": "IT Consulting",
+  "status": "in_progress",
+  "progress": 72,
+  "ownerId": "U-08",
+  "due": "2026-11-11"
+ },
+ {
+  "id": "DV-1008",
+  "customerName": "Pioneer Steel Works",
+  "service": "Mobile App Development",
+  "status": "completed",
+  "progress": 32,
+  "ownerId": "U-08",
+  "due": "2026-12-19"
+ }
+]

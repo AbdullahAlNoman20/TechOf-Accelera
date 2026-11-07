@@ -1,0 +1,178 @@
+[
+ {
+  "id": "CT-1001",
+  "customerId": "CU-1001",
+  "customerName": "Karnaphuli Logistics",
+  "title": "IT Consulting agreement",
+  "start": "2025-10-20",
+  "end": "2027-04-06",
+  "renewalDate": "2027-04-06",
+  "value": 31000,
+  "status": "expiring",
+  "signed": true,
+  "services": [
+   "IT Consulting",
+   "ERP Implementation"
+  ]
+ },
+ {
+  "id": "CT-1002",
+  "customerId": "CU-1002",
+  "customerName": "Bijoy Education Trust",
+  "title": "Cloud Hosting & Support agreement",
+  "start": "2026-02-20",
+  "end": "2027-01-31",
+  "renewalDate": "2027-01-31",
+  "value": 56000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "Cloud Hosting & Support",
+   "Annual Maintenance Contract"
+  ]
+ },
+ {
+  "id": "CT-1003",
+  "customerId": "CU-1003",
+  "customerName": "BlueHarbor Shipping",
+  "title": "Data Analytics Dashboard agreement",
+  "start": "2025-09-10",
+  "end": "2027-05-31",
+  "renewalDate": "2027-05-31",
+  "value": 77000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "Data Analytics Dashboard",
+   "Website Development"
+  ]
+ },
+ {
+  "id": "CT-1004",
+  "customerId": "CU-1004",
+  "customerName": "Lumen Solar Energy",
+  "title": "Data Analytics Dashboard agreement",
+  "start": "2025-09-06",
+  "end": "2026-12-31",
+  "renewalDate": "2026-12-31",
+  "value": 35000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "Data Analytics Dashboard",
+   "Annual Maintenance Contract"
+  ]
+ },
+ {
+  "id": "CT-1005",
+  "customerId": "CU-1005",
+  "customerName": "Zenith Auto Parts",
+  "title": "Annual Maintenance Contract agreement",
+  "start": "2026-04-29",
+  "end": "2027-04-24",
+  "renewalDate": "2027-04-24",
+  "value": 74000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "Annual Maintenance Contract",
+   "AI Chatbot Integration"
+  ]
+ },
+ {
+  "id": "CT-1006",
+  "customerId": "CU-1006",
+  "customerName": "Crescent Garments",
+  "title": "ERP Implementation agreement",
+  "start": "2025-10-13",
+  "end": "2027-08-11",
+  "renewalDate": "2027-08-11",
+  "value": 14000,
+  "status": "expiring",
+  "signed": true,
+  "services": [
+   "ERP Implementation",
+   "AI Chatbot Integration"
+  ]
+ },
+ {
+  "id": "CT-1007",
+  "customerId": "CU-1007",
+  "customerName": "Oakwood Builders",
+  "title": "IT Consulting agreement",
+  "start": "2026-04-04",
+  "end": "2027-05-10",
+  "renewalDate": "2027-05-10",
+  "value": 85000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "IT Consulting",
+   "ERP Implementation"
+  ]
+ },
+ {
+  "id": "CT-1008",
+  "customerId": "CU-1008",
+  "customerName": "Pioneer Steel Works",
+  "title": "Mobile App Development agreement",
+  "start": "2025-10-11",
+  "end": "2027-06-19",
+  "renewalDate": "2027-06-19",
+  "value": 71000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "Mobile App Development",
+   "IT Consulting"
+  ]
+ },
+ {
+  "id": "CT-1009",
+  "customerId": "CU-1009",
+  "customerName": "Aurora Beauty Co",
+  "title": "AI Chatbot Integration agreement",
+  "start": "2025-11-17",
+  "end": "2026-12-07",
+  "renewalDate": "2026-12-07",
+  "value": 78000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "AI Chatbot Integration",
+   "Website Development"
+  ]
+ },
+ {
+  "id": "CT-1010",
+  "customerId": "CU-1010",
+  "customerName": "Falcon Security Services",
+  "title": "IT Consulting agreement",
+  "start": "2025-07-28",
+  "end": "2027-07-28",
+  "renewalDate": "2027-07-28",
+  "value": 28000,
+  "status": "active",
+  "signed": true,
+  "services": [
+   "IT Consulting",
+   "Annual Maintenance Contract"
+  ]
+ },
+ {
+  "id": "CT-1011",
+  "customerId": "CU-1011",
+  "customerName": "Axis Capital Advisors",
+  "title": "IT Consulting agreement",
+  "start": "2025-11-05",
+  "end": "2026-12-24",
+  "renewalDate": "2026-12-24",
+  "value": 18000,
+  "status": "expiring",
+  "signed": true,
+  "services": [
+   "IT Consulting",
+   "UI/UX Design Package"
+  ]
+ }
+]

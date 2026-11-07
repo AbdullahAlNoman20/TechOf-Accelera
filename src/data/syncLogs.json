@@ -1,0 +1,128 @@
+[
+ {
+  "id": "SY-1001",
+  "integration": "Meta Lead Ads",
+  "at": "2026-11-06T10:00:00",
+  "direction": "outbound",
+  "records": 55,
+  "status": "failed",
+  "message": "Rate limit reached - retry scheduled"
+ },
+ {
+  "id": "SY-1002",
+  "integration": "Google Calendar",
+  "at": "2026-11-06T07:00:00",
+  "direction": "inbound",
+  "records": 19,
+  "status": "success",
+  "message": "Rate limit reached - retry scheduled"
+ },
+ {
+  "id": "SY-1003",
+  "integration": "Google Ads",
+  "at": "2026-11-06T04:00:00",
+  "direction": "outbound",
+  "records": 82,
+  "status": "failed",
+  "message": "Synced successfully"
+ },
+ {
+  "id": "SY-1004",
+  "integration": "Gmail Business",
+  "at": "2026-11-06T01:00:00",
+  "direction": "outbound",
+  "records": 62,
+  "status": "success",
+  "message": "Rate limit reached - retry scheduled"
+ },
+ {
+  "id": "SY-1005",
+  "integration": "DocuSign E-Signature",
+  "at": "2026-11-05T22:00:00",
+  "direction": "inbound",
+  "records": 5,
+  "status": "failed",
+  "message": "Rate limit reached - retry scheduled"
+ },
+ {
+  "id": "SY-1006",
+  "integration": "Google Calendar",
+  "at": "2026-11-05T19:00:00",
+  "direction": "inbound",
+  "records": 85,
+  "status": "success",
+  "message": "Synced successfully"
+ },
+ {
+  "id": "SY-1007",
+  "integration": "DocuSign E-Signature",
+  "at": "2026-11-05T16:00:00",
+  "direction": "inbound",
+  "records": 57,
+  "status": "success",
+  "message": "Rate limit reached - retry scheduled"
+ },
+ {
+  "id": "SY-1008",
+  "integration": "Google Ads",
+  "at": "2026-11-05T13:00:00",
+  "direction": "outbound",
+  "records": 38,
+  "status": "success",
+  "message": "Synced successfully"
+ },
+ {
+  "id": "SY-1009",
+  "integration": "Website Form Webhook",
+  "at": "2026-11-05T10:00:00",
+  "direction": "outbound",
+  "records": 73,
+  "status": "success",
+  "message": "Synced successfully"
+ },
+ {
+  "id": "SY-1010",
+  "integration": "WhatsApp Business Platform",
+  "at": "2026-11-05T07:00:00",
+  "direction": "outbound",
+  "records": 67,
+  "status": "failed",
+  "message": "Synced successfully"
+ },
+ {
+  "id": "SY-1011",
+  "integration": "ERP Connector (custom)",
+  "at": "2026-11-05T04:00:00",
+  "direction": "inbound",
+  "records": 52,
+  "status": "success",
+  "message": "Synced successfully"
+ },
+ {
+  "id": "SY-1012",
+  "integration": "DocuSign E-Signature",
+  "at": "2026-11-05T01:00:00",
+  "direction": "outbound",
+  "records": 73,
+  "status": "failed",
+  "message": "Token expired - re-authorize"
+ },
+ {
+  "id": "SY-1013",
+  "integration": "Stripe Payments",
+  "at": "2026-11-04T22:00:00",
+  "direction": "inbound",
+  "records": 39,
+  "status": "success",
+  "message": "Synced successfully"
+ },
+ {
+  "id": "SY-1014",
+  "integration": "Meta Lead Ads",
+  "at": "2026-11-04T19:00:00",
+  "direction": "inbound",
+  "records": 87,
+  "status": "failed",
+  "message": "Synced successfully"
+ }
+]

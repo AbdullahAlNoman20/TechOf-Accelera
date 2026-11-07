@@ -1,0 +1,32 @@
+[
+ {
+  "id": "RC-1001",
+  "name": "Referral Rewards 2026",
+  "reward": "$150 credit per converted referral",
+  "start": "2026-08-08",
+  "end": "2027-01-05",
+  "status": "active",
+  "referrals": 18,
+  "converted": 6
+ },
+ {
+  "id": "RC-1002",
+  "name": "Partner Summer Push",
+  "reward": "10% commission",
+  "start": "2026-06-09",
+  "end": "2026-10-27",
+  "status": "completed",
+  "referrals": 9,
+  "converted": 3
+ },
+ {
+  "id": "RC-1003",
+  "name": "Customer Anniversary Offer",
+  "reward": "Free consultation day",
+  "start": "2026-10-17",
+  "end": "2026-12-16",
+  "status": "active",
+  "referrals": 4,
+  "converted": 1
+ }
+]

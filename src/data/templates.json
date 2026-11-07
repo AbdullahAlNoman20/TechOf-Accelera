@@ -1,0 +1,74 @@
+[
+ {
+  "id": "TP-1002",
+  "name": "First outreach",
+  "channel": "email",
+  "stage": "contacted",
+  "subject": "Quick idea for {{company}}",
+  "body": "Hello {{name}},\n\nI noticed {{company}} is growing fast. We help businesses like yours with {{service}}. Could we speak for 15 minutes this week?\n\nBest regards,\n{{owner}}",
+  "approved": true
+ },
+ {
+  "id": "TP-1003",
+  "name": "Proposal follow-up",
+  "channel": "email",
+  "stage": "proposal",
+  "subject": "Your proposal from TechOf Solution",
+  "body": "Hello {{name}},\n\nHave you had a chance to review our proposal for {{service}}? I am happy to walk you through it.\n\nBest regards,\n{{owner}}",
+  "approved": true
+ },
+ {
+  "id": "TP-1004",
+  "name": "Meeting reminder",
+  "channel": "whatsapp",
+  "stage": "meeting",
+  "subject": "",
+  "body": "Hi {{name}}, a quick reminder about our meeting tomorrow. Looking forward to it! - {{owner}}, TechOf Solution",
+  "approved": true
+ },
+ {
+  "id": "TP-1005",
+  "name": "No-response nudge",
+  "channel": "whatsapp",
+  "stage": "contacted",
+  "subject": "",
+  "body": "Hi {{name}}, just checking if you saw my earlier message about {{service}}. Happy to help with any questions.",
+  "approved": true
+ },
+ {
+  "id": "TP-1006",
+  "name": "Discovery call script",
+  "channel": "call_script",
+  "stage": "qualified",
+  "subject": "",
+  "body": "Opening: Introduce yourself and TechOf Solution.\nDiscover: Current tools? Biggest challenge? Timeline? Budget?\nClose: Agree on demo date and next step.",
+  "approved": true
+ },
+ {
+  "id": "TP-1007",
+  "name": "Demo script",
+  "channel": "call_script",
+  "stage": "demo",
+  "subject": "",
+  "body": "Recap needs, show 3 matching features, handle objections, ask for proposal approval.",
+  "approved": true
+ },
+ {
+  "id": "TP-1008",
+  "name": "Welcome email",
+  "channel": "email",
+  "stage": "won",
+  "subject": "Welcome to TechOf Solution",
+  "body": "Hello {{name}},\n\nThank you for choosing us. Our onboarding team will contact you within 24 hours to start {{service}}.\n\nWarm regards,\n{{owner}}",
+  "approved": true
+ },
+ {
+  "id": "TP-1009",
+  "name": "Renewal reminder",
+  "channel": "email",
+  "stage": "won",
+  "subject": "Your service renewal",
+  "body": "Hello {{name}},\n\nYour {{service}} contract is due for renewal soon. Shall we schedule a short review?",
+  "approved": true
+ }
+]

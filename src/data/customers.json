@@ -1,0 +1,450 @@
+[
+ {
+  "id": "CU-1001",
+  "name": "Karnaphuli Logistics",
+  "industry": "Logistics",
+  "size": "201-500",
+  "country": "Bangladesh",
+  "city": "Khulna",
+  "ownerId": "U-05",
+  "parentId": null,
+  "tier": "Silver",
+  "status": "active",
+  "health": 71,
+  "churnRisk": "low",
+  "nps": 66,
+  "revenue": 31000,
+  "renewalDate": "2027-04-06",
+  "since": "2024-05-20",
+  "services": [
+   "IT Consulting",
+   "ERP Implementation"
+  ],
+  "contacts": [
+   {
+    "name": "Maya Siddique",
+    "role": "Operations Manager",
+    "email": "contact@karnaphulilogi.com",
+    "phone": "+880 1794646791",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers phone calls and morning meetings."
+ },
+ {
+  "id": "CU-1002",
+  "name": "Bijoy Education Trust",
+  "industry": "Education",
+  "size": "11-50",
+  "country": "Bangladesh",
+  "city": "Khulna",
+  "ownerId": "U-06",
+  "parentId": null,
+  "tier": "Gold",
+  "status": "at_risk",
+  "health": 41,
+  "churnRisk": "high",
+  "nps": 43,
+  "revenue": 56000,
+  "renewalDate": "2027-01-31",
+  "since": "2025-07-07",
+  "services": [
+   "Cloud Hosting & Support",
+   "Annual Maintenance Contract"
+  ],
+  "contacts": [
+   {
+    "name": "Emma Sarker",
+    "role": "Operations Manager",
+    "email": "contact@bijoyeducation.com",
+    "phone": "+880 1770704428",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers phone calls and afternoon meetings."
+ },
+ {
+  "id": "CU-1003",
+  "name": "BlueHarbor Shipping",
+  "industry": "Logistics",
+  "size": "51-200",
+  "country": "Bangladesh",
+  "city": "Sylhet",
+  "ownerId": "U-05",
+  "parentId": null,
+  "tier": "Bronze",
+  "status": "active",
+  "health": 73,
+  "churnRisk": "low",
+  "nps": 47,
+  "revenue": 77000,
+  "renewalDate": "2027-05-31",
+  "since": "2024-11-13",
+  "services": [
+   "Data Analytics Dashboard",
+   "Website Development"
+  ],
+  "contacts": [
+   {
+    "name": "Ibrahim Siddique",
+    "role": "Operations Manager",
+    "email": "contact@blueharborship.com",
+    "phone": "+880 1769596819",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers email and morning meetings."
+ },
+ {
+  "id": "CU-1004",
+  "name": "Lumen Solar Energy",
+  "industry": "Energy",
+  "size": "11-50",
+  "country": "UAE",
+  "city": "Dubai",
+  "ownerId": "U-06",
+  "parentId": "CU-1003",
+  "tier": "Bronze",
+  "status": "active",
+  "health": 66,
+  "churnRisk": "low",
+  "nps": 54,
+  "revenue": 35000,
+  "renewalDate": "2026-12-31",
+  "since": "2025-10-04",
+  "services": [
+   "Data Analytics Dashboard",
+   "Annual Maintenance Contract"
+  ],
+  "contacts": [
+   {
+    "name": "Tasnim Rahman",
+    "role": "Operations Manager",
+    "email": "contact@lumensolarener.com",
+    "phone": "+880 1737421960",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers email and morning meetings."
+ },
+ {
+  "id": "CU-1005",
+  "name": "Zenith Auto Parts",
+  "industry": "Manufacturing",
+  "size": "51-200",
+  "country": "Bangladesh",
+  "city": "Dhaka",
+  "ownerId": "U-08",
+  "parentId": null,
+  "tier": "Bronze",
+  "status": "at_risk",
+  "health": 34,
+  "churnRisk": "high",
+  "nps": 18,
+  "revenue": 74000,
+  "renewalDate": "2027-04-24",
+  "since": "2025-03-05",
+  "services": [
+   "Annual Maintenance Contract",
+   "AI Chatbot Integration"
+  ],
+  "contacts": [
+   {
+    "name": "Omar Talukder",
+    "role": "Head of IT",
+    "email": "contact@zenithautopart.com",
+    "phone": "+880 1767721177",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers email and afternoon meetings."
+ },
+ {
+  "id": "CU-1006",
+  "name": "Crescent Garments",
+  "industry": "Manufacturing",
+  "size": "201-500",
+  "country": "Bangladesh",
+  "city": "Sylhet",
+  "ownerId": "U-05",
+  "parentId": null,
+  "tier": "Bronze",
+  "status": "at_risk",
+  "health": 33,
+  "churnRisk": "high",
+  "nps": -19,
+  "revenue": 14000,
+  "renewalDate": "2027-08-11",
+  "since": "2026-01-16",
+  "services": [
+   "ERP Implementation",
+   "AI Chatbot Integration"
+  ],
+  "contacts": [
+   {
+    "name": "Nabila Talukder",
+    "role": "Operations Manager",
+    "email": "contact@crescentgarmen.com",
+    "phone": "+880 1797045073",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers phone calls and morning meetings."
+ },
+ {
+  "id": "CU-1007",
+  "name": "Oakwood Builders",
+  "industry": "Real Estate",
+  "size": "51-200",
+  "country": "Bangladesh",
+  "city": "Chattogram",
+  "ownerId": "U-06",
+  "parentId": null,
+  "tier": "Bronze",
+  "status": "active",
+  "health": 81,
+  "churnRisk": "low",
+  "nps": 78,
+  "revenue": 85000,
+  "renewalDate": "2027-05-10",
+  "since": "2024-09-29",
+  "services": [
+   "IT Consulting",
+   "ERP Implementation"
+  ],
+  "contacts": [
+   {
+    "name": "Lamia Wong",
+    "role": "Operations Manager",
+    "email": "contact@oakwoodbuilder.com",
+    "phone": "+880 1759211964",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers WhatsApp and afternoon meetings."
+ },
+ {
+  "id": "CU-1008",
+  "name": "Pioneer Steel Works",
+  "industry": "Manufacturing",
+  "size": "11-50",
+  "country": "UAE",
+  "city": "Dubai",
+  "ownerId": "U-05",
+  "parentId": null,
+  "tier": "Silver",
+  "status": "active",
+  "health": 50,
+  "churnRisk": "medium",
+  "nps": 85,
+  "revenue": 71000,
+  "renewalDate": "2027-06-19",
+  "since": "2024-11-30",
+  "services": [
+   "Mobile App Development",
+   "IT Consulting"
+  ],
+  "contacts": [
+   {
+    "name": "Sumaiya Talukder",
+    "role": "CEO",
+    "email": "contact@pioneersteelwo.com",
+    "phone": "+880 1777764837",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers WhatsApp and afternoon meetings."
+ },
+ {
+  "id": "CU-1009",
+  "name": "Aurora Beauty Co",
+  "industry": "Retail",
+  "size": "201-500",
+  "country": "Bangladesh",
+  "city": "Chattogram",
+  "ownerId": "U-08",
+  "parentId": "CU-1008",
+  "tier": "Gold",
+  "status": "at_risk",
+  "health": 35,
+  "churnRisk": "high",
+  "nps": 25,
+  "revenue": 78000,
+  "renewalDate": "2026-12-07",
+  "since": "2024-09-29",
+  "services": [
+   "AI Chatbot Integration",
+   "Website Development"
+  ],
+  "contacts": [
+   {
+    "name": "Ibrahim Chowdhury",
+    "role": "Operations Manager",
+    "email": "contact@aurorabeautyco.com",
+    "phone": "+880 1784213325",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers WhatsApp and afternoon meetings."
+ },
+ {
+  "id": "CU-1010",
+  "name": "Falcon Security Services",
+  "industry": "IT",
+  "size": "201-500",
+  "country": "Bangladesh",
+  "city": "Khulna",
+  "ownerId": "U-03",
+  "parentId": null,
+  "tier": "Gold",
+  "status": "at_risk",
+  "health": 40,
+  "churnRisk": "high",
+  "nps": 5,
+  "revenue": 28000,
+  "renewalDate": "2027-07-28",
+  "since": "2024-07-12",
+  "services": [
+   "IT Consulting",
+   "Annual Maintenance Contract"
+  ],
+  "contacts": [
+   {
+    "name": "Naeem Bhuiyan",
+    "role": "Head of IT",
+    "email": "contact@falconsecurity.com",
+    "phone": "+880 1729289438",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers phone calls and morning meetings."
+ },
+ {
+  "id": "CU-1011",
+  "name": "Axis Capital Advisors",
+  "industry": "Finance",
+  "size": "11-50",
+  "country": "Bangladesh",
+  "city": "Khulna",
+  "ownerId": "U-04",
+  "parentId": null,
+  "tier": "Gold",
+  "status": "at_risk",
+  "health": 43,
+  "churnRisk": "high",
+  "nps": -17,
+  "revenue": 18000,
+  "renewalDate": "2026-12-24",
+  "since": "2026-03-17",
+  "services": [
+   "IT Consulting",
+   "UI/UX Design Package"
+  ],
+  "contacts": [
+   {
+    "name": "Tasnim Ali",
+    "role": "Head of IT",
+    "email": "contact@axiscapitaladv.com",
+    "phone": "+880 1767797011",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers WhatsApp and morning meetings."
+ },
+ {
+  "id": "CU-1012",
+  "name": "Ocean Pearl Foods",
+  "industry": "Manufacturing",
+  "size": "11-50",
+  "country": "UAE",
+  "city": "Dubai",
+  "ownerId": "U-04",
+  "parentId": "CU-1011",
+  "tier": "Silver",
+  "status": "active",
+  "health": 69,
+  "churnRisk": "low",
+  "nps": 15,
+  "revenue": 27000,
+  "renewalDate": "2026-12-02",
+  "since": "2025-12-08",
+  "services": [
+   "ERP Implementation",
+   "Annual Maintenance Contract"
+  ],
+  "contacts": [
+   {
+    "name": "Zahid Wong",
+    "role": "CEO",
+    "email": "contact@oceanpearlfood.com",
+    "phone": "+880 1770376289",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers phone calls and afternoon meetings."
+ },
+ {
+  "id": "CU-1013",
+  "name": "Pixel Forge Studio",
+  "industry": "IT",
+  "size": "11-50",
+  "country": "Bangladesh",
+  "city": "Dhaka",
+  "ownerId": "U-06",
+  "parentId": null,
+  "tier": "Gold",
+  "status": "at_risk",
+  "health": 34,
+  "churnRisk": "high",
+  "nps": 36,
+  "revenue": 12000,
+  "renewalDate": "2027-03-18",
+  "since": "2025-12-26",
+  "services": [
+   "Digital Marketing Retainer",
+   "Website Development"
+  ],
+  "contacts": [
+   {
+    "name": "Lamia Molla",
+    "role": "CEO",
+    "email": "contact@pixelforgestud.com",
+    "phone": "+880 1752250868",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers WhatsApp and afternoon meetings."
+ },
+ {
+  "id": "CU-1014",
+  "name": "Shapla Agro Foods",
+  "industry": "Manufacturing",
+  "size": "201-500",
+  "country": "Bangladesh",
+  "city": "Sylhet",
+  "ownerId": "U-05",
+  "parentId": null,
+  "tier": "Bronze",
+  "status": "onboarding",
+  "health": 81,
+  "churnRisk": "low",
+  "nps": -12,
+  "revenue": 37000,
+  "renewalDate": "2027-06-03",
+  "since": "2024-10-16",
+  "services": [
+   "Annual Maintenance Contract",
+   "Digital Marketing Retainer"
+  ],
+  "contacts": [
+   {
+    "name": "Rumana Miah",
+    "role": "Operations Manager",
+    "email": "contact@shaplaagrofood.com",
+    "phone": "+880 1775013669",
+    "primary": true
+   }
+  ],
+  "preferences": "Prefers WhatsApp and morning meetings."
+ }
+]

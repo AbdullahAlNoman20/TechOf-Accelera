@@ -1,0 +1,57 @@
+[
+ {
+  "id": "RP-1001",
+  "name": "Daily lead and task summary",
+  "type": "daily",
+  "schedule": "Every day 08:00",
+  "recipients": "Sales team, Managers",
+  "format": "PDF",
+  "lastRun": "2026-10-31T10:00:00",
+  "ownerId": "U-09",
+  "active": true
+ },
+ {
+  "id": "RP-1002",
+  "name": "Weekly pipeline and conversion",
+  "type": "weekly",
+  "schedule": "Monday 09:00",
+  "recipients": "Managers, Management",
+  "format": "PDF",
+  "lastRun": "2026-10-31T10:00:00",
+  "ownerId": "U-09",
+  "active": true
+ },
+ {
+  "id": "RP-1003",
+  "name": "Monthly revenue and retention",
+  "type": "monthly",
+  "schedule": "1st of month",
+  "recipients": "Management",
+  "format": "Excel",
+  "lastRun": "2026-11-04T10:00:00",
+  "ownerId": "U-09",
+  "active": true
+ },
+ {
+  "id": "RP-1004",
+  "name": "Campaign performance",
+  "type": "custom",
+  "schedule": "On demand",
+  "recipients": "Marketing",
+  "format": "Excel",
+  "lastRun": "2026-11-01T10:00:00",
+  "ownerId": "U-09",
+  "active": true
+ },
+ {
+  "id": "RP-1005",
+  "name": "Team performance review",
+  "type": "weekly",
+  "schedule": "Friday 17:00",
+  "recipients": "Managers",
+  "format": "PDF",
+  "lastRun": "2026-11-06T10:00:00",
+  "ownerId": "U-09",
+  "active": true
+ }
+]

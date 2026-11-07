@@ -1,0 +1,56 @@
+[
+ {
+  "id": "AP-1001",
+  "name": "Discount above limit",
+  "action": "Quotation discount",
+  "condition": "Discount above 10%",
+  "approverRole": "manager",
+  "required": true,
+  "active": true
+ },
+ {
+  "id": "AP-1002",
+  "name": "Send AI-written message",
+  "action": "External communication",
+  "condition": "Any AI draft before sending",
+  "approverRole": "sales",
+  "required": true,
+  "active": true
+ },
+ {
+  "id": "AP-1003",
+  "name": "Ad budget change",
+  "action": "Advertising spend",
+  "condition": "Any change above $100/day",
+  "approverRole": "admin",
+  "required": true,
+  "active": true
+ },
+ {
+  "id": "AP-1004",
+  "name": "Data deletion",
+  "action": "Delete or export data",
+  "condition": "Any bulk deletion",
+  "approverRole": "super_admin",
+  "required": true,
+  "active": true
+ },
+ {
+  "id": "AP-1005",
+  "name": "Security policy change",
+  "action": "Security settings",
+  "condition": "Any change to MFA, retention or access",
+  "approverRole": "super_admin",
+  "required": true,
+  "active": true
+ },
+ {
+  "id": "AP-1006",
+  "name": "Non-standard contract terms",
+  "action": "Proposal terms",
+  "condition": "Terms outside template",
+  "approverRole": "manager",
+  "required": true,
+  "active": true
+ }
+]

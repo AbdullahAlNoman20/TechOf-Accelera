@@ -1,0 +1,68 @@
+[
+ {
+  "id": "OP-1001",
+  "customerId": "CU-1001",
+  "customerName": "Karnaphuli Logistics",
+  "type": "cross_sell",
+  "offer": "AI Chatbot Integration",
+  "value": 5200,
+  "fit": 88,
+  "status": "identified",
+  "reason": "Uses our website service and has high support volume"
+ },
+ {
+  "id": "OP-1002",
+  "customerId": "CU-1002",
+  "customerName": "Bijoy Education Trust",
+  "type": "upsell",
+  "offer": "Move to Enterprise package",
+  "value": 9000,
+  "fit": 75,
+  "status": "identified",
+  "reason": "Team grew above current plan limit"
+ },
+ {
+  "id": "OP-1003",
+  "customerId": "CU-1003",
+  "customerName": "BlueHarbor Shipping",
+  "type": "renewal_expansion",
+  "offer": "Add Data Analytics Dashboard",
+  "value": 6500,
+  "fit": 81,
+  "status": "in_pipeline",
+  "reason": "Renewal in 45 days, asked about reporting"
+ },
+ {
+  "id": "OP-1004",
+  "customerId": "CU-1004",
+  "customerName": "Lumen Solar Energy",
+  "type": "cross_sell",
+  "offer": "Digital Marketing Retainer",
+  "value": 1200,
+  "fit": 64,
+  "status": "identified",
+  "reason": "Launching new product line"
+ },
+ {
+  "id": "OP-1005",
+  "customerId": "CU-1005",
+  "customerName": "Zenith Auto Parts",
+  "type": "upsell",
+  "offer": "Priority support upgrade",
+  "value": 2400,
+  "fit": 70,
+  "status": "won",
+  "reason": "Raised 3 urgent tickets last quarter"
+ },
+ {
+  "id": "OP-1006",
+  "customerId": "CU-1006",
+  "customerName": "Crescent Garments",
+  "type": "cross_sell",
+  "offer": "UI/UX Design Package",
+  "value": 2800,
+  "fit": 58,
+  "status": "identified",
+  "reason": "Planning brand refresh"
+ }
+]

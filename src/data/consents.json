@@ -1,0 +1,110 @@
+[
+ {
+  "id": "CN-1001",
+  "contact": "Omar Das",
+  "email": "shafiq@vertexsoftware.com",
+  "channel": "Email",
+  "status": "withdrawn",
+  "at": "2026-10-11T10:00:00",
+  "source": "Event"
+ },
+ {
+  "id": "CN-1002",
+  "contact": "Shafiq Rahman",
+  "email": "jahid@bijoyeducation.com",
+  "channel": "Email",
+  "status": "granted",
+  "at": "2026-10-05T10:00:00",
+  "source": "Website form"
+ },
+ {
+  "id": "CN-1003",
+  "contact": "Priya Talukder",
+  "email": "hasan@oceanpearlfood.com",
+  "channel": "Email",
+  "status": "granted",
+  "at": "2026-06-03T10:00:00",
+  "source": "Event"
+ },
+ {
+  "id": "CN-1004",
+  "contact": "Maya Mahmud",
+  "email": "salma@lumensolarener.com",
+  "channel": "Phone",
+  "status": "granted",
+  "at": "2026-06-23T10:00:00",
+  "source": "Website form"
+ },
+ {
+  "id": "CN-1005",
+  "contact": "Nabila Rahman",
+  "email": "faisal@jadegardenreso.com",
+  "channel": "Email",
+  "status": "granted",
+  "at": "2026-07-29T10:00:00",
+  "source": "Manual"
+ },
+ {
+  "id": "CN-1006",
+  "contact": "Hasan Patel",
+  "email": "ibrahim@shaplaagrofood.com",
+  "channel": "Email",
+  "status": "granted",
+  "at": "2026-10-20T10:00:00",
+  "source": "Manual"
+ },
+ {
+  "id": "CN-1007",
+  "contact": "Chloe Wong",
+  "email": "rashida@zenithautopart.com",
+  "channel": "Phone",
+  "status": "withdrawn",
+  "at": "2026-07-24T10:00:00",
+  "source": "Manual"
+ },
+ {
+  "id": "CN-1008",
+  "contact": "Chloe Rahman",
+  "email": "aminul@vertexsoftware.com",
+  "channel": "Email",
+  "status": "granted",
+  "at": "2026-05-08T10:00:00",
+  "source": "Manual"
+ },
+ {
+  "id": "CN-1009",
+  "contact": "Tania Rahman",
+  "email": "nabila@atlaspharmadis.com",
+  "channel": "WhatsApp",
+  "status": "withdrawn",
+  "at": "2026-05-25T10:00:00",
+  "source": "Event"
+ },
+ {
+  "id": "CN-1010",
+  "contact": "Sumaiya Siddique",
+  "email": "hasan@metrocargoexpr.com",
+  "channel": "Email",
+  "status": "withdrawn",
+  "at": "2026-04-23T10:00:00",
+  "source": "Event"
+ },
+ {
+  "id": "CN-1011",
+  "contact": "Noor Mahmud",
+  "email": "tasnim@summitacademy.com",
+  "channel": "WhatsApp",
+  "status": "granted",
+  "at": "2026-08-13T10:00:00",
+  "source": "Website form"
+ },
+ {
+  "id": "CN-1012",
+  "contact": "Sohana Rahman",
+  "email": "lamia@oakwoodbuilder.com",
+  "channel": "Phone",
+  "status": "withdrawn",
+  "at": "2026-09-12T10:00:00",
+  "source": "Website form"
+ }
+]

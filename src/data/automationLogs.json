@@ -1,0 +1,182 @@
+[
+ {
+  "id": "AU-1001",
+  "rule": "Scheduled discovery",
+  "module": "Lead Engine",
+  "at": "2026-11-06T10:00:00",
+  "action": "Ran saved search DS-1003",
+  "result": "failed",
+  "duration": "39s"
+ },
+ {
+  "id": "AU-1002",
+  "rule": "Lead verification",
+  "module": "Lead Intelligence",
+  "at": "2026-11-06T08:00:00",
+  "action": "Verified 12 leads",
+  "result": "failed",
+  "duration": "17s"
+ },
+ {
+  "id": "AU-1003",
+  "rule": "Auto-assignment",
+  "module": "Task Hub",
+  "at": "2026-11-06T06:00:00",
+  "action": "Assigned 5 tasks",
+  "result": "failed",
+  "duration": "1s"
+ },
+ {
+  "id": "AU-1004",
+  "rule": "SLA escalation",
+  "module": "Task Hub",
+  "at": "2026-11-06T04:00:00",
+  "action": "Escalated TK-1004",
+  "result": "success",
+  "duration": "21s"
+ },
+ {
+  "id": "AU-1005",
+  "rule": "Follow-up creation",
+  "module": "Activity Hub",
+  "at": "2026-11-06T02:00:00",
+  "action": "Created 3 follow-ups",
+  "result": "awaiting_approval",
+  "duration": "21s"
+ },
+ {
+  "id": "AU-1006",
+  "rule": "Won deal handoff",
+  "module": "Sales Intelligence",
+  "at": "2026-11-06T00:00:00",
+  "action": "Created onboarding OB-1003",
+  "result": "success",
+  "duration": "27s"
+ },
+ {
+  "id": "AU-1007",
+  "rule": "Renewal task",
+  "module": "Customer Growth",
+  "at": "2026-11-05T22:00:00",
+  "action": "Created renewal task",
+  "result": "awaiting_approval",
+  "duration": "22s"
+ },
+ {
+  "id": "AU-1008",
+  "rule": "Daily report",
+  "module": "Growth Analytics",
+  "at": "2026-11-05T20:00:00",
+  "action": "Sent daily summary",
+  "result": "success",
+  "duration": "6s"
+ },
+ {
+  "id": "AU-1009",
+  "rule": "Invoice sync",
+  "module": "Business Operations",
+  "at": "2026-11-05T18:00:00",
+  "action": "Synced 9 invoices",
+  "result": "success",
+  "duration": "10s"
+ },
+ {
+  "id": "AU-1010",
+  "rule": "Health score update",
+  "module": "Customer Growth",
+  "at": "2026-11-05T16:00:00",
+  "action": "Updated 14 scores",
+  "result": "success",
+  "duration": "10s"
+ },
+ {
+  "id": "AU-1011",
+  "rule": "Scheduled discovery",
+  "module": "Lead Engine",
+  "at": "2026-11-05T14:00:00",
+  "action": "Ran saved search DS-1003",
+  "result": "awaiting_approval",
+  "duration": "6s"
+ },
+ {
+  "id": "AU-1012",
+  "rule": "Lead verification",
+  "module": "Lead Intelligence",
+  "at": "2026-11-05T12:00:00",
+  "action": "Verified 12 leads",
+  "result": "success",
+  "duration": "24s"
+ },
+ {
+  "id": "AU-1013",
+  "rule": "Auto-assignment",
+  "module": "Task Hub",
+  "at": "2026-11-05T10:00:00",
+  "action": "Assigned 5 tasks",
+  "result": "failed",
+  "duration": "23s"
+ },
+ {
+  "id": "AU-1014",
+  "rule": "SLA escalation",
+  "module": "Task Hub",
+  "at": "2026-11-05T08:00:00",
+  "action": "Escalated TK-1004",
+  "result": "awaiting_approval",
+  "duration": "38s"
+ },
+ {
+  "id": "AU-1015",
+  "rule": "Follow-up creation",
+  "module": "Activity Hub",
+  "at": "2026-11-05T06:00:00",
+  "action": "Created 3 follow-ups",
+  "result": "awaiting_approval",
+  "duration": "10s"
+ },
+ {
+  "id": "AU-1016",
+  "rule": "Won deal handoff",
+  "module": "Sales Intelligence",
+  "at": "2026-11-05T04:00:00",
+  "action": "Created onboarding OB-1003",
+  "result": "awaiting_approval",
+  "duration": "37s"
+ },
+ {
+  "id": "AU-1017",
+  "rule": "Renewal task",
+  "module": "Customer Growth",
+  "at": "2026-11-05T02:00:00",
+  "action": "Created renewal task",
+  "result": "success",
+  "duration": "15s"
+ },
+ {
+  "id": "AU-1018",
+  "rule": "Daily report",
+  "module": "Growth Analytics",
+  "at": "2026-11-05T00:00:00",
+  "action": "Sent daily summary",
+  "result": "awaiting_approval",
+  "duration": "17s"
+ },
+ {
+  "id": "AU-1019",
+  "rule": "Invoice sync",
+  "module": "Business Operations",
+  "at": "2026-11-04T22:00:00",
+  "action": "Synced 9 invoices",
+  "result": "failed",
+  "duration": "3s"
+ },
+ {
+  "id": "AU-1020",
+  "rule": "Health score update",
+  "module": "Customer Growth",
+  "at": "2026-11-04T20:00:00",
+  "action": "Updated 14 scores",
+  "result": "success",
+  "duration": "36s"
+ }
+]

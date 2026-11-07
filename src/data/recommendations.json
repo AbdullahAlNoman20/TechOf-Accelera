@@ -1,0 +1,74 @@
+[
+ {
+  "id": "RC-2001",
+  "module": "Growth Analytics",
+  "title": "Increase budget on Google Ads - ERP Launch",
+  "reason": "Lowest cost per qualified lead and highest win rate this quarter",
+  "metric": "CPQL $38 vs $71 average",
+  "confidence": 86,
+  "coverage": "92% of leads attributed",
+  "nextStep": "Raise daily budget by 15% for two weeks",
+  "status": "new",
+  "requiresApproval": true
+ },
+ {
+  "id": "RC-2002",
+  "module": "Growth Analytics",
+  "title": "Pause Meta Lead Ads - Retail Digital Push",
+  "reason": "High lead volume but only 9% qualify",
+  "metric": "Qualified rate 9% vs 31% average",
+  "confidence": 79,
+  "coverage": "88% of leads attributed",
+  "nextStep": "Pause campaign and review audience targeting",
+  "status": "new",
+  "requiresApproval": true
+ },
+ {
+  "id": "RC-2003",
+  "module": "Growth Analytics",
+  "title": "Speed up first response on WhatsApp leads",
+  "reason": "Leads contacted within 15 minutes convert 2.3x more",
+  "metric": "Median response 74 min",
+  "confidence": 82,
+  "coverage": "95% of leads timestamped",
+  "nextStep": "Enable instant auto-acknowledgement and alert on-duty rep",
+  "status": "new",
+  "requiresApproval": false
+ },
+ {
+  "id": "RC-2004",
+  "module": "Growth Analytics",
+  "title": "Shorten the Proposal stage",
+  "reason": "Deals wait 11 days on average between proposal sent and first follow-up",
+  "metric": "Stage age 11 days vs 6 target",
+  "confidence": 74,
+  "coverage": "81% of deals have stage history",
+  "nextStep": "Add automatic follow-up on day 3 and day 6",
+  "status": "new",
+  "requiresApproval": false
+ },
+ {
+  "id": "RC-2005",
+  "module": "Growth Analytics",
+  "title": "Promote AI Chatbot Integration to existing customers",
+  "reason": "Highest upsell fit across Gold-tier accounts",
+  "metric": "4 of 9 accounts match",
+  "confidence": 71,
+  "coverage": "Customer data 76% complete",
+  "nextStep": "Launch a targeted cross-sell campaign",
+  "status": "new",
+  "requiresApproval": false
+ },
+ {
+  "id": "RC-2006",
+  "module": "Growth Analytics",
+  "title": "Coach Export Desk on objection handling",
+  "reason": "Price objections cause 46% of lost deals in the Export Desk",
+  "metric": "Win rate 18% vs 29% team",
+  "confidence": 68,
+  "coverage": "Based on 22 lost deals",
+  "nextStep": "Schedule coaching session and share objection playbook",
+  "status": "new",
+  "requiresApproval": false
+ }
+]

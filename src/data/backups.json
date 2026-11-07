@@ -1,0 +1,58 @@
+[
+ {
+  "id": "BK-1001",
+  "at": "2026-11-06T10:00:00",
+  "size": "231 MB",
+  "type": "Full",
+  "status": "success",
+  "verified": true
+ },
+ {
+  "id": "BK-1002",
+  "at": "2026-11-05T10:00:00",
+  "size": "247 MB",
+  "type": "Full",
+  "status": "success",
+  "verified": true
+ },
+ {
+  "id": "BK-1003",
+  "at": "2026-11-04T10:00:00",
+  "size": "222 MB",
+  "type": "Full",
+  "status": "success",
+  "verified": true
+ },
+ {
+  "id": "BK-1004",
+  "at": "2026-11-03T10:00:00",
+  "size": "212 MB",
+  "type": "Full",
+  "status": "failed",
+  "verified": false
+ },
+ {
+  "id": "BK-1005",
+  "at": "2026-11-02T10:00:00",
+  "size": "242 MB",
+  "type": "Full",
+  "status": "success",
+  "verified": true
+ },
+ {
+  "id": "BK-1006",
+  "at": "2026-11-01T10:00:00",
+  "size": "246 MB",
+  "type": "Incremental",
+  "status": "success",
+  "verified": true
+ },
+ {
+  "id": "BK-1007",
+  "at": "2026-10-31T10:00:00",
+  "size": "254 MB",
+  "type": "Full",
+  "status": "success",
+  "verified": true
+ }
+]

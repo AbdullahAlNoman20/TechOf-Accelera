@@ -1,0 +1,56 @@
+[
+ {
+  "id": "AR-1001",
+  "name": "Hot leads to senior sales",
+  "method": "priority",
+  "condition": "Temperature is Hot",
+  "assignTo": "Sadia Karim",
+  "priority": 1,
+  "active": true
+ },
+ {
+  "id": "AR-1002",
+  "name": "Healthcare and IT specialists",
+  "method": "industry",
+  "condition": "Industry in Healthcare, IT, Education",
+  "assignTo": "Sadia Karim",
+  "priority": 2,
+  "active": true
+ },
+ {
+  "id": "AR-1003",
+  "name": "Chattogram territory",
+  "method": "territory",
+  "condition": "City is Chattogram",
+  "assignTo": "Rafiq Ahmed",
+  "priority": 3,
+  "active": true
+ },
+ {
+  "id": "AR-1004",
+  "name": "International desk",
+  "method": "territory",
+  "condition": "Country is not Bangladesh",
+  "assignTo": "Mehedi Hasan",
+  "priority": 4,
+  "active": true
+ },
+ {
+  "id": "AR-1005",
+  "name": "Balance by workload",
+  "method": "workload",
+  "condition": "Fewest open tasks",
+  "assignTo": "Eligible sales team",
+  "priority": 5,
+  "active": true
+ },
+ {
+  "id": "AR-1006",
+  "name": "Round robin fallback",
+  "method": "round_robin",
+  "condition": "All other leads",
+  "assignTo": "Dhaka Sales team",
+  "priority": 6,
+  "active": true
+ }
+]

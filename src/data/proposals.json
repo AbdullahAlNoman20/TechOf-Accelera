@@ -1,0 +1,260 @@
+[
+ {
+  "id": "PR-1001",
+  "dealId": "DL-1005",
+  "title": "Proposal - Greenfield Organics",
+  "company": "Greenfield Organics",
+  "status": "accepted",
+  "version": 2,
+  "items": [
+   {
+    "product": "Website Development",
+    "qty": 1,
+    "price": 4500,
+    "discount": 10
+   },
+   {
+    "product": "ERP Implementation",
+    "qty": 2,
+    "price": 18000,
+    "discount": 10
+   }
+  ],
+  "total": 36450,
+  "discountPct": 10,
+  "validUntil": "2026-11-16",
+  "ownerId": "U-06",
+  "createdAt": "2026-10-31T10:00:00"
+ },
+ {
+  "id": "PR-1002",
+  "dealId": "DL-1006",
+  "title": "Proposal - Oakwood Builders",
+  "company": "Oakwood Builders",
+  "status": "expired",
+  "version": 1,
+  "items": [
+   {
+    "product": "ERP Implementation",
+    "qty": 1,
+    "price": 18000,
+    "discount": 5
+   }
+  ],
+  "total": 17100,
+  "discountPct": 5,
+  "validUntil": "2026-10-31",
+  "ownerId": "U-03",
+  "createdAt": "2026-10-20T10:00:00"
+ },
+ {
+  "id": "PR-1003",
+  "dealId": "DL-1007",
+  "title": "Proposal - Evergreen Packaging",
+  "company": "Evergreen Packaging",
+  "status": "rejected",
+  "version": 3,
+  "items": [
+   {
+    "product": "Mobile App Development",
+    "qty": 1,
+    "price": 12000,
+    "discount": 5
+   },
+   {
+    "product": "Digital Marketing Retainer",
+    "qty": 2,
+    "price": 1200,
+    "discount": 5
+   }
+  ],
+  "total": 13680,
+  "discountPct": 5,
+  "validUntil": "2026-11-05",
+  "ownerId": "U-04",
+  "createdAt": "2026-10-26T10:00:00"
+ },
+ {
+  "id": "PR-1004",
+  "dealId": "DL-1008",
+  "title": "Proposal - Pioneer Steel Works",
+  "company": "Pioneer Steel Works",
+  "status": "expired",
+  "version": 3,
+  "items": [
+   {
+    "product": "Digital Marketing Retainer",
+    "qty": 1,
+    "price": 1200,
+    "discount": 0
+   },
+   {
+    "product": "Cloud Hosting & Support",
+    "qty": 2,
+    "price": 300,
+    "discount": 10
+   }
+  ],
+  "total": 1740,
+  "discountPct": 10,
+  "validUntil": "2026-11-05",
+  "ownerId": "U-03",
+  "createdAt": "2026-10-08T10:00:00"
+ },
+ {
+  "id": "PR-1005",
+  "dealId": "DL-1009",
+  "title": "Proposal - Tidal Marine Services",
+  "company": "Tidal Marine Services",
+  "status": "pending_approval",
+  "version": 2,
+  "items": [
+   {
+    "product": "Cloud Hosting & Support",
+    "qty": 1,
+    "price": 300,
+    "discount": 10
+   },
+   {
+    "product": "Data Analytics Dashboard",
+    "qty": 2,
+    "price": 6500,
+    "discount": 0
+   },
+   {
+    "product": "AI Chatbot Integration",
+    "qty": 3,
+    "price": 5200,
+    "discount": 0
+   }
+  ],
+  "total": 28870,
+  "discountPct": 10,
+  "validUntil": "2026-10-30",
+  "ownerId": "U-03",
+  "createdAt": "2026-10-07T10:00:00"
+ },
+ {
+  "id": "PR-1006",
+  "dealId": "DL-1010",
+  "title": "Proposal - Keystone Finance Brokers",
+  "company": "Keystone Finance Brokers",
+  "status": "accepted",
+  "version": 3,
+  "items": [
+   {
+    "product": "Data Analytics Dashboard",
+    "qty": 1,
+    "price": 6500,
+    "discount": 5
+   }
+  ],
+  "total": 6175,
+  "discountPct": 5,
+  "validUntil": "2026-11-02",
+  "ownerId": "U-05",
+  "createdAt": "2026-10-16T10:00:00"
+ },
+ {
+  "id": "PR-1007",
+  "dealId": "DL-1011",
+  "title": "Proposal - Maple Imports",
+  "company": "Maple Imports",
+  "status": "viewed",
+  "version": 3,
+  "items": [
+   {
+    "product": "AI Chatbot Integration",
+    "qty": 1,
+    "price": 5200,
+    "discount": 5
+   }
+  ],
+  "total": 4940,
+  "discountPct": 5,
+  "validUntil": "2026-11-26",
+  "ownerId": "U-04",
+  "createdAt": "2026-10-25T10:00:00"
+ },
+ {
+  "id": "PR-1008",
+  "dealId": "DL-1012",
+  "title": "Proposal - Nova Power Systems",
+  "company": "Nova Power Systems",
+  "status": "sent",
+  "version": 3,
+  "items": [
+   {
+    "product": "UI/UX Design Package",
+    "qty": 1,
+    "price": 2800,
+    "discount": 5
+   },
+   {
+    "product": "IT Consulting",
+    "qty": 2,
+    "price": 90,
+    "discount": 5
+   }
+  ],
+  "total": 2831,
+  "discountPct": 5,
+  "validUntil": "2026-11-24",
+  "ownerId": "U-06",
+  "createdAt": "2026-10-26T10:00:00"
+ },
+ {
+  "id": "PR-1009",
+  "dealId": "DL-1013",
+  "title": "Proposal - Pixel Forge Studio",
+  "company": "Pixel Forge Studio",
+  "status": "sent",
+  "version": 2,
+  "items": [
+   {
+    "product": "IT Consulting",
+    "qty": 1,
+    "price": 90,
+    "discount": 10
+   }
+  ],
+  "total": 81,
+  "discountPct": 10,
+  "validUntil": "2026-10-26",
+  "ownerId": "U-05",
+  "createdAt": "2026-10-24T10:00:00"
+ },
+ {
+  "id": "PR-1010",
+  "dealId": "DL-1014",
+  "title": "Proposal - Padma Textiles Ltd",
+  "company": "Padma Textiles Ltd",
+  "status": "accepted",
+  "version": 2,
+  "items": [
+   {
+    "product": "Annual Maintenance Contract",
+    "qty": 1,
+    "price": 3600,
+    "discount": 0
+   },
+   {
+    "product": "Website Development",
+    "qty": 2,
+    "price": 4500,
+    "discount": 10
+   },
+   {
+    "product": "ERP Implementation",
+    "qty": 3,
+    "price": 18000,
+    "discount": 10
+   }
+  ],
+  "total": 60300,
+  "discountPct": 10,
+  "validUntil": "2026-11-14",
+  "ownerId": "U-05",
+  "createdAt": "2026-10-10T10:00:00"
+ }
+]
