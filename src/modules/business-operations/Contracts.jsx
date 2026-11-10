@@ -10,6 +10,8 @@ import Ref from '@/components/common/Ref';
 import useToast from '@/hooks/useToast';
 import { api, lookup } from '@/services/api';
 import { daysFromNow, fmtDate, money } from '@/utils/format';
+import useCollection from '@/hooks/useCollection';
+import Modal from '@/components/ui/Modal';
 
 const C_FIELDS = [
   { name: 'customerId', label: 'Customer', optionsFrom: 'customers', required: true }, { name: 'title', label: 'Contract title', required: true }, { name: 'start', label: 'Start', type: 'date', required: true }, { name: 'end', label: 'End', type: 'date', required: true },
@@ -23,6 +25,10 @@ const D_FIELDS = [
 export default function Contracts() {
   const [tab, setTab] = useState('contracts');
   const { push } = useToast();
+  const { items: deliveries, update: updDel } = useCollection('deliveries');
+  const [open, setOpen] = useState(null);
+  const del = deliveries.find((d) => d.id === open);
+  const toggle = (i) => { const checklist = del.checklist.map((c, k) => (k === i ? { ...c, done: !c.done } : c)); const p = Math.round(checklist.filter((c) => c.done).length / checklist.length * 100); updDel(del.id, { checklist, progress: p, status: p === 100 ? 'completed' : 'in_progress' }); };
   const remind = async (c) => { await api.create('followUps', { title: `Renewal discussion - ${c.customerName}`, entityName: c.customerName, dealId: null, type: 'call', dueAt: new Date(Date.now() + 7 * 864e5).toISOString(), priority: 'high', status: 'scheduled', ownerId: lookup('customers', c.customerId)?.ownerId || 'U-08', responseStatus: 'awaiting', attempt: 1 }); push('Renewal task created for the account team'); };
   return (
     <>
@@ -36,8 +42,10 @@ export default function Contracts() {
           rowActions={(c) => <Button size="icon" variant="ghost" aria-label="Create renewal task" icon={BellPlus} className="text-brand-600" onClick={() => remind(c)} />} />
       ) : (
         <CrudTable collection="deliveries" module="operations" noun="delivery" fields={D_FIELDS} searchKeys={['customerName', 'service']} defaults={{ status: 'in_progress', progress: 0 }}
+          rowActions={(d) => <Button size="sm" variant="secondary" onClick={() => setOpen(d.id)}>Checklist</Button>}
           columns={[{ key: 'customerName', label: 'Customer' }, { key: 'service', label: 'Service' }, { key: 'progress', label: 'Progress', render: (d) => <div className="w-28"><ProgressBar value={d.progress} showValue /></div> }, { key: 'status', label: 'Status', render: (d) => <StatusBadge value={d.status} /> }, { key: 'ownerId', label: 'Owner', render: (d) => <Ref id={d.ownerId} /> }, { key: 'due', label: 'Due', render: (d) => fmtDate(d.due) }]} />
       )}
+      <Modal open={!!del} onClose={() => setOpen(null)} title={del ? `Delivery checklist: ${del.customerName}` : ''} subtitle={del?.service} size="sm">{del && <div className="space-y-1">{(del.checklist || []).map((c, i) => <label key={c.label} className="flex items-center gap-2 py-1 text-sm text-ink-700"><input type="checkbox" className="h-4 w-4 rounded border-ink-300" checked={c.done} onChange={() => toggle(i)} />{c.label}</label>)}<ProgressBar value={del.progress} showValue /></div>}</Modal>
     </>
   );
 }

@@ -2,6 +2,7 @@ import { RefreshCw } from 'lucide-react';
 import PageHeader from '@/components/ui/PageHeader';
 import Card from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
+import Preview from '@/components/ui/Preview';
 import { StatusBadge } from '@/components/ui/Badge';
 import CrudTable from '@/components/data/CrudTable';
 import useCollection from '@/hooks/useCollection';
@@ -33,7 +34,7 @@ export default function Segments() {
   return (
     <>
       <PageHeader title="Smart Segmentation" subtitle="Lead status and custom segments by industry, location, size, campaign or customer type."
-        actions={canWrite('leadIntel') && <Button variant="secondary" icon={RefreshCw} onClick={requalify}>Requalify nurture & review leads</Button>} />
+        actions={canWrite('leadIntel') && <Button variant="secondary" icon={RefreshCw} onClick={requalify}>Requalify nurture & review leads<Preview kind="automation" /></Button>} />
       <div className="mb-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
         {SYSTEM.map(([k, d]) => <div key={k} className="card p-4"><StatusBadge value={k} /><p className="mt-2 text-2xl font-bold text-ink-900">{leads.filter((l) => l.status === k).length}</p><p className="text-xs text-ink-500">{d}</p></div>)}
       </div>

@@ -1,0 +1,26 @@
+[
+ {
+  "id": "DT-1001",
+  "name": "Standard quotation",
+  "type": "quotation",
+  "terms": "50% advance, balance on delivery. Prices exclude taxes.",
+  "footer": "TechOf Solution - Accelerate Every Lead. Automate Every Growth.",
+  "active": true
+ },
+ {
+  "id": "DT-1002",
+  "name": "Project proposal",
+  "type": "proposal",
+  "terms": "Scope, timeline and team as described. Changes follow change-control.",
+  "footer": "TechOf Solution - Thank you for your trust.",
+  "active": true
+ },
+ {
+  "id": "DT-1003",
+  "name": "Annual service contract",
+  "type": "contract",
+  "terms": "12 months, auto-renew unless cancelled 30 days before.",
+  "footer": "TechOf Solution - Legal terms apply.",
+  "active": true
+ }
+]

@@ -1,0 +1,34 @@
+[
+ {
+  "id": "ER-1001",
+  "at": "2026-11-06T08:00:00",
+  "source": "Meta Lead Ads",
+  "message": "OAuth token expired",
+  "count": 7,
+  "status": "open"
+ },
+ {
+  "id": "ER-1002",
+  "at": "2026-11-06T05:00:00",
+  "source": "Invoice sync",
+  "message": "Accounting API rate limit reached",
+  "count": 3,
+  "status": "open"
+ },
+ {
+  "id": "ER-1003",
+  "at": "2026-11-05T23:00:00",
+  "source": "Report worker",
+  "message": "Export timed out for 100k rows",
+  "count": 1,
+  "status": "resolved"
+ },
+ {
+  "id": "ER-1004",
+  "at": "2026-11-05T14:00:00",
+  "source": "Email sync",
+  "message": "Mailbox temporarily unavailable",
+  "count": 2,
+  "status": "resolved"
+ }
+]

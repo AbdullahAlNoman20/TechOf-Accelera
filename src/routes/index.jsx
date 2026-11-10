@@ -1,6 +1,9 @@
 import { lazy } from 'react';
 
 const L = (loader) => lazy(loader);
+const Explore = L(() => import('@/modules/help/Explore'));
+const Help = L(() => import('@/modules/help/Help'));
+const Settings = L(() => import('@/modules/help/Settings'));
 const Dashboard = L(() => import('@/modules/dashboard/Dashboard'));
 const LeadInbox = L(() => import('@/modules/lead-engine/LeadInbox'));
 const Discovery = L(() => import('@/modules/lead-engine/Discovery'));
@@ -15,7 +18,6 @@ const MyQueue = L(() => import('@/modules/task-hub/MyQueue'));
 const AssignmentRules = L(() => import('@/modules/task-hub/AssignmentRules'));
 const Sla = L(() => import('@/modules/task-hub/Sla'));
 const Pipeline = L(() => import('@/modules/sales-intelligence/Pipeline'));
-const Deals = L(() => import('@/modules/sales-intelligence/Deals'));
 const DealDetail = L(() => import('@/modules/sales-intelligence/DealDetail'));
 const Research = L(() => import('@/modules/sales-intelligence/Research'));
 const Assistant = L(() => import('@/modules/sales-intelligence/Assistant'));
@@ -26,7 +28,6 @@ const Timeline = L(() => import('@/modules/activity-hub/Timeline'));
 const FollowUps = L(() => import('@/modules/activity-hub/FollowUps'));
 const Calendar = L(() => import('@/modules/activity-hub/Calendar'));
 const Templates = L(() => import('@/modules/activity-hub/Templates'));
-const ResponseSla = L(() => import('@/modules/activity-hub/ResponseSla'));
 const Customers = L(() => import('@/modules/customer-growth/Customers'));
 const Customer360 = L(() => import('@/modules/customer-growth/Customer360'));
 const CustomerHealth = L(() => import('@/modules/customer-growth/Health'));
@@ -59,6 +60,9 @@ const SystemHealth = L(() => import('@/modules/admin/Health'));
 /** Paths are relative to /app. `module` is the access key checked by ProtectedRoute. */
 export const appRoutes = [
   { path: 'dashboard', element: <Dashboard /> },
+  { path: 'explore', element: <Explore /> },
+  { path: 'help', element: <Help /> },
+  { path: 'settings', element: <Settings /> },
   { path: 'lead-engine/inbox', module: 'leadEngine', element: <LeadInbox /> },
   { path: 'lead-engine/discovery', module: 'leadEngine', element: <Discovery /> },
   { path: 'lead-engine/sources', module: 'leadEngine', element: <Sources /> },
@@ -72,7 +76,6 @@ export const appRoutes = [
   { path: 'task-hub/assignment-rules', module: 'taskHub', element: <AssignmentRules /> },
   { path: 'task-hub/sla', module: 'taskHub', element: <Sla /> },
   { path: 'sales/pipeline', module: 'sales', element: <Pipeline /> },
-  { path: 'sales/deals', module: 'sales', element: <Deals /> },
   { path: 'sales/deals/:id', module: 'sales', element: <DealDetail /> },
   { path: 'sales/research', module: 'sales', element: <Research /> },
   { path: 'sales/assistant', module: 'sales', element: <Assistant /> },
@@ -83,7 +86,6 @@ export const appRoutes = [
   { path: 'activity/follow-ups', module: 'activity', element: <FollowUps /> },
   { path: 'activity/calendar', module: 'activity', element: <Calendar /> },
   { path: 'activity/templates', module: 'activity', element: <Templates /> },
-  { path: 'activity/response-sla', module: 'activity', element: <ResponseSla /> },
   { path: 'customers/list', module: 'customers', element: <Customers /> },
   { path: 'customers/health', module: 'customers', element: <CustomerHealth /> },
   { path: 'customers/referrals', module: 'customers', element: <Referrals /> },

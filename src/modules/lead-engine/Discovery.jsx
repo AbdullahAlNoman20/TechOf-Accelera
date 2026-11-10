@@ -4,6 +4,7 @@ import PageHeader from '@/components/ui/PageHeader';
 import Tabs from '@/components/ui/Tabs';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
+import Preview from '@/components/ui/Preview';
 import { StatusBadge } from '@/components/ui/Badge';
 import CrudTable from '@/components/data/CrudTable';
 import DataTable from '@/components/data/DataTable';
@@ -17,7 +18,7 @@ const SOURCES = ['Public business directories', 'Company websites', 'Authorized 
 const FIELDS = [
   { name: 'name', label: 'Search name', required: true, span: 2 }, { name: 'niche', label: 'Niche / service need', required: true },
   { name: 'industry', label: 'Industry', required: true }, { name: 'country', label: 'Country', required: true }, { name: 'city', label: 'City' },
-  { name: 'companySize', label: 'Company size', type: 'select', options: ['1-10', '11-50', '51-200', '201-500', '500+'] },
+  { name: 'companySize', label: 'Company size', type: 'select', options: ['1-10', '11-50', '51-200', '201-500', '500+'] }, { name: 'revenue', label: 'Yearly revenue (if known)', placeholder: 'e.g. $1M - $5M', help: 'Used only when the source is allowed to share it' },
   { name: 'decisionMaker', label: 'Decision-makers to find', placeholder: 'Owner, CEO, Manager', span: 2 },
   { name: 'sources', label: 'Sources', type: 'tags', placeholder: SOURCES.join(', '), span: 2, help: 'Only approved public or licensed sources are used.' },
   { name: 'schedule', label: 'Schedule', type: 'select', options: ['manual', 'daily', 'weekly'], required: true }, { name: 'status', label: 'Status', type: 'select', options: ['active', 'paused'], required: true },
@@ -59,7 +60,7 @@ export default function Discovery() {
             { key: 'schedule', label: 'Schedule', render: (s) => <StatusBadge value={s.schedule} /> }, { key: 'status', label: 'Status', render: (s) => <StatusBadge value={s.status} /> },
             { key: 'lastRun', label: 'Last run', render: (s) => fmtDateTime(s.lastRun) }, { key: 'found', label: 'Found' },
           ]}
-          rowActions={(s) => <Button size="sm" variant="secondary" icon={Play} disabled={running === s.id || s.status === 'paused'} onClick={() => run(s)}>{running === s.id ? 'Running...' : 'Run now'}</Button>} />
+          rowActions={(s) => <Button size="sm" variant="secondary" icon={Play} disabled={running === s.id || s.status === 'paused'} onClick={() => run(s)}>{running === s.id ? 'Running...' : 'Run now'}<Preview /></Button>} />
       )}
       {tab === 'history' && <DataTable rows={runs} searchKeys={['searchName', 'source']} filters={[{ key: 'status', label: 'Result', options: ['success', 'partial', 'failed'] }]} defaultSort={{ key: 'runAt', dir: 'desc' }}
         columns={[{ key: 'runAt', label: 'Run time', render: (r) => fmtDateTime(r.runAt) }, { key: 'searchName', label: 'Search' }, { key: 'source', label: 'Source' }, { key: 'found', label: 'Found' }, { key: 'newLeads', label: 'New leads' }, { key: 'duplicates', label: 'Duplicates' }, { key: 'status', label: 'Result', render: (r) => <StatusBadge value={r.status} /> }]} />}

@@ -57,7 +57,7 @@ export function research(lead) {
     company: lead.company, industry: lead.industry, website: 'www.' + lead.company.toLowerCase().replace(/[^a-z0-9]/g, '').slice(0, 14) + '.com',
     summary: `${lead.company} is a ${lead.companySize}-employee ${lead.industry.toLowerCase()} business in ${lead.city}, ${lead.country}. Public information suggests it is investing in digital operations.`,
     painPoints: ['Manual reporting and spreadsheets', 'Slow response to inquiries', 'Limited visibility of customers and sales'],
-    requirement: lead.need, opportunities: ['Website Development', 'Data Analytics Dashboard'], competitors: ['Regional competitor A', 'Regional competitor B'],
+    industryTrends: ['Customers expect faster digital service', 'Cloud tools replace spreadsheets'], industryChallenges: ['Rising operating costs', 'Hard to find skilled staff'], requirement: lead.need, opportunities: ['Website Development', 'Data Analytics Dashboard'], competitors: ['Regional competitor A', 'Regional competitor B'],
     decisionMakers: [`${lead.name} (${lead.title})`],
     sources: [{ title: `${lead.company} website`, url: 'https://example.com', date: new Date().toISOString().slice(0, 10), confidence: 'Medium' }],
   };

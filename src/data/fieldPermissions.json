@@ -1,0 +1,28 @@
+[
+ {
+  "id": "FP-1001",
+  "field": "Deal value",
+  "where": "Deals and pipeline",
+  "hiddenFor": [
+   "marketing",
+   "support"
+  ]
+ },
+ {
+  "id": "FP-1002",
+  "field": "Customer annual revenue",
+  "where": "Customer profiles",
+  "hiddenFor": [
+   "marketing",
+   "sales"
+  ]
+ },
+ {
+  "id": "FP-1003",
+  "field": "Lead phone and email",
+  "where": "Lead inbox",
+  "hiddenFor": [
+   "analyst"
+  ]
+ }
+]

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Copy, Send, Sparkles } from 'lucide-react';
 import PageHeader from '@/components/ui/PageHeader';
 import Card from '@/components/ui/Card';
+import Preview from '@/components/ui/Preview';
 import Button from '@/components/ui/Button';
 import { StatusBadge } from '@/components/ui/Badge';
 import DataTable from '@/components/data/DataTable';
@@ -45,7 +46,7 @@ export default function Assistant() {
             <div><label className="mb-1 block text-xs font-semibold text-ink-600">What do you need?</label><select className="input" value={f.type} onChange={(e) => setF({ ...f, type: e.target.value })}>{AI_TYPES.map((t) => <option key={t.value} value={t.value}>{t.label}</option>)}</select></div>
             {f.type === 'objection' && <div><label className="mb-1 block text-xs font-semibold text-ink-600">Objection</label><select className="input" value={f.objection} onChange={(e) => setF({ ...f, objection: e.target.value })}>{OBJECTIONS.map((o) => <option key={o}>{o}</option>)}</select></div>}
             <div><label className="mb-1 block text-xs font-semibold text-ink-600">Tone</label><select className="input" value={f.tone} onChange={(e) => setF({ ...f, tone: e.target.value })}>{['Professional', 'Friendly', 'Concise'].map((t) => <option key={t}>{t}</option>)}</select></div>
-            <Button icon={Sparkles} className="w-full" onClick={run}>Generate</Button>
+            <Button icon={Sparkles} className="w-full" onClick={run}>Generate<Preview /></Button>
           </div>
         </Card>
         <Card title="Result" subtitle="AI-generated draft. Review and edit before using." className="lg:col-span-3" action={text && <Button size="sm" variant="ghost" icon={Copy} onClick={() => { navigator.clipboard?.writeText(text); push('Copied'); }}>Copy</Button>}>

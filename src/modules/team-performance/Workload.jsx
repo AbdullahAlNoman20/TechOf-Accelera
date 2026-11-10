@@ -18,6 +18,7 @@ export default function Workload() {
   const { push } = useToast();
   const load = rows.map((r) => ({ ...r, load: r.open + r.openDeals, pct: ((r.open + r.openDeals) / r.capacity) * 100 }));
   const over = load.filter((r) => r.pct > 100).sort((a, b) => b.pct - a.pct), free = [...load].sort((a, b) => a.pct - b.pct);
+  const overdueWork = tasks.filter((t) => t.status !== 'completed' && new Date(t.dueAt) < new Date());
   const incoming = leads.filter((l) => l.status === 'new' || l.processing === 'collected').length;
   const spare = Math.max(0, load.reduce((s, r) => s + Math.max(0, r.capacity - r.load), 0));
   const suggestions = over.map((o) => ({ from: o, to: free.find((f) => f.id !== o.id && f.pct < 85), task: tasks.find((t) => t.assigneeId === o.id && ['assigned', 'accepted'].includes(t.status)) })).filter((s) => s.to && s.task);
@@ -28,6 +29,7 @@ export default function Workload() {
       <div className="mb-5 grid gap-4 sm:grid-cols-3"><StatCard label="Overloaded people" value={over.length} tone="danger" /><StatCard label="Incoming leads waiting" value={incoming} tone="gold" /><StatCard label="Spare capacity (items)" value={spare} tone="teal" hint="Plan hiring or shifts if incoming leads exceed spare capacity" /></div>
       <div className="grid gap-5 lg:grid-cols-2">
         <Card title="Capacity by employee">{load.map((r) => <div key={r.id} className="mb-3 last:mb-0"><div className="mb-1 flex justify-between text-sm"><span className="font-medium text-ink-800">{r.name}</span><span className="text-xs text-ink-500">{r.load} / {r.capacity} {r.pct > 100 && <Badge tone="danger">Overloaded</Badge>}</span></div><ProgressBar value={r.load} max={r.capacity} tone={r.pct > 100 ? 'danger' : r.pct > 80 ? 'gold' : 'teal'} /></div>)}</Card>
+        <Card title="Overdue work alerts" subtitle="Tasks past their due date" className="lg:col-span-2" bodyClass="p-0"><ul className="divide-y divide-ink-100">{overdueWork.slice(0, 6).map((t) => <li key={t.id} className="flex items-center justify-between gap-3 px-4 py-2.5"><span className="truncate text-sm text-ink-800">{t.title}</span><Badge tone="danger">overdue</Badge></li>)}{!overdueWork.length && <li className="p-4 text-center text-sm text-ink-400">No overdue work</li>}</ul></Card>
         <Card title="Rebalancing suggestions">{suggestions.length ? <ul className="space-y-3">{suggestions.map((s) => <li key={s.task.id} className="rounded-lg border border-ink-100 p-3"><p className="text-sm text-ink-800"><b>{s.from.name.split(' ')[0]}</b> <ArrowRight size={14} className="inline" /> <b>{s.to.name.split(' ')[0]}</b>: move "{s.task.title}"</p>{canWrite('performance') && <Button size="sm" className="mt-2" onClick={() => apply(s)}>Apply</Button>}</li>)}</ul> : <p className="text-sm text-ink-500">Workload is balanced. No action needed.</p>}</Card>
       </div>
     </>

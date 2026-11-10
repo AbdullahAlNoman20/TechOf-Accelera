@@ -1,0 +1,42 @@
+[
+ {
+  "id": "SS-1001",
+  "userId": "U-01",
+  "device": "Chrome on Windows",
+  "location": "Dhaka, Bangladesh",
+  "lastActive": "2026-11-06T10:00:00",
+  "current": true
+ },
+ {
+  "id": "SS-1002",
+  "userId": "U-02",
+  "device": "Safari on iPhone",
+  "location": "Dhaka, Bangladesh",
+  "lastActive": "2026-11-06T07:00:00",
+  "current": false
+ },
+ {
+  "id": "SS-1003",
+  "userId": "U-03",
+  "device": "Chrome on Android",
+  "location": "Chattogram, Bangladesh",
+  "lastActive": "2026-11-06T05:00:00",
+  "current": false
+ },
+ {
+  "id": "SS-1004",
+  "userId": "U-09",
+  "device": "Edge on Windows",
+  "location": "Dhaka, Bangladesh",
+  "lastActive": "2026-11-06T01:00:00",
+  "current": false
+ },
+ {
+  "id": "SS-1005",
+  "userId": "U-04",
+  "device": "Firefox on Linux",
+  "location": "Unknown location",
+  "lastActive": "2026-11-05T04:00:00",
+  "current": false
+ }
+]

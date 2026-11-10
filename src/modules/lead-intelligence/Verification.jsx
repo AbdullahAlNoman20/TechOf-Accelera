@@ -4,6 +4,9 @@ import StatCard from '@/components/ui/StatCard';
 import Button from '@/components/ui/Button';
 import Badge from '@/components/ui/Badge';
 import DataTable from '@/components/data/DataTable';
+import Preview from '@/components/ui/Preview';
+import Card from '@/components/ui/Card';
+import { HBar } from '@/components/charts/Charts';
 import useCollection from '@/hooks/useCollection';
 import useToast from '@/hooks/useToast';
 import useAuth from '@/hooks/useAuth';
@@ -21,6 +24,7 @@ export default function Verification() {
   const w = canWrite('leadIntel');
   const active = leads.filter((l) => l.status !== 'rejected');
   const dupes = leads.filter((l) => l.checks.duplicate);
+  const { items: channels } = useCollection('channels');
 
   const verify = (l) => ({ email: isEmail(l.email) && !/mailinator/.test(l.email) ? 'valid' : 'invalid', phone: !l.phone ? 'unverified' : isPhone(l.phone) ? 'valid' : 'invalid', company: l.company ? 'valid' : 'unverified', duplicate: l.checks.duplicate, spam: /mailinator/.test(l.email) });
   async function runAll() {
@@ -40,7 +44,7 @@ export default function Verification() {
   return (
     <>
       <PageHeader title="Lead Verification & Data Quality" subtitle="Detect duplicates, spam and invalid contacts, then enrich and normalize records before qualification."
-        actions={w && <Button icon={Sparkles} onClick={runAll}>Verify pending leads</Button>} />
+        actions={w && <Button icon={Sparkles} onClick={runAll}>Verify pending leads<Preview /></Button>} />
       <div className="mb-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <StatCard label="Leads checked" value={active.length} icon={CheckCircle2} />
         <StatCard label="Duplicates" value={dupes.length} icon={Copy} tone="gold" />
@@ -62,6 +66,7 @@ export default function Verification() {
               <Button size="sm" variant="ghost" className="text-red-600" onClick={() => reject(l)}>Reject</Button>
             </div>) },
         ]} />
+      <Card title="Source reliability" subtitle="How often leads from each channel turn out to be real" className="mt-5"><HBar data={[...channels].sort((a, b) => b.reliability - a.reliability).slice(0, 8).map((c) => ({ label: c.name, value: c.reliability }))} format={(v) => `${v}/100`} /></Card>
     </>
   );
 }

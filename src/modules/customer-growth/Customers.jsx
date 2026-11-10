@@ -3,6 +3,7 @@ import CrudPage from '@/components/data/CrudPage';
 import Badge, { StatusBadge } from '@/components/ui/Badge';
 import ProgressBar from '@/components/ui/ProgressBar';
 import Ref from '@/components/common/Ref';
+import useFieldAccess from '@/hooks/useFieldAccess';
 import useCollection from '@/hooks/useCollection';
 import useAuth from '@/hooks/useAuth';
 import { scopeRows } from '@/utils/scope';
@@ -22,6 +23,7 @@ export default function Customers() {
   const nav = useNavigate();
   const { user, level } = useAuth();
   const { items } = useCollection('customers');
+  const { show } = useFieldAccess();
   const rows = scopeRows(items, user, level('customers'));
   return (
     <CrudPage collection="customers" rows={rows} module="customers" noun="customer" title="Customer 360°" subtitle="One profile per customer: purchases, conversations, support, contracts, preferences and health."
@@ -29,6 +31,6 @@ export default function Customers() {
       fields={CUSTOMER_FIELDS} searchKeys={['name', 'industry', 'city']} exportName="customers" defaults={customerDefaults(user.id)} onRowClick={(c) => nav(`/app/customers/${c.id}`)}
       filters={[{ key: 'status', label: 'Status', options: ['active', 'onboarding', 'at_risk', 'churned'] }, { key: 'tier', label: 'Tier', options: ['Gold', 'Silver', 'Bronze'] }]}
       columns={[{ key: 'name', label: 'Customer', render: (c) => <div><p className="font-medium text-ink-900">{c.name}</p><p className="text-xs text-ink-500">{c.industry} - {c.city}</p></div> }, { key: 'tier', label: 'Tier', render: (c) => <Badge tone={c.tier === 'Gold' ? 'gold' : 'neutral'}>{c.tier}</Badge> }, { key: 'status', label: 'Status', render: (c) => <StatusBadge value={c.status} /> },
-        { key: 'health', label: 'Health', render: (c) => <div className="w-24"><ProgressBar value={c.health} tone={hc(c.health)} showValue /></div> }, { key: 'revenue', label: 'Revenue', render: (c) => money(c.revenue) }, { key: 'renewalDate', label: 'Renewal', render: (c) => fmtDate(c.renewalDate) }, { key: 'ownerId', label: 'Owner', render: (c) => <Ref id={c.ownerId} /> }]} />
+        { key: 'health', label: 'Health', render: (c) => <div className="w-24"><ProgressBar value={c.health} tone={hc(c.health)} showValue /></div> }, { key: 'revenue', label: 'Revenue', render: (c) => (show('Customer annual revenue') ? money(c.revenue) : <span className="text-ink-300">Hidden</span>) }, { key: 'renewalDate', label: 'Renewal', render: (c) => fmtDate(c.renewalDate) }, { key: 'ownerId', label: 'Owner', render: (c) => <Ref id={c.ownerId} /> }]} />
   );
 }

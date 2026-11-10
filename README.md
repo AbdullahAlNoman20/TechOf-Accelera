@@ -30,27 +30,41 @@ Requires Node.js 18+.
 
 Use **Reset demo data** in the top bar to restore the original sample data.
 
-## Module map (SRS to screens)
+## Built for non-technical users
 
-| SRS module | Routes (`/app/...`) | Main features implemented |
+* **Home** has "What would you like to do?" cards for your role.
+* **Every page has a Guide** under its title: *How to use*, *What you need*, and *Coming next* (where AI, automation and integrations will work later, written as numbered steps with **NB:** notes). Guides live in `src/config/guides.js`.
+* **"Where is...?" search** at the top finds any page by plain words. **Help Center** has quick-start steps per role, a glossary and FAQ. **Explore Accelera** lists all 416 SRS features with benefit and status.
+* **Preview chips** (AI / Auto / Link) on buttons mark actions that use sample logic today.
+* On phones: bottom bar (Home, Leads, My Day, Deals, Menu) and tables become cards.
+* A short welcome tour runs on first sign-in.
+
+All SRS features are mapped to screens in **FEATURE_COVERAGE.md**.
+
+## Module map
+
+| Module | Screens (`/app/...`) | Friendly names |
 |---|---|---|
-| 01 Lead Engine | `lead-engine/inbox, discovery, sources` | Unified inbox, manual entry, CSV import + error queue, ICP saved searches, run discovery, history and coverage, channel health, attribution |
-| 02 Lead Intelligence | `lead-intelligence/verification, scoring, rules, segments, learning` | Duplicate/spam/invalid checks, merge, enrich, normalize, scoring, Hot/Warm/Cold, BANT, overrides with reason, segments, requalification, calibration |
-| 03 Task Hub | `task-hub/tasks, my-queue, assignment-rules, sla` | Kanban + list, lifecycle, dependencies, notes/comments/attachments/history, handoff, assignment rules + auto-assign, SLA timers, escalation |
-| 04 Sales Intelligence | `sales/pipeline, deals, deals/:id, research, assistant, conversations, proposals, catalogue` | Pipeline with stage automation, deal risk, stakeholders, research with sources, AI drafts + approval, conversation center, quotations with discount approval, PDF print |
-| 05 Activity Hub | `activity/timeline, follow-ups, calendar, templates, response-sla` | Timeline, missed follow-up detection, calendar with conflict check, AI meeting summary, templates, response SLA |
-| 06 Customer Growth | `customers/list, :id, health, referrals, expansion, network` | Customer 360°, health + churn, referrals + campaigns, cross/upsell to pipeline, related-business leads with consent check |
-| 07 Growth Analytics | `analytics/marketing, sales, team, recommendations, reports` | CPL/CPQL, funnel, attribution, bottlenecks, forecast, AI recommendations with approval, reports, alerts |
-| 08 Business Operations | `operations/accounts, onboarding, contracts, invoices` | Accounts + hierarchy + contacts, onboarding checklist and documents, contracts + renewals, delivery, invoices + sync |
-| 09 Team Performance | `performance/overview, targets, leaderboard, workload, coaching` | Role-based dashboards, targets, leaderboard + recognition, workload balancing, AI coaching |
-| 10 Admin & Security | `admin/users, roles, security, audit, automation, approvals, integrations, health` | RBAC matrix, security policies, consent/retention/data requests, audit log, approval rules, AI controls, automation logs, integrations, system health |
+| 01 Lead Engine | `lead-engine/inbox, discovery, sources` | Lead Inbox, Prospect Finder, Lead Channels |
+| 02 Lead Intelligence | `lead-intelligence/verification, scoring, rules, segments, learning` | Lead Check, Hot Leads Queue, Scoring Rules, Smart Lead Groups, Smart Learning |
+| 03 Task Hub | `task-hub/my-queue, tasks, assignment-rules, sla` | My Day, Task Board, Auto-Assign Rules, Response Guard |
+| 04 Sales Intelligence | `sales/pipeline, research, assistant, conversations, proposals, catalogue` (+ `deals/:id`) | Deal Pipeline (board + list), Prospect Insights, Sales Copilot, Conversation Center, Proposals & Quotes, Catalogue & Pricing |
+| 05 Activity Hub | `activity/follow-ups, calendar, timeline, templates` | Follow-up Planner, Calendar & Meetings, Activity Timeline, Message Templates |
+| 06 Customer Growth | `customers/list, :id, health, referrals, expansion, network` | Customer 360°, Customer Health, Referrals, Growth Opportunities, Network Finder |
+| 07 Growth Analytics | `analytics/recommendations, marketing, sales, team, reports` | AI Advisor, Marketing Results, Sales Results, Team & Task Insights, Reports & Alerts |
+| 08 Business Operations | `operations/onboarding, contracts, invoices, accounts` | Onboarding, Contracts & Delivery, Invoices & Payments, Account Structure |
+| 09 Team Performance | `performance/overview, targets, leaderboard, workload, coaching` | Performance, Targets, Leaderboard, Workload, Coach |
+| 10 Admin & Security | `admin/users, roles, approvals, security, automation, integrations, health, audit` | Users, Roles & Access, Approvals, Security & Privacy, Automation & AI Controls, Integrations, System Health, Audit Logs |
+| Help | `explore, help, settings` | Explore Accelera, Help Center, My Settings |
+
+Where two SRS areas overlap, they share one screen instead of repeating (for example deals list + board in Deal Pipeline; lead reply times inside Response Guard).
 
 ## Folder structure
 
 ```
 src/
   assets/            logo
-  config/            brand.js, navigation.js (sidebar + module keys)
+  config/            brand.js, navigation.js, guides.js (per-page guides), catalog.js (all SRS features)
   data/              sample JSON (one file per collection) + index.js
   services/          api.js (data layer), storage.js, ai.js, automation.js, scoring.js, assignment.js
   context/           AuthContext (login, RBAC), ToastContext
@@ -62,7 +76,7 @@ src/
     charts/          dependency-free SVG charts
     layout/          AppShell, Sidebar, Topbar
     common/          Ref, Logo, ProtectedRoute
-  modules/           one folder per SRS module (pages)
+  modules/           one folder per SRS module (pages) + help (Explore, Help Center, Settings)
   pages/             Home, Login, NotFound
   routes/            route table (path -> page, required module access)
 ```

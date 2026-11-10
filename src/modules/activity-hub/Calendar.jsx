@@ -11,6 +11,9 @@ import useCollection from '@/hooks/useCollection';
 import useToast from '@/hooks/useToast';
 import useAuth from '@/hooks/useAuth';
 import { fmtDateTime, humanize } from '@/utils/format';
+import Preview from '@/components/ui/Preview';
+import { generate } from '@/services/ai';
+import { lookup } from '@/services/api';
 
 const FIELDS = [
   { name: 'title', label: 'Meeting title', required: true, span: 2 }, { name: 'type', label: 'Type', type: 'select', options: ['meeting', 'demo', 'consultation', 'internal'], required: true }, { name: 'withName', label: 'With (contact)' },
@@ -28,6 +31,7 @@ export default function Calendar() {
   const [month, setMonth] = useState(() => new Date(new Date().getFullYear(), new Date().getMonth(), 1));
   const [day, setDay] = useState(new Date());
   const [edit, setEdit] = useState(null);
+  const [slots, setSlots] = useState([]);
   const w = canWrite('activity');
   const first = (month.getDay() + 6) % 7, count = new Date(month.getFullYear(), month.getMonth() + 1, 0).getDate();
   const cells = [...Array(first).fill(null), ...Array.from({ length: count }, (_, i) => new Date(month.getFullYear(), month.getMonth(), i + 1))];
@@ -43,6 +47,15 @@ export default function Calendar() {
     if (edit?.id) { await update(edit.id, payload); push('Meeting rescheduled: calendar and reminders updated'); } else { await create({ ...payload, status: 'scheduled', link: 'https://meet.example.com/new' }); push('Meeting scheduled and synced to calendar'); }
     setEdit(null);
   }
+  const freeSlots = () => {
+    const owner = user.id, out = [];
+    for (let d = 0; d < 7 && out.length < 3; d += 1) for (const h of [10, 11, 14, 15, 16]) {
+      const s = new Date(day.getFullYear(), day.getMonth(), day.getDate() + d, h).getTime(), e = s + 30 * 6e4;
+      if (s > Date.now() && !meetings.some((m) => m.ownerId === owner && m.status !== 'completed' && s < new Date(m.start).getTime() + m.duration * 6e4 && e > new Date(m.start).getTime()) && out.length < 3) out.push(new Date(s));
+    }
+    setSlots(out);
+  };
+  const makeAgenda = (v, set) => set({ ...v, agenda: generate({ type: 'agenda', deal: { company: v.withName || 'the customer', service: 'our solution' } }) });
   const summarize = (m) => update(m.id, { summary: `Summary: ${m.title}. ${m.notes || 'Discussed requirements, timeline and next steps.'} Next action: send proposal and confirm decision date.`, status: 'completed' });
 
   return (
@@ -58,12 +71,13 @@ export default function Calendar() {
             </button>) : <div key={i} />)}</div>
         </Card>
         <div className="space-y-5">
+          <Card title="Find a free time" subtitle="Next open 30-minute slots for you">{slots.length ? <ul className="space-y-1.5">{slots.map((s) => <li key={+s} className="flex items-center justify-between rounded-lg bg-ink-50 px-3 py-2 text-sm">{s.toLocaleString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' })}{w && <Button size="sm" variant="secondary" onClick={() => setEdit({ ownerId: user.id, duration: 30, type: 'meeting', start: toLocal(s) })}>Book</Button>}</li>)}</ul> : <p className="text-sm text-ink-500">Click to see open times.</p>}<Button size="sm" variant="secondary" className="mt-3" onClick={freeSlots}>Suggest free times</Button></Card>
           <Card title={day.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' })} bodyClass="p-0">
             <ul className="divide-y divide-ink-100">{dayMeet.map((m) => (
               <li key={m.id} className="space-y-1 px-4 py-3"><div className="flex items-start justify-between gap-2"><p className="text-sm font-medium text-ink-900">{m.title}</p><StatusBadge value={m.status} /></div>
                 <p className="text-xs text-ink-500">{fmtDateTime(m.start)} - {m.duration} min - <Ref id={m.ownerId} avatar={false} /></p>
                 {m.summary && <p className="rounded bg-teal-50 p-2 text-xs text-teal-800">{m.summary}</p>}
-                {w && <div className="flex gap-1.5 pt-1"><Button size="sm" variant="secondary" onClick={() => setEdit({ ...m, start: toLocal(m.start) })}>Reschedule</Button>{m.status !== 'completed' && <Button size="sm" variant="ghost" icon={Sparkles} onClick={() => summarize(m)}>Complete + AI summary</Button>}</div>}
+                {w && <div className="flex gap-1.5 pt-1"><Button size="sm" variant="secondary" onClick={() => setEdit({ ...m, start: toLocal(m.start) })}>Reschedule</Button>{m.status !== 'completed' && <Button size="sm" variant="ghost" icon={Sparkles} onClick={() => summarize(m)}>Complete + AI summary<Preview /></Button>}</div>}
               </li>))}
               {dayFu.map((f) => <li key={f.id} className="flex items-center justify-between px-4 py-2.5"><span className="text-sm text-ink-700">{f.title}</span><Badge tone="gold">Follow-up</Badge></li>)}
               {!dayMeet.length && !dayFu.length && <li className="p-6 text-center text-sm text-ink-400">Nothing scheduled</li>}</ul>

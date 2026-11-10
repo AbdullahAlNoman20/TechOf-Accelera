@@ -1,0 +1,36 @@
+[
+ {
+  "id": "AK-1001",
+  "name": "Website forms",
+  "preview": "acc_live_****9f3a",
+  "scopes": [
+   "leads:create"
+  ],
+  "created": "2026-07-09",
+  "lastUsed": "2026-11-06T10:00:00",
+  "status": "active"
+ },
+ {
+  "id": "AK-1002",
+  "name": "ERP connector",
+  "preview": "acc_live_****41c2",
+  "scopes": [
+   "customers:read",
+   "invoices:write"
+  ],
+  "created": "2026-09-07",
+  "lastUsed": "2026-11-04T10:00:00",
+  "status": "active"
+ },
+ {
+  "id": "AK-1003",
+  "name": "Old partner portal",
+  "preview": "acc_live_****77ab",
+  "scopes": [
+   "leads:create"
+  ],
+  "created": "2026-01-10",
+  "lastUsed": "2026-08-08T10:00:00",
+  "status": "revoked"
+ }
+]

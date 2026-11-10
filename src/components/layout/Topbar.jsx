@@ -6,6 +6,7 @@ import { api } from '@/services/api';
 import { timeAgo } from '@/utils/format';
 import { BRAND } from '@/config/brand';
 import Badge from '@/components/ui/Badge';
+import PageFinder from './PageFinder';
 
 export default function Topbar({ onMenu }) {
   const { user } = useAuth();
@@ -17,7 +18,8 @@ export default function Topbar({ onMenu }) {
   return (
     <header className="sticky top-0 z-30 flex h-16 shrink-0 items-center gap-3 border-b border-ink-100 bg-white px-4 sm:px-6">
       <button type="button" onClick={onMenu} aria-label="Open menu" className="rounded-lg p-2 text-ink-600 hover:bg-ink-100 lg:hidden"><Menu size={20} /></button>
-      <p className="hidden text-sm font-medium text-brand-800 sm:block">{BRAND.tagline}</p>
+      <PageFinder />
+      <p className="hidden text-sm font-medium text-brand-800 xl:block">{BRAND.tagline}</p>
       <div className="ml-auto flex items-center gap-1">
         <button type="button" onClick={() => { if (window.confirm('Restore the original sample data? Your changes will be lost.')) api.reset(); }} className="hidden items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-ink-500 hover:bg-ink-100 sm:flex"><RotateCcw size={14} />Reset demo data</button>
         <div className="relative">

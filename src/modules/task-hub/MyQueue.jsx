@@ -30,6 +30,7 @@ export default function MyQueue() {
         <StatCard label="Open tasks" value={mine.length} icon={CheckSquare} /><StatCard label="Overdue" value={overdue} icon={Clock} tone="danger" />
         <StatCard label="Follow-ups" value={myFu.length} icon={Repeat} tone="teal" /><StatCard label="Meetings today" value={myMt.length} icon={CalendarCheck} tone="gold" />
       </div>
+      <Card title="Your daily summary" subtitle="What a morning email would say" className="mb-5"><p className="text-sm text-ink-700">Good morning {user.name.split(' ')[0]}. You have <b>{mine.length}</b> open task(s), <b>{overdue}</b> overdue, <b>{myFu.length}</b> follow-up(s) and <b>{myMt.length}</b> meeting(s) today. {queue[0] ? <>Start with: <b>{queue[0].title}</b>.</> : 'Enjoy a clear day!'}</p></Card>
       <div className="grid gap-5 lg:grid-cols-3">
         <Card title="Task queue" className="lg:col-span-2" bodyClass="p-0">
           {queue.length === 0 && <p className="p-8 text-center text-sm text-ink-400">Your queue is clear. Great work!</p>}

@@ -54,6 +54,13 @@ import jobs from './jobs.json';
 import incidents from './incidents.json';
 import backups from './backups.json';
 import notifications from './notifications.json';
+import pipelineStages from './pipelineStages.json';
+import validationRules from './validationRules.json';
+import documentTemplates from './documentTemplates.json';
+import fieldPermissions from './fieldPermissions.json';
+import apiKeys from './apiKeys.json';
+import sessions from './sessions.json';
+import errorLogs from './errorLogs.json';
 
-const seed = { users, roles, campaigns, channels, leads, importErrors, discoverySearches, discoveryRuns, scoringRules, qualificationRules, segments, tasks, assignmentRules, slaPolicies, deals, research, conversations, products, pricingRules, proposals, activities, followUps, meetings, templates, customers, supportTickets, feedback, referrals, referralCampaigns, opportunities, relatedBusinesses, contracts, onboardings, deliveries, invoices, integrations, syncLogs, webhooks, trends, recommendations, reports, targets, auditLogs, automationLogs, approvalRules, approvals, aiControls, securitySettings, consents, retentionRules, dataRequests, configVersions, jobs, incidents, backups, notifications };
+const seed = { users, roles, campaigns, channels, leads, importErrors, discoverySearches, discoveryRuns, scoringRules, qualificationRules, segments, tasks, assignmentRules, slaPolicies, deals, research, conversations, products, pricingRules, proposals, activities, followUps, meetings, templates, customers, supportTickets, feedback, referrals, referralCampaigns, opportunities, relatedBusinesses, contracts, onboardings, deliveries, invoices, integrations, syncLogs, webhooks, trends, recommendations, reports, targets, auditLogs, automationLogs, approvalRules, approvals, aiControls, securitySettings, consents, retentionRules, dataRequests, configVersions, jobs, incidents, backups, notifications, pipelineStages, validationRules, documentTemplates, fieldPermissions, apiKeys, sessions, errorLogs };
 export default seed;

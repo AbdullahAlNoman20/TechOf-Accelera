@@ -4,7 +4,7 @@ import { ChevronDown, ChevronRight, LogOut, X } from 'lucide-react';
 import Logo from '@/components/common/Logo';
 import Avatar from '@/components/ui/Avatar';
 import useAuth from '@/hooks/useAuth';
-import { NAV } from '@/config/navigation';
+import { HELP_NAV, NAV } from '@/config/navigation';
 import { BRAND } from '@/config/brand';
 import { cn } from '@/utils/format';
 
@@ -31,13 +31,14 @@ export default function Sidebar({ open, onClose }) {
             <div key={n.group} className="pt-1.5">
               <button type="button" aria-expanded={!!isOpen} onClick={() => setOpenGroups((s) => ({ ...s, [n.group]: !s[n.group] }))}
                 className="flex w-full items-center gap-3 rounded-lg px-3 py-2 text-left text-sm font-semibold text-white/85 hover:bg-white/5">
-                <n.icon size={18} className="text-gold-400" /><span className="flex-1 truncate">{n.group}</span>{isOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+                <n.icon size={18} className="text-gold-400" /><span className="min-w-0 flex-1"><span className="block truncate">{n.group}</span><span className="block truncate text-[11px] font-normal text-white/50">{n.hint}</span></span>{isOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
               </button>
               {isOpen && <div className="ml-4 mt-0.5 space-y-0.5 border-l border-white/10 pl-2">{n.items.map((i) => <NavLink key={i.to} to={i.to} onClick={onClose} className={linkCls}><i.icon size={16} />{i.label}</NavLink>)}</div>}
             </div>
           );
         })}
       </nav>
+      <div className="space-y-0.5 border-t border-white/10 p-3">{HELP_NAV.map((i) => <NavLink key={i.to} to={i.to} onClick={onClose} className={linkCls}><i.icon size={16} />{i.label}</NavLink>)}</div>
       <div className="flex items-center gap-3 border-t border-white/10 p-3">
         <Avatar name={user?.name} color="#1A8F9B" size={34} />
         <div className="min-w-0 flex-1 leading-tight"><p className="truncate text-sm font-medium">{user?.name}</p><p className="truncate text-xs text-white/60">{role?.name}</p></div>

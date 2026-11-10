@@ -6,7 +6,29 @@
   "status": "in_progress",
   "progress": 14,
   "ownerId": "U-10",
-  "due": "2026-11-22"
+  "due": "2026-11-22",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": false
+   },
+   {
+    "label": "Build completed",
+    "done": false
+   },
+   {
+    "label": "Testing done",
+    "done": false
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  },
  {
   "id": "DV-1002",
@@ -15,7 +37,29 @@
   "status": "completed",
   "progress": 21,
   "ownerId": "U-10",
-  "due": "2026-12-23"
+  "due": "2026-12-23",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": true
+   },
+   {
+    "label": "Build completed",
+    "done": false
+   },
+   {
+    "label": "Testing done",
+    "done": false
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  },
  {
   "id": "DV-1003",
@@ -24,7 +68,29 @@
   "status": "waiting",
   "progress": 88,
   "ownerId": "U-08",
-  "due": "2026-11-26"
+  "due": "2026-11-26",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": true
+   },
+   {
+    "label": "Build completed",
+    "done": true
+   },
+   {
+    "label": "Testing done",
+    "done": false
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  },
  {
   "id": "DV-1004",
@@ -33,7 +99,29 @@
   "status": "in_progress",
   "progress": 54,
   "ownerId": "U-10",
-  "due": "2026-12-07"
+  "due": "2026-12-07",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": true
+   },
+   {
+    "label": "Build completed",
+    "done": true
+   },
+   {
+    "label": "Testing done",
+    "done": true
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  },
  {
   "id": "DV-1005",
@@ -42,7 +130,29 @@
   "status": "completed",
   "progress": 98,
   "ownerId": "U-10",
-  "due": "2026-12-11"
+  "due": "2026-12-11",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": false
+   },
+   {
+    "label": "Build completed",
+    "done": false
+   },
+   {
+    "label": "Testing done",
+    "done": false
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  },
  {
   "id": "DV-1006",
@@ -51,7 +161,29 @@
   "status": "in_progress",
   "progress": 96,
   "ownerId": "U-08",
-  "due": "2026-12-06"
+  "due": "2026-12-06",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": true
+   },
+   {
+    "label": "Build completed",
+    "done": false
+   },
+   {
+    "label": "Testing done",
+    "done": false
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  },
  {
   "id": "DV-1007",
@@ -60,7 +192,29 @@
   "status": "in_progress",
   "progress": 72,
   "ownerId": "U-08",
-  "due": "2026-11-11"
+  "due": "2026-11-11",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": true
+   },
+   {
+    "label": "Build completed",
+    "done": true
+   },
+   {
+    "label": "Testing done",
+    "done": false
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  },
  {
   "id": "DV-1008",
@@ -69,6 +223,28 @@
   "status": "completed",
   "progress": 32,
   "ownerId": "U-08",
-  "due": "2026-12-19"
+  "due": "2026-12-19",
+  "checklist": [
+   {
+    "label": "Requirements signed off",
+    "done": true
+   },
+   {
+    "label": "Design approved",
+    "done": true
+   },
+   {
+    "label": "Build completed",
+    "done": true
+   },
+   {
+    "label": "Testing done",
+    "done": true
+   },
+   {
+    "label": "Handover and training",
+    "done": false
+   }
+  ]
  }
 ]

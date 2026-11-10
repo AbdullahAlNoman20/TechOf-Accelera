@@ -7,6 +7,7 @@ import useCollection from '@/hooks/useCollection';
 import { avg, groupCount, humanize, money, pct, sum } from '@/utils/format';
 import { STAGES } from '@/utils/status';
 
+const topOf = (rows, k) => Object.entries(rows.reduce((m, r) => { m[r[k]] = (m[r[k]] || 0) + 1; return m; }, {})).sort((a, b) => b[1] - a[1])[0]?.[0] || '-';
 export default function SalesAnalytics() {
   const { items: deals } = useCollection('deals');
   const won = deals.filter((d) => d.stage === 'won'), lost = deals.filter((d) => d.stage === 'lost'), open = deals.filter((d) => !['won', 'lost'].includes(d.stage));
@@ -26,6 +27,8 @@ export default function SalesAnalytics() {
         <Card title="Lost deal intelligence"><Donut data={groupCount(lost.filter((d) => d.lostReason), 'lostReason').map((d) => ({ ...d, label: humanize(d.label) }))} /></Card>
         <Card title="Service performance" subtitle="Deal value by service"><HBar data={byService} format={(v) => money(v, true)} /></Card>
         <Card title="Follow-up effectiveness" subtitle="Win rate (%) by number of follow-ups"><BarChart data={fu} format={(v) => `${v}%`} /></Card>
+        <Card title="Win analysis" subtitle="What won deals have in common"><ul className="space-y-2 text-sm text-ink-700"><li>Best source: <b>{topOf(won, 'source')}</b></li><li>Best-selling service: <b>{topOf(won, 'service')}</b></li><li>Average won value: <b>{money(avg(won, 'value'))}</b></li><li>Average follow-ups before winning: <b>{avg(won, 'followUps').toFixed(1)}</b></li></ul></Card>
+        <Card title="Competitor tracking" subtitle="Deals where a competitor was noted"><HBar data={Object.entries(deals.filter((d) => d.competitor).reduce((m, d) => { m[d.competitor] = (m[d.competitor] || 0) + 1; return m; }, {})).map(([label, value]) => ({ label, value }))} /></Card>
         <Card title="Win / loss"><Donut data={[{ label: 'Won', value: won.length, color: '#1A8F9B' }, { label: 'Lost', value: lost.length, color: '#F2B632' }, { label: 'Open', value: open.length, color: '#1456A8' }]} /></Card>
       </div>
     </>

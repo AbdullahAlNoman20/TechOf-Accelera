@@ -12,6 +12,8 @@ import useCollection from '@/hooks/useCollection';
 import useToast from '@/hooks/useToast';
 import useAuth from '@/hooks/useAuth';
 import { fmtDateTime } from '@/utils/format';
+import Preview from '@/components/ui/Preview';
+import { api } from '@/services/api';
 
 const INC = [
   { name: 'title', label: 'Incident', required: true, span: 2 }, { name: 'severity', label: 'Severity', type: 'select', options: ['low', 'medium', 'high', 'critical'], required: true }, { name: 'status', label: 'Status', type: 'select', options: ['open', 'investigating', 'resolved'], required: true },
@@ -21,6 +23,7 @@ export default function Health() {
   const [tab, setTab] = useState('overview');
   const { items: jobs, update: updJob } = useCollection('jobs');
   const { items: backups } = useCollection('backups');
+  const { items: errs, update: updErr } = useCollection('errorLogs');
   const { items: inc, update: updInc } = useCollection('incidents');
   const { canWrite } = useAuth();
   const { push } = useToast();
@@ -30,12 +33,13 @@ export default function Health() {
   return (
     <>
       <PageHeader title="System Health & Monitoring" subtitle="Application, database, API, jobs, queues, backups and incidents." />
-      <Tabs value={tab} onChange={setTab} tabs={[{ key: 'overview', label: 'Overview' }, { key: 'jobs', label: 'Jobs & queues', count: failed }, { key: 'incidents', label: 'Incidents', count: inc.filter((i) => i.status !== 'resolved').length }, { key: 'backups', label: 'Backups' }]} />
+      <Tabs value={tab} onChange={setTab} tabs={[{ key: 'overview', label: 'Overview' }, { key: 'jobs', label: 'Jobs & queues', count: failed }, { key: 'incidents', label: 'Incidents', count: inc.filter((i) => i.status !== 'resolved').length }, { key: 'errors', label: 'Error tracking' }, { key: 'backups', label: 'Backups' }]} />
       {tab === 'overview' && <><div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">{cards.map(([l, v, I, t]) => <StatCard key={l} label={l} value={<span className="text-base">{v}</span>} icon={I} tone={t} />)}</div>
         <Card title="Maintenance & alerts" className="mt-5"><ul className="space-y-2 text-sm text-ink-700"><li>Scheduled maintenance: Saturday 02:00-03:00 (database patching). Read-only mode expected for 10 minutes.</li>{failed > 0 && <li className="text-red-700">{failed} background job(s) failed: open Jobs & queues to retry.</li>}</ul></Card></>}
-      {tab === 'jobs' && <DataTable rows={jobs} columns={[{ key: 'name', label: 'Job' }, { key: 'queue', label: 'Queue' }, { key: 'status', label: 'Status', render: (j) => <StatusBadge value={j.status} /> }, { key: 'lastRun', label: 'Last run', render: (j) => fmtDateTime(j.lastRun) }, { key: 'nextRun', label: 'Next run', render: (j) => fmtDateTime(j.nextRun) }, { key: 'duration', label: 'Duration' }, { key: 'a', label: '', sortable: false, render: (j) => canWrite('admin') && j.status === 'failed' && <Button size="sm" variant="secondary" onClick={() => { updJob(j.id, { status: 'success', failed: 0, lastRun: new Date().toISOString() }); push('Job retried successfully'); }}>Retry</Button> }]} />}
+      {tab === 'jobs' && <DataTable rows={jobs} columns={[{ key: 'name', label: 'Job' }, { key: 'queue', label: 'Queue' }, { key: 'status', label: 'Status', render: (j) => <StatusBadge value={j.status} /> }, { key: 'lastRun', label: 'Last run', render: (j) => fmtDateTime(j.lastRun) }, { key: 'nextRun', label: 'Next run', render: (j) => fmtDateTime(j.nextRun) }, { key: 'duration', label: 'Duration' }, { key: 'a', label: '', sortable: false, render: (j) => canWrite('admin') && j.status === 'failed' && <div className="flex gap-1"><Button size="sm" variant="secondary" onClick={() => { updJob(j.id, { status: 'success', failed: 0, lastRun: new Date().toISOString() }); push('Job retried successfully'); }}>Retry</Button><Button size="sm" variant="ghost" onClick={async () => { await api.create('incidents', { title: `Job failed: ${j.name}`, severity: 'medium', status: 'open', owner: 'Nusrat Jahan', openedAt: new Date().toISOString(), rootCause: 'Created automatically from a failed job' }); push('Incident ticket created'); }}>Open incident</Button></div> }]} />}
       {tab === 'incidents' && <CrudTable collection="incidents" module="admin" noun="incident" fields={INC} defaults={{ status: 'open', severity: 'medium', owner: 'Nusrat Jahan', openedAt: new Date().toISOString() }} columns={[{ key: 'title', label: 'Incident', render: (i) => <div><p className="font-medium text-ink-900">{i.title}</p><p className="text-xs text-ink-500">{i.rootCause}</p></div> }, { key: 'severity', label: 'Severity', render: (i) => <StatusBadge value={i.severity} /> }, { key: 'status', label: 'Status', render: (i) => <StatusBadge value={i.status} /> }, { key: 'owner', label: 'Owner' }, { key: 'openedAt', label: 'Opened', render: (i) => fmtDateTime(i.openedAt) }]}
-        rowActions={(i) => <Button size="sm" variant="ghost" icon={Sparkles} onClick={() => updInc(i.id, { rootCause: suggest(i) })}>AI root cause</Button>} />}
+        rowActions={(i) => <Button size="sm" variant="ghost" icon={Sparkles} onClick={() => updInc(i.id, { rootCause: suggest(i) })}>AI root cause<Preview /></Button>} />}
+      {tab === 'errors' && <DataTable rows={errs} defaultSort={{ key: 'at', dir: 'desc' }} columns={[{ key: 'at', label: 'When', render: (e) => fmtDateTime(e.at) }, { key: 'source', label: 'Where' }, { key: 'message', label: 'What happened' }, { key: 'count', label: 'Times' }, { key: 'status', label: 'Status', render: (e) => <StatusBadge value={e.status} /> }, { key: 'a', label: '', sortable: false, render: (e) => canWrite('admin') && e.status === 'open' && <Button size="sm" variant="secondary" onClick={() => updErr(e.id, { status: 'resolved' })}>Mark resolved</Button> }]} />}
       {tab === 'backups' && <DataTable rows={backups} columns={[{ key: 'at', label: 'Backup time', render: (b) => fmtDateTime(b.at) }, { key: 'type', label: 'Type' }, { key: 'size', label: 'Size' }, { key: 'status', label: 'Status', render: (b) => <StatusBadge value={b.status} /> }, { key: 'verified', label: 'Restore verified', render: (b) => <StatusBadge value={b.verified ? 'valid' : 'invalid'} /> }]} />}
     </>
   );

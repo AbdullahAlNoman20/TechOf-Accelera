@@ -49,7 +49,7 @@ export default function DataTable({ columns, rows, searchKeys = [], filters = []
         </div>
       </div>
       <div className="overflow-x-auto">
-        <table className="min-w-full divide-y divide-ink-100">
+        <table className="rtable min-w-full divide-y divide-ink-100">
           <thead className="bg-ink-50">
             <tr>
               {columns.map((c) => (
@@ -64,7 +64,7 @@ export default function DataTable({ columns, rows, searchKeys = [], filters = []
           <tbody className="divide-y divide-ink-100 bg-white">
             {view.map((r) => (
               <tr key={r.id} onClick={onRowClick ? () => onRowClick(r) : undefined} className={onRowClick ? 'cursor-pointer hover:bg-brand-50/50' : 'hover:bg-ink-50/60'}>
-                {columns.map((c) => <td key={c.key} className={`td ${c.className || ''}`}>{c.render ? c.render(r) : r[c.key] ?? '-'}</td>)}
+                {columns.map((c) => <td key={c.key} data-label={c.label} className={`td ${c.className || ''}`}>{c.render ? c.render(r) : r[c.key] ?? '-'}</td>)}
               </tr>
             ))}
           </tbody>

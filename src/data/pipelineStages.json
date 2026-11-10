@@ -1,0 +1,74 @@
+[
+ {
+  "id": "new",
+  "name": "New",
+  "probability": 10,
+  "type": "open",
+  "order": 1,
+  "requires": ""
+ },
+ {
+  "id": "contacted",
+  "name": "Contacted",
+  "probability": 20,
+  "type": "open",
+  "order": 2,
+  "requires": ""
+ },
+ {
+  "id": "qualified",
+  "name": "Qualified",
+  "probability": 35,
+  "type": "open",
+  "order": 3,
+  "requires": ""
+ },
+ {
+  "id": "meeting",
+  "name": "Meeting",
+  "probability": 45,
+  "type": "open",
+  "order": 4,
+  "requires": ""
+ },
+ {
+  "id": "demo",
+  "name": "Demo",
+  "probability": 55,
+  "type": "open",
+  "order": 5,
+  "requires": ""
+ },
+ {
+  "id": "proposal",
+  "name": "Proposal",
+  "probability": 65,
+  "type": "open",
+  "order": 6,
+  "requires": "Quotation required"
+ },
+ {
+  "id": "negotiation",
+  "name": "Negotiation",
+  "probability": 80,
+  "type": "open",
+  "order": 7,
+  "requires": ""
+ },
+ {
+  "id": "won",
+  "name": "Won",
+  "probability": 100,
+  "type": "won",
+  "order": 8,
+  "requires": ""
+ },
+ {
+  "id": "lost",
+  "name": "Lost",
+  "probability": 0,
+  "type": "lost",
+  "order": 9,
+  "requires": "Lost reason required"
+ }
+]

@@ -7,6 +7,8 @@ import useToast from '@/hooks/useToast';
 import useAuth from '@/hooks/useAuth';
 import { api } from '@/services/api';
 import { money } from '@/utils/format';
+import Preview from '@/components/ui/Preview';
+import { Sparkles } from 'lucide-react';
 
 const calc = (items) => Math.round(items.reduce((s, i) => s + i.qty * i.price * (1 - i.discount / 100), 0));
 
@@ -25,6 +27,14 @@ export default function ProposalBuilder({ open, onClose, initial }) {
   const total = calc(items);
   const set = (k, patch) => setItems((l) => l.map((x, i) => (i === k ? { ...x, ...patch } : x)));
 
+  function aiDraft() {
+    const deal = deals.find((d) => d.id === dealId);
+    if (!deal) return push('Select a deal first', 'error');
+    const p = products.find((x) => x.name === deal.service) || products[0];
+    const extra = products.find((x) => x.id !== p.id && x.category === 'Support') || products[products.length - 1];
+    setItems([{ product: p.name, qty: 1, price: p.price, discount: 0 }, { product: extra.name, qty: 1, price: extra.price, discount: 0 }]);
+    push('AI drafted the lines from the deal needs. Please check prices and quantities.', 'info');
+  }
   async function save() {
     const deal = deals.find((d) => d.id === dealId);
     if (!deal) return push('Select a deal', 'error');
@@ -42,7 +52,7 @@ export default function ProposalBuilder({ open, onClose, initial }) {
     <Modal open={open} onClose={onClose} title={initial?.id ? `Edit ${initial.id}` : 'New proposal / quotation'} size="lg" footer={<><Button variant="secondary" onClick={onClose}>Cancel</Button><Button onClick={save}>Save quotation</Button></>}>
       <div className="grid gap-3 sm:grid-cols-2"><div><label className="mb-1 block text-xs font-semibold text-ink-600">Deal</label><select className="input" value={dealId} onChange={(e) => setDealId(e.target.value)}><option value="">Select...</option>{deals.map((d) => <option key={d.id} value={d.id}>{d.company} - {d.title.slice(0, 30)}</option>)}</select></div>
         <div><label className="mb-1 block text-xs font-semibold text-ink-600">Valid until</label><input type="date" className="input" value={valid} onChange={(e) => setValid(e.target.value)} /></div></div>
-      <div className="mt-4 space-y-2">
+      <div className="mt-4 space-y-2"><Button size="sm" variant="secondary" icon={Sparkles} onClick={aiDraft}>Draft lines with AI<Preview /></Button>
         {items.map((it, k) => (
           <div key={k} className="grid grid-cols-12 items-end gap-2">
             <div className="col-span-12 sm:col-span-5"><label className="mb-1 block text-[11px] text-ink-500">Product / service</label><select className="input" value={it.product} onChange={(e) => { const p = products.find((x) => x.name === e.target.value); set(k, { product: e.target.value, price: p?.price || 0 }); }}><option value="">Select...</option>{products.filter((p) => p.active).map((p) => <option key={p.id} value={p.name}>{p.name} ({money(p.price)}/{p.unit})</option>)}</select></div>

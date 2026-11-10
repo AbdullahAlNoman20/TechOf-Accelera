@@ -12,6 +12,8 @@ import { api } from '@/services/api';
 import { isEmail, isPhone } from '@/utils/validators';
 import { clean } from '@/utils/sanitize';
 import { fmtDateTime, humanize } from '@/utils/format';
+import KeyValue from '@/components/ui/KeyValue';
+import Ref from '@/components/common/Ref';
 
 const SOURCES = ['Website Contact Form', 'Quotation Request', 'Demo Request', 'Landing Page', 'Google Ads', 'Meta Lead Ads', 'Social Media', 'Email Inquiry', 'Phone Call', 'WhatsApp Business', 'Live Chat', 'Webinar / Event', 'Referral', 'Partner / Affiliate', 'Manual Entry', 'CSV Import', 'API / Webhook', 'AI Discovery'];
 const INDUSTRIES = ['IT', 'Healthcare', 'Manufacturing', 'Education', 'Real Estate', 'Retail', 'Logistics', 'Energy', 'Hospitality', 'Finance'];
@@ -33,6 +35,8 @@ export default function LeadInbox() {
   const [tab, setTab] = useState('all');
   const [csvOpen, setCsvOpen] = useState(false);
   const [csv, setCsv] = useState(CSV_SAMPLE);
+  const [detail, setDetail] = useState(null);
+  const { items: acts } = useCollection('activities');
 
   const tabs = [
     { key: 'all', label: 'All leads', count: items.length },
@@ -87,9 +91,16 @@ export default function LeadInbox() {
             { key: 'score', label: 'Score', render: (l) => <Badge tone={l.temperature === 'hot' ? 'danger' : l.temperature === 'warm' ? 'gold' : 'brand'}>{l.score} {humanize(l.temperature)}</Badge> },
             { key: 'createdAt', label: 'Collected', render: (l) => fmtDateTime(l.createdAt) },
           ]}
+          onRowClick={(l) => setDetail(l)}
           rowActions={(l) => l.processing === 'collected' && <Button size="icon" variant="ghost" aria-label="Send to Lead Intelligence" icon={Send} className="text-brand-600" onClick={() => { update(l.id, { processing: 'sent', status: 'needs_review' }); push('Sent to Lead Intelligence'); }} />}
           toolbar={<Button variant="secondary" icon={Upload} onClick={() => setCsvOpen(true)}>Import CSV</Button>} />
       )}
+      <Modal open={!!detail} onClose={() => setDetail(null)} title={detail ? `${detail.name} - ${detail.company}` : ''} subtitle={detail?.id} size="lg">
+        {detail && <div className="space-y-5"><KeyValue cols={3} items={[['Source', detail.source], ['Campaign', detail.campaign || '-'], ['Collected', fmtDateTime(detail.createdAt)], ['Status', humanize(detail.status)], ['Processing', humanize(detail.processing)], ['Owner', <Ref id={detail.ownerId} />], ['Email', detail.email], ['Phone', detail.phone || '-'], ['Need', detail.need]]} />
+          <div><p className="mb-1 text-xs font-semibold uppercase text-ink-400">Checks</p><div className="flex flex-wrap gap-1.5">{[['Email', detail.checks.email], ['Phone', detail.checks.phone], ['Company', detail.checks.company]].map(([k, v]) => <Badge key={k} tone={v === 'valid' ? 'success' : v === 'invalid' ? 'danger' : 'neutral'}>{k}: {v}</Badge>)}{detail.checks.duplicate && <Badge tone="gold">Duplicate</Badge>}{detail.checks.spam && <Badge tone="danger">Spam</Badge>}</div></div>
+          <div><p className="mb-1 text-xs font-semibold uppercase text-ink-400">Recent activity</p><ul className="space-y-1 text-sm text-ink-700">{acts.filter((a) => a.entityId === detail.id).slice(0, 4).map((a) => <li key={a.id}>{a.title} <span className="text-xs text-ink-400">- {fmtDateTime(a.at)}</span></li>)}{!acts.some((a) => a.entityId === detail.id) && <li className="text-ink-400">No activity yet</li>}</ul></div>
+          <details className="rounded-lg bg-ink-50 p-3"><summary className="cursor-pointer text-xs font-semibold text-ink-600">Raw lead record (exactly as received)</summary><pre className="mt-2 max-h-56 overflow-auto text-[11px] text-ink-600">{JSON.stringify(detail, null, 2)}</pre></details></div>}
+      </Modal>
       <Modal open={csvOpen} onClose={() => setCsvOpen(false)} title="Import leads from CSV" subtitle="Paste CSV text. Invalid rows go to the error queue." size="lg"
         footer={<><Button variant="secondary" onClick={() => setCsvOpen(false)}>Cancel</Button><Button icon={Upload} onClick={importCsv}>Import</Button></>}>
         <textarea className="input h-56 font-mono text-xs" value={csv} onChange={(e) => setCsv(e.target.value)} aria-label="CSV content" />

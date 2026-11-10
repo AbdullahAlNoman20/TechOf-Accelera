@@ -3,7 +3,7 @@ import PageHeader from '@/components/ui/PageHeader';
 import StatCard from '@/components/ui/StatCard';
 import Card from '@/components/ui/Card';
 import DataTable from '@/components/data/DataTable';
-import { BarChart, Funnel, LineChart } from '@/components/charts/Charts';
+import { BarChart, Funnel, HBar, LineChart } from '@/components/charts/Charts';
 import useCollection from '@/hooks/useCollection';
 import { StatusBadge } from '@/components/ui/Badge';
 import { avg, money, sum } from '@/utils/format';
@@ -22,6 +22,7 @@ export default function Marketing() {
       <div className="grid gap-5 lg:grid-cols-2">
         <Card title="Conversion funnel"><Funnel data={[{ label: 'Leads', value: ld }, { label: 'Qualified', value: q }, { label: 'Won', value: won }]} /></Card>
         <Card title="Campaign trend" subtitle="Leads, qualified and won by month"><LineChart labels={trends.map((t) => t.month)} series={[{ name: 'Leads', data: trends.map((t) => t.leads) }, { name: 'Qualified', data: trends.map((t) => t.qualified) }, { name: 'Won', data: trends.map((t) => t.won) }]} /></Card>
+        <Card title="Lead quality by source" subtitle="Share of leads that became qualified (%)"><HBar data={Object.entries(leads.reduce((m, l) => { m[l.source] = m[l.source] || [0, 0]; m[l.source][1] += 1; if (l.status === 'qualified') m[l.source][0] += 1; return m; }, {})).map(([label, [q2, t]]) => ({ label, value: Math.round((q2 / t) * 100) })).sort((a, b) => b.value - a.value).slice(0, 7)} format={(v) => `${v}%`} /></Card>
         <Card title="Channel comparison" subtitle="Qualified leads by channel"><BarChart data={byChannel} /></Card>
         <Card title="Revenue attribution" subtitle="Revenue by campaign"><BarChart data={camps.map((c) => ({ label: c.name.split(' ')[0], value: c.revenue }))} format={(v) => money(v, true)} /></Card>
       </div>

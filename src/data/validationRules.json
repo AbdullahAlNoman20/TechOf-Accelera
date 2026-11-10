@@ -1,0 +1,50 @@
+[
+ {
+  "id": "VR-1001",
+  "name": "Email is required",
+  "field": "email",
+  "rule": "Must not be empty",
+  "severity": "error",
+  "active": true
+ },
+ {
+  "id": "VR-1002",
+  "name": "Email format",
+  "field": "email",
+  "rule": "Must look like name@company.com",
+  "severity": "error",
+  "active": true
+ },
+ {
+  "id": "VR-1003",
+  "name": "Phone length",
+  "field": "phone",
+  "rule": "At least 8 digits",
+  "severity": "warning",
+  "active": true
+ },
+ {
+  "id": "VR-1004",
+  "name": "Company name is required",
+  "field": "company",
+  "rule": "Must not be empty",
+  "severity": "error",
+  "active": true
+ },
+ {
+  "id": "VR-1005",
+  "name": "Country is required",
+  "field": "country",
+  "rule": "Must not be empty",
+  "severity": "warning",
+  "active": true
+ },
+ {
+  "id": "VR-1006",
+  "name": "Block disposable email",
+  "field": "email",
+  "rule": "Reject mailinator and similar domains",
+  "severity": "error",
+  "active": true
+ }
+]

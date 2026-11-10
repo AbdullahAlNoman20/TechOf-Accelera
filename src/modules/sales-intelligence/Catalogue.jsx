@@ -9,6 +9,10 @@ const P_FIELDS = [
   { name: 'name', label: 'Product / service', required: true, span: 2 }, { name: 'category', label: 'Category', required: true }, { name: 'type', label: 'Type', type: 'select', options: ['service', 'product'], required: true },
   { name: 'price', label: 'Price ($)', type: 'number', min: 0, required: true }, { name: 'unit', label: 'Unit', type: 'select', options: ['project', 'month', 'year', 'hour', 'unit'], required: true }, { name: 'package', label: 'Package', type: 'select', options: ['Starter', 'Growth', 'Business', 'Enterprise'] }, { name: 'active', label: 'Status', type: 'checkbox', checkLabel: 'Available for sale' },
 ];
+const T_FIELDS = [
+  { name: 'name', label: 'Template name', required: true }, { name: 'type', label: 'Used for', type: 'select', options: ['quotation', 'proposal', 'contract'], required: true },
+  { name: 'terms', label: 'Standard terms', type: 'textarea', required: true }, { name: 'footer', label: 'Footer text', span: 2 }, { name: 'active', label: 'Status', type: 'checkbox', checkLabel: 'Active' },
+];
 const R_FIELDS = [
   { name: 'name', label: 'Rule name', required: true, span: 2 }, { name: 'condition', label: 'Condition', required: true, span: 2 }, { name: 'maxDiscount', label: 'Max discount (%)', type: 'number', min: 0, max: 100, required: true }, { name: 'approver', label: 'Approver', required: true }, { name: 'active', label: 'Status', type: 'checkbox', checkLabel: 'Active' },
 ];
@@ -18,8 +22,9 @@ export default function Catalogue() {
   return (
     <>
       <PageHeader title="Product & Service Catalogue" subtitle="Standard offerings, packages and pricing rules used by proposals and quotations." />
-      <Tabs value={tab} onChange={setTab} tabs={[{ key: 'products', label: 'Products & services' }, { key: 'rules', label: 'Pricing & discount rules' }]} />
-      {tab === 'products'
+      <Tabs value={tab} onChange={setTab} tabs={[{ key: 'products', label: 'Products & services' }, { key: 'rules', label: 'Pricing & discount rules' }, { key: 'docs', label: 'Document templates' }]} />
+      {tab === 'docs' && <CrudTable collection="documentTemplates" module="sales" noun="template" fields={T_FIELDS} defaults={{ active: true, type: 'quotation' }} columns={[{ key: 'name', label: 'Template' }, { key: 'type', label: 'Used for', render: (t) => <Badge tone="brand">{t.type}</Badge> }, { key: 'terms', label: 'Terms', render: (t) => <span className="line-clamp-1 max-w-sm text-ink-500">{t.terms}</span> }, { key: 'active', label: 'Status', render: (t) => <StatusBadge value={t.active ? 'active' : 'paused'} /> }]} />}
+      {tab === 'docs' ? null : tab === 'products'
         ? <CrudTable collection="products" module="sales" noun="product" fields={P_FIELDS} searchKeys={['name', 'category']} defaults={{ active: true, type: 'service', unit: 'project' }} filters={[{ key: 'category', label: 'Category', options: ['Web', 'Software', 'Marketing', 'Infrastructure', 'Analytics', 'AI', 'Design', 'Consulting', 'Support'] }]}
             columns={[{ key: 'name', label: 'Name' }, { key: 'category', label: 'Category' }, { key: 'package', label: 'Package', render: (p) => <Badge tone="brand">{p.package}</Badge> }, { key: 'price', label: 'Price', render: (p) => `${money(p.price)} / ${p.unit}` }, { key: 'active', label: 'Status', render: (p) => <StatusBadge value={p.active ? 'active' : 'paused'} /> }]} />
         : <CrudTable collection="pricingRules" module="sales" noun="rule" fields={R_FIELDS} defaults={{ active: true }}

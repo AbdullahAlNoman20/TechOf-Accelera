@@ -5,7 +5,8 @@
   "leads": 92,
   "qualified": 31,
   "won": 7,
-  "revenue": 41000
+  "revenue": 41000,
+  "forecast": 45000
  },
  {
   "id": "TR-2",
@@ -13,7 +14,8 @@
   "leads": 104,
   "qualified": 38,
   "won": 9,
-  "revenue": 52000
+  "revenue": 52000,
+  "forecast": 50000
  },
  {
   "id": "TR-3",
@@ -21,7 +23,8 @@
   "leads": 98,
   "qualified": 36,
   "won": 8,
-  "revenue": 47000
+  "revenue": 47000,
+  "forecast": 52000
  },
  {
   "id": "TR-4",
@@ -29,7 +32,8 @@
   "leads": 121,
   "qualified": 46,
   "won": 11,
-  "revenue": 66000
+  "revenue": 66000,
+  "forecast": 62000
  },
  {
   "id": "TR-5",
@@ -37,7 +41,8 @@
   "leads": 133,
   "qualified": 52,
   "won": 12,
-  "revenue": 71000
+  "revenue": 71000,
+  "forecast": 74000
  },
  {
   "id": "TR-6",
@@ -45,7 +50,8 @@
   "leads": 146,
   "qualified": 61,
   "won": 15,
-  "revenue": 89000
+  "revenue": 89000,
+  "forecast": 83000
  },
  {
   "id": "TR-7",
@@ -53,6 +59,7 @@
   "leads": 58,
   "qualified": 24,
   "won": 5,
-  "revenue": 34000
+  "revenue": 34000,
+  "forecast": 90000
  }
 ]

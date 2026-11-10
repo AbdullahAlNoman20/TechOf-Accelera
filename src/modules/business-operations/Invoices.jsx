@@ -1,6 +1,7 @@
 import { RefreshCw } from 'lucide-react';
 import CrudPage from '@/components/data/CrudPage';
 import Button from '@/components/ui/Button';
+import Preview from '@/components/ui/Preview';
 import { StatusBadge } from '@/components/ui/Badge';
 import useCollection from '@/hooks/useCollection';
 import useToast from '@/hooks/useToast';
@@ -17,7 +18,7 @@ export default function Invoices() {
   const sync = async () => { for (const i of items.filter((x) => x.status === 'sent' && new Date(x.dueAt) < new Date())) await update(i.id, { status: 'overdue', syncedAt: new Date().toISOString() }); push('Synchronized with accounting and payment systems'); };
   return (
     <CrudPage collection="invoices" module="operations" noun="invoice" title="Invoices & Payments" subtitle="Invoice and payment status synchronized from your accounting system and payment gateway. This is CRM tracking, not a full accounting module."
-      headerActions={<Button variant="secondary" icon={RefreshCw} onClick={sync}>Sync now</Button>}
+      headerActions={<Button variant="secondary" icon={RefreshCw} onClick={sync}>Sync now<Preview kind="integration" /></Button>}
       stats={(r) => [{ label: 'Invoiced', value: money(sum(r, 'amount'), true) }, { label: 'Paid', value: money(sum(r.filter((x) => x.status === 'paid'), 'amount'), true), tone: 'success' }, { label: 'Outstanding', value: money(sum(r.filter((x) => ['sent', 'due'].includes(x.status)), 'amount'), true), tone: 'gold' }, { label: 'Overdue', value: money(sum(r.filter((x) => x.status === 'overdue'), 'amount'), true), tone: 'danger' }]}
       fields={FIELDS} searchKeys={['id', 'customerName']} exportName="invoices" defaults={{ status: 'draft', gateway: 'Bank transfer', issuedAt: new Date().toISOString().slice(0, 10) }} filters={[{ key: 'status', label: 'Status', options: ['draft', 'sent', 'due', 'paid', 'overdue'] }]}
       transform={(v) => ({ ...v, customerName: lookup('customers', v.customerId)?.name || v.customerName, syncedAt: new Date().toISOString() })}
